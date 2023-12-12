@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/angular';
 
-import {InputComponent, InputType} from './input.component';
+import {InputComponent} from './input.component';
 
 const meta: Meta<InputComponent> = {
   title: 'UI/Input',
