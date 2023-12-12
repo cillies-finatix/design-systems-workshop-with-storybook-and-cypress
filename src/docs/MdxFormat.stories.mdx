@@ -1,18 +1,19 @@
-import { Meta, Canvas, Story } from "@storybook/addon-docs/blocks";
-import { moduleMetadata } from "@storybook/angular";
-import {  ButtonComponent } from "../app/ui/button/button.component";
+import {Canvas, Meta, Story} from "@storybook/addon-docs/blocks";
+import {moduleMetadata} from "@storybook/angular";
+import {ButtonComponent} from "../app/ui/button/button.component";
+import {InputComponent} from "../app/ui/input/input.component";
 
 <Meta
   title="Docs/MDX Format"
   decorators={[
     moduleMetadata({
-      imports: [ButtonComponent],
+      imports: [ButtonComponent, InputComponent],
     }),
-  ]}
+    ]}
   parameters={{
     viewMode: "docs",
     previewTabs: {
-      canvas: { hidden: true },
+      canvas: {hidden: true},
     },
   }}
 />
@@ -25,9 +26,12 @@ See the <a href="https://storybook.js.org/docs/react/writing-docs/mdx" target="_
 
 <Canvas>
   <Story name="Showcasing components in MDX" height="80px">
-        {{
-          template: `
-<app-button [label]="'Fully functional button!'"></app-button>`,
-        }}
+    {{
+      template: `
+<app-button [label]="'Fully functional button!'" />
+<br/>
+<app-input [label]="'Fully functional input!'" />
+`,
+    }}
   </Story>
 </Canvas>

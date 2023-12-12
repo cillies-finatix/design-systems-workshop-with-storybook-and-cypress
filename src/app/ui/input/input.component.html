@@ -1,1 +1,2 @@
-<label>{{label}}: <input [attr.class]="type" type="text"/></label>
+<label [attr.for]="internalRefId">{{ label }}:</label>
+<input [attr.class]="type" [attr.id]="internalRefId" type="text"/>

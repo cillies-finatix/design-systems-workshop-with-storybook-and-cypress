@@ -1,6 +1,6 @@
-import {Component, Input} from '@angular/core';
+import { Component, Input } from '@angular/core';
 
-export type InputType= 'primary'|'secondary';
+export type InputType = 'primary' | 'secondary';
 
 /**
  * A simple input that can have click listeners and so on.
@@ -23,7 +23,7 @@ export type InputType= 'primary'|'secondary';
   standalone: true,
   imports: [],
   templateUrl: './input.component.html',
-  styleUrl: './input.component.scss'
+  styleUrl: './input.component.scss',
 })
 export class InputComponent {
   /**
@@ -38,7 +38,7 @@ export class InputComponent {
    * @property
    * @type string
    */
-  @Input({required: true}) public label: string = 'Input Label';
+  @Input({ required: true }) public label: string = 'Input Label';
   /**
    * Change the type of the input
    *
@@ -50,5 +50,7 @@ export class InputComponent {
    * @property
    * @type string
    */
-  @Input({required: false}) type: InputType = 'primary';
+  @Input({ required: false }) type: InputType = 'primary';
+
+  protected internalRefId = Math.random().toString(32).substring(2);
 }
