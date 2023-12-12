@@ -430,7 +430,7 @@
             "styleUrlsData": "",
             "stylesData": "",
             "extends": [],
-            "templateData": "<button [class]=\"type\">{{label}}</button>\n"
+            "templateData": "<button [attr.class]=\"type\">{{label}}</button>\n"
         }
     ],
     "modules": [],
@@ -454,7 +454,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "StoryObj<ButtonComponent>",
-                "defaultValue": "{\n  args: {},\n}"
+                "defaultValue": "{\n  args: {\n    type: 'primary',\n    label: 'Your Button label'\n  },\n}"
             },
             {
                 "name": "meta",
@@ -464,7 +464,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<ButtonComponent>",
-                "defaultValue": "{\n  title: 'Components/Button',\n  component: ButtonComponent,\n}"
+                "defaultValue": "{\n  title: 'UI/Button',\n  component: ButtonComponent,\n}"
             },
             {
                 "name": "preview",
@@ -502,7 +502,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "StoryObj<ButtonComponent>",
-                    "defaultValue": "{\n  args: {},\n}"
+                    "defaultValue": "{\n  args: {\n    type: 'primary',\n    label: 'Your Button label'\n  },\n}"
                 },
                 {
                     "name": "meta",
@@ -512,7 +512,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Meta<ButtonComponent>",
-                    "defaultValue": "{\n  title: 'Components/Button',\n  component: ButtonComponent,\n}"
+                    "defaultValue": "{\n  title: 'UI/Button',\n  component: ButtonComponent,\n}"
                 }
             ],
             ".storybook/preview.ts": [
