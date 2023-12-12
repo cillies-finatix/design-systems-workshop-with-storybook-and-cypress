@@ -1,0 +1,23 @@
+button {
+  display: inline-flex;
+  padding: 11px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  color: var(--white, #fff);
+  border-radius: 5px;
+  font-family: "Inter", Helvetica, Arial, sans-serif;
+  box-shadow: 0px 2px 0px 0px rgba(255, 255, 255, 0.15) inset;
+
+  &.primary {
+    border: 1px solid var(--blue-700, #0357A3);
+    background: var(--blue-400, #0085FC);
+  }
+
+  &.secondary {
+    color: var(--text-default, #041c31);
+    border: 1px solid var(--gray-200, #CBD0E1);
+    background: var(--gray-100, #E4E8F3);
+  }
+}
