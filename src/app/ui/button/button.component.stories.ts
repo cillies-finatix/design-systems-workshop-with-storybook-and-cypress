@@ -5,7 +5,7 @@ import {ButtonComponent, ButtonType} from './button.component';
 const meta: Meta<ButtonComponent> = {
   title: 'UI/Button',
   component: ButtonComponent,
-  tags: ['autodocs'],
+  tags: ['autodocs']
 };
 
 export const Default: StoryObj<ButtonComponent> = {

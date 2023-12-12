@@ -314,7 +314,7 @@
                                 "kind": 80,
                                 "escapedText": "author"
                             },
-                            "comment": "<p>Chistian Illies<a href=\"mailto:c.illies@finatix.de\">c.illies@finatix.de</a></p>\n"
+                            "comment": "<p>Christian Illies<a href=\"mailto:c.illies@finatix.de\">c.illies@finatix.de</a></p>\n"
                         },
                         {
                             "pos": 1134,
@@ -424,13 +424,384 @@
             "description": "<p>A simple button that can have click listeners and so on.</p>\n<p>Provide a label at least and an optional type for its appearance.</p>\n<p>Usage:</p>\n<b>Example :</b><div><pre class=\"line-numbers\"><code class=\"language-html\">&lt;app-button label=&quot;My button&quot; type=&quot;primary&quot; /&gt;</code></pre></div>",
             "rawdescription": "\n\nA simple button that can have click listeners and so on.\n\nProvide a label at least and an optional type for its appearance.\n\nUsage:\n\n```html\n<app-button label=\"My button\" type=\"primary\" />\n```\n\n",
             "type": "component",
-            "sourceCode": "import {Component, Input} from '@angular/core';\n\nexport type ButtonType= 'primary'|'secondary';\n\n/**\n * A simple button that can have click listeners and so on.\n *\n * Provide a label at least and an optional type for its appearance.\n *\n * Usage:\n *\n * ```html\n * <app-button label=\"My button\" type=\"primary\" />\n * ```\n *\n * @since 0.0.1\n * @author Christian Illies<c.illies@finatix.de>\n * @public\n * @package ui\n */\n@Component({\n  selector: 'app-button',\n  standalone: true,\n  imports: [],\n  templateUrl: './button.component.html',\n  styleUrl: './button.component.scss'\n})\nexport class ButtonComponent {\n  /**\n   * Change the label of the button by passing the input \"label\" here.\n   * This is mandatory to show a button anyway.\n   * @required\n   * @since 0.0.1\n   * @summary Label of the button\n   * @author Christian Illies<c.illies@finatix.de>\n   * @public\n   * @package ui\n   * @property\n   * @type string\n   */\n  @Input({required: true}) public label: string = 'Button Label';\n  /**\n   * Change the type of the button\n   *\n   * @since 0.0.1\n   * @summary Type of the button\n   * @author Chistian Illies<c.illies@finatix.de>\n   * @public\n   * @package ui\n   * @property\n   * @type string\n   */\n  @Input({required: false}) type: ButtonType = 'primary';\n}\n",
+            "sourceCode": "import {Component, Input} from '@angular/core';\n\nexport type ButtonType= 'primary'|'secondary';\n\n/**\n * A simple button that can have click listeners and so on.\n *\n * Provide a label at least and an optional type for its appearance.\n *\n * Usage:\n *\n * ```html\n * <app-button label=\"My button\" type=\"primary\" />\n * ```\n *\n * @since 0.0.1\n * @author Christian Illies<c.illies@finatix.de>\n * @public\n * @package ui\n */\n@Component({\n  selector: 'app-button',\n  standalone: true,\n  imports: [],\n  templateUrl: './button.component.html',\n  styleUrl: './button.component.scss'\n})\nexport class ButtonComponent {\n  /**\n   * Change the label of the button by passing the input \"label\" here.\n   * This is mandatory to show a button anyway.\n   * @required\n   * @since 0.0.1\n   * @summary Label of the button\n   * @author Christian Illies<c.illies@finatix.de>\n   * @public\n   * @package ui\n   * @property\n   * @type string\n   */\n  @Input({required: true}) public label: string = 'Button Label';\n  /**\n   * Change the type of the button\n   *\n   * @since 0.0.1\n   * @summary Type of the button\n   * @author Christian Illies<c.illies@finatix.de>\n   * @public\n   * @package ui\n   * @property\n   * @type string\n   */\n  @Input({required: false}) type: ButtonType = 'primary';\n}\n",
             "styleUrl": "./button.component.scss",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
             "extends": [],
             "templateData": "<button [attr.class]=\"type\">{{label}}</button>\n"
+        },
+        {
+            "name": "InputComponent",
+            "id": "component-InputComponent-2cb7cabf8590f7bbed2b8000e7de2741d853e7c0249c71601a5e164654e43582281c5e7aad96c16533e9906e4cf297ea8491952902fb608246196e107ca847ca",
+            "file": "src/app/ui/input/input.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-input",
+            "styleUrls": [],
+            "styles": [],
+            "templateUrl": [
+                "./input.component.html"
+            ],
+            "viewProviders": [],
+            "hostDirectives": [],
+            "inputsClass": [
+                {
+                    "required": true,
+                    "name": "label",
+                    "defaultValue": "'Input Label'",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "optional": false,
+                    "jsdoctags": [
+                        {
+                            "pos": 724,
+                            "end": 739,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 334,
+                            "tagName": {
+                                "pos": 725,
+                                "end": 733,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 80,
+                                "escapedText": "required"
+                            },
+                            "comment": ""
+                        },
+                        {
+                            "pos": 739,
+                            "end": 757,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 334,
+                            "tagName": {
+                                "pos": 740,
+                                "end": 745,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 80,
+                                "escapedText": "since"
+                            },
+                            "comment": "<p>0.0.1</p>\n"
+                        },
+                        {
+                            "pos": 757,
+                            "end": 790,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 334,
+                            "tagName": {
+                                "pos": 758,
+                                "end": 765,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 80,
+                                "escapedText": "summary"
+                            },
+                            "comment": "<p>Label of the input</p>\n"
+                        },
+                        {
+                            "pos": 790,
+                            "end": 841,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 337,
+                            "tagName": {
+                                "pos": 791,
+                                "end": 797,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 80,
+                                "escapedText": "author"
+                            },
+                            "comment": "<p>Christian Illies<a href=\"mailto:c.illies@finatix.de\">c.illies@finatix.de</a></p>\n"
+                        },
+                        {
+                            "pos": 841,
+                            "end": 854,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 340,
+                            "tagName": {
+                                "pos": 842,
+                                "end": 848,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 80,
+                                "escapedText": "public"
+                            },
+                            "comment": ""
+                        },
+                        {
+                            "pos": 854,
+                            "end": 871,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 334,
+                            "tagName": {
+                                "pos": 855,
+                                "end": 862,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 80,
+                                "escapedText": "package"
+                            },
+                            "comment": "<p>ui</p>\n"
+                        },
+                        {
+                            "pos": 871,
+                            "end": 886,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 334,
+                            "tagName": {
+                                "pos": 872,
+                                "end": 880,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 80,
+                                "escapedText": "property"
+                            },
+                            "comment": ""
+                        },
+                        {
+                            "pos": 886,
+                            "end": 898,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 351,
+                            "tagName": {
+                                "pos": 887,
+                                "end": 891,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 80,
+                                "escapedText": "type"
+                            },
+                            "comment": "",
+                            "typeExpression": {
+                                "pos": 892,
+                                "end": 898,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 316,
+                                "type": {
+                                    "pos": 892,
+                                    "end": 898,
+                                    "flags": 16777216,
+                                    "modifierFlagsCache": 0,
+                                    "transformFlags": 1,
+                                    "kind": 154
+                                }
+                            }
+                        }
+                    ],
+                    "rawdescription": "\n\nChange the label of the input by passing the input \"label\" here.\nThis is mandatory to show a input anyway.\n",
+                    "description": "<p>Change the label of the input by passing the input &quot;label&quot; here.\nThis is mandatory to show a input anyway.</p>\n",
+                    "line": 41,
+                    "type": "string",
+                    "decorators": []
+                },
+                {
+                    "required": true,
+                    "name": "type",
+                    "defaultValue": "'primary'",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "optional": true,
+                    "jsdoctags": [
+                        {
+                            "pos": 1020,
+                            "end": 1038,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 334,
+                            "tagName": {
+                                "pos": 1021,
+                                "end": 1026,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 80,
+                                "escapedText": "since"
+                            },
+                            "comment": "<p>0.0.1</p>\n"
+                        },
+                        {
+                            "pos": 1038,
+                            "end": 1070,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 334,
+                            "tagName": {
+                                "pos": 1039,
+                                "end": 1046,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 80,
+                                "escapedText": "summary"
+                            },
+                            "comment": "<p>Type of the input</p>\n"
+                        },
+                        {
+                            "pos": 1070,
+                            "end": 1120,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 337,
+                            "tagName": {
+                                "pos": 1071,
+                                "end": 1077,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 80,
+                                "escapedText": "author"
+                            },
+                            "comment": "<p>Christian Illies<a href=\"mailto:c.illies@finatix.de\">c.illies@finatix.de</a></p>\n"
+                        },
+                        {
+                            "pos": 1120,
+                            "end": 1133,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 340,
+                            "tagName": {
+                                "pos": 1121,
+                                "end": 1127,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 80,
+                                "escapedText": "public"
+                            },
+                            "comment": ""
+                        },
+                        {
+                            "pos": 1133,
+                            "end": 1150,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 334,
+                            "tagName": {
+                                "pos": 1134,
+                                "end": 1141,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 80,
+                                "escapedText": "package"
+                            },
+                            "comment": "<p>ui</p>\n"
+                        },
+                        {
+                            "pos": 1150,
+                            "end": 1165,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 334,
+                            "tagName": {
+                                "pos": 1151,
+                                "end": 1159,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 80,
+                                "escapedText": "property"
+                            },
+                            "comment": ""
+                        },
+                        {
+                            "pos": 1165,
+                            "end": 1177,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 351,
+                            "tagName": {
+                                "pos": 1166,
+                                "end": 1170,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 80,
+                                "escapedText": "type"
+                            },
+                            "comment": "",
+                            "typeExpression": {
+                                "pos": 1171,
+                                "end": 1177,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 316,
+                                "type": {
+                                    "pos": 1171,
+                                    "end": 1177,
+                                    "flags": 16777216,
+                                    "modifierFlagsCache": 0,
+                                    "transformFlags": 1,
+                                    "kind": 154
+                                }
+                            }
+                        }
+                    ],
+                    "rawdescription": "\n\nChange the type of the input\n\n",
+                    "description": "<p>Change the type of the input</p>\n",
+                    "line": 53,
+                    "type": "InputType",
+                    "decorators": []
+                }
+            ],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "standalone": true,
+            "imports": [],
+            "description": "<p>A simple input that can have click listeners and so on.</p>\n<p>Provide a label at least and an optional type for its appearance.</p>\n<p>Usage:</p>\n<b>Example :</b><div><pre class=\"line-numbers\"><code class=\"language-html\">&lt;app-input label=&quot;My input&quot; type=&quot;primary&quot; /&gt;</code></pre></div>",
+            "rawdescription": "\n\nA simple input that can have click listeners and so on.\n\nProvide a label at least and an optional type for its appearance.\n\nUsage:\n\n```html\n<app-input label=\"My input\" type=\"primary\" />\n```\n\n",
+            "type": "component",
+            "sourceCode": "import {Component, Input} from '@angular/core';\n\nexport type InputType= 'primary'|'secondary';\n\n/**\n * A simple input that can have click listeners and so on.\n *\n * Provide a label at least and an optional type for its appearance.\n *\n * Usage:\n *\n * ```html\n * <app-input label=\"My input\" type=\"primary\" />\n * ```\n *\n * @since 0.0.1\n * @author Christian Illies<c.illies@finatix.de>\n * @public\n * @package ui\n */\n@Component({\n  selector: 'app-input',\n  standalone: true,\n  imports: [],\n  templateUrl: './input.component.html',\n  styleUrl: './input.component.scss'\n})\nexport class InputComponent {\n  /**\n   * Change the label of the input by passing the input \"label\" here.\n   * This is mandatory to show a input anyway.\n   * @required\n   * @since 0.0.1\n   * @summary Label of the input\n   * @author Christian Illies<c.illies@finatix.de>\n   * @public\n   * @package ui\n   * @property\n   * @type string\n   */\n  @Input({required: true}) public label: string = 'Input Label';\n  /**\n   * Change the type of the input\n   *\n   * @since 0.0.1\n   * @summary Type of the input\n   * @author Christian Illies<c.illies@finatix.de>\n   * @public\n   * @package ui\n   * @property\n   * @type string\n   */\n  @Input({required: false}) type: InputType = 'primary';\n}\n",
+            "styleUrl": "./input.component.scss",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": "",
+            "extends": [],
+            "templateData": "<label>{{label}}: <input [attr.class]=\"type\" type=\"text\"/></label>\n"
         }
     ],
     "modules": [],
@@ -457,6 +828,16 @@
                 "defaultValue": "{\n  name: 'Default/Primary Button',\n  args: {\n    label: 'Your Button label',\n  },\n}"
             },
             {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/ui/input/input.component.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "StoryObj<InputComponent>",
+                "defaultValue": "{\n  name: 'Default/Primary Input',\n  args: {\n    label: 'Your Input label',\n  },\n}"
+            },
+            {
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
@@ -464,7 +845,17 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<ButtonComponent>",
-                "defaultValue": "{\n  title: 'UI/Button',\n  component: ButtonComponent,\n  tags: ['autodocs'],\n}"
+                "defaultValue": "{\n  title: 'UI/Button',\n  component: ButtonComponent,\n  tags: ['autodocs']\n}"
+            },
+            {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/ui/input/input.component.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<InputComponent>",
+                "defaultValue": "{\n  title: 'UI/Input',\n  component: InputComponent,\n}"
             },
             {
                 "name": "preview",
@@ -485,6 +876,16 @@
                 "deprecationMessage": "",
                 "type": "StoryObj<ButtonComponent>",
                 "defaultValue": "{\n  name: 'Secondary Button',\n  args: {\n    type: 'secondary',\n    label: 'Your Secondary Button label',\n  },\n}"
+            },
+            {
+                "name": "Secondary",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/ui/input/input.component.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "StoryObj<InputComponent>",
+                "defaultValue": "{\n  name: 'Secondary Input',\n  args: {\n    type: 'secondary',\n    label: 'Your Secondary Input label',\n  },\n}"
             }
         ],
         "functions": [],
@@ -495,6 +896,17 @@
                 "subtype": "typealias",
                 "rawtype": "\"primary\" | \"secondary\"",
                 "file": "src/app/ui/button/button.component.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 192
+            },
+            {
+                "name": "InputType",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
+                "rawtype": "\"primary\" | \"secondary\"",
+                "file": "src/app/ui/input/input.component.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -534,7 +946,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Meta<ButtonComponent>",
-                    "defaultValue": "{\n  title: 'UI/Button',\n  component: ButtonComponent,\n  tags: ['autodocs'],\n}"
+                    "defaultValue": "{\n  title: 'UI/Button',\n  component: ButtonComponent,\n  tags: ['autodocs']\n}"
                 },
                 {
                     "name": "Secondary",
@@ -545,6 +957,38 @@
                     "deprecationMessage": "",
                     "type": "StoryObj<ButtonComponent>",
                     "defaultValue": "{\n  name: 'Secondary Button',\n  args: {\n    type: 'secondary',\n    label: 'Your Secondary Button label',\n  },\n}"
+                }
+            ],
+            "src/app/ui/input/input.component.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/ui/input/input.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "StoryObj<InputComponent>",
+                    "defaultValue": "{\n  name: 'Default/Primary Input',\n  args: {\n    label: 'Your Input label',\n  },\n}"
+                },
+                {
+                    "name": "meta",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/ui/input/input.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Meta<InputComponent>",
+                    "defaultValue": "{\n  title: 'UI/Input',\n  component: InputComponent,\n}"
+                },
+                {
+                    "name": "Secondary",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/ui/input/input.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "StoryObj<InputComponent>",
+                    "defaultValue": "{\n  name: 'Secondary Input',\n  args: {\n    type: 'secondary',\n    label: 'Your Secondary Input label',\n  },\n}"
                 }
             ],
             ".storybook/preview.ts": [
@@ -575,12 +1019,25 @@
                     "description": "",
                     "kind": 192
                 }
+            ],
+            "src/app/ui/input/input.component.ts": [
+                {
+                    "name": "InputType",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "\"primary\" | \"secondary\"",
+                    "file": "src/app/ui/input/input.component.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 192
+                }
             ]
         }
     },
     "routes": [],
     "coverage": {
-        "count": 14,
+        "count": 18,
         "status": "low",
         "files": [
             {
@@ -647,6 +1104,45 @@
                 "type": "component",
                 "linktype": "component",
                 "name": "ButtonComponent",
+                "coveragePercent": 100,
+                "coverageCount": "3/3",
+                "status": "very-good"
+            },
+            {
+                "filePath": "src/app/ui/input/input.component.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Default",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/ui/input/input.component.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "meta",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/ui/input/input.component.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Secondary",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/ui/input/input.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "InputComponent",
                 "coveragePercent": 100,
                 "coverageCount": "3/3",
                 "status": "very-good"

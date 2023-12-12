@@ -1,0 +1,36 @@
+import {Meta, Canvas, ArgsTable} from "@storybook/addon-docs/blocks";
+import * as InputStory from "./input.component.stories";
+
+<Meta
+  of={InputStory}
+/>
+
+# The Input Component
+
+## Primary and Default
+
+Use for call-to-actions and important user interactions.
+
+<Canvas of={InputStory.Default}></Canvas>
+
+Beispiel:
+
+```html
+  <app-input label="My input" type="primary" />
+```
+
+## Secondary or Accent
+
+Use in non-primary actions.
+
+<Canvas of={InputStory.Secondary}></Canvas>
+
+Beispiel:
+
+```html
+  <app-input label="My input" type="secondary" />
+```
+
+# Arguments
+
+<ArgsTable/>

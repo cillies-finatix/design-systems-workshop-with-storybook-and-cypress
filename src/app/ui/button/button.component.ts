@@ -44,7 +44,7 @@ export class ButtonComponent {
    *
    * @since 0.0.1
    * @summary Type of the button
-   * @author Chistian Illies<c.illies@finatix.de>
+   * @author Christian Illies<c.illies@finatix.de>
    * @public
    * @package ui
    * @property
