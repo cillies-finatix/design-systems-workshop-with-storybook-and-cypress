@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/angular';
 
-import {InputComponent} from './input.component';
+import { InputComponent } from './input.component';
 
 const meta: Meta<InputComponent> = {
   title: 'UI/Input',
@@ -19,6 +19,14 @@ export const Secondary: StoryObj<InputComponent> = {
   args: {
     type: 'secondary',
     label: 'Your Secondary Input label',
+  },
+};
+
+export const WithIcon: StoryObj<InputComponent> = {
+  name: 'Input with Icon',
+  args: {
+    label: 'Your Input label',
+    icon: 'fingerprint',
   },
 };
 

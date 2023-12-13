@@ -1,1 +1,6 @@
-<button [attr.class]="type">{{label}}</button>
+<button [attr.class]="type">
+  @if (icon) {
+    <app-icon [iconName]="icon"></app-icon>
+  }
+  {{ label }}
+</button>

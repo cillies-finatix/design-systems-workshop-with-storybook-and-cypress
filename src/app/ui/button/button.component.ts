@@ -1,4 +1,6 @@
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
+import { IconName } from '@fortawesome/free-regular-svg-icons';
+import { IconComponent } from '../icon/icon.component';
 
 export type ButtonType = 'primary' | 'secondary';
 
@@ -13,6 +15,12 @@ export type ButtonType = 'primary' | 'secondary';
  * <app-button label="My button" type="primary" />
  * ```
  *
+ * Or with an icon
+ *
+ * ```html
+ * <app-button icon="fingerprint" label="My button" type="primary" />
+ * ```
+ *
  * @since 0.0.1
  * @author Christian Illies<c.illies@finatix.de>
  * @public
@@ -21,7 +29,7 @@ export type ButtonType = 'primary' | 'secondary';
 @Component({
   selector: 'app-button',
   standalone: true,
-  imports: [],
+  imports: [IconComponent],
   templateUrl: './button.component.html',
   styleUrl: './button.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -34,10 +42,7 @@ export class ButtonComponent {
    * @since 0.0.1
    * @summary Label of the button
    * @author Christian Illies<c.illies@finatix.de>
-   * @public
    * @package ui
-   * @property
-   * @type string
    */
   @Input({ required: true }) public label: string = 'Button Label';
   /**
@@ -46,10 +51,16 @@ export class ButtonComponent {
    * @since 0.0.1
    * @summary Type of the button
    * @author Christian Illies<c.illies@finatix.de>
-   * @public
    * @package ui
-   * @property
-   * @type string
    */
   @Input({ required: false }) type: ButtonType = 'primary';
+  /**
+   * Add icon to button (prefix)
+   *
+   * @since 0.0.2
+   * @summary icon for the button
+   * @author Christian Illies<c.illies@finatix.de>
+   * @package ui
+   */
+  @Input({ required: false }) icon: IconName | undefined;
 }

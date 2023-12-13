@@ -1,11 +1,11 @@
 import type { Meta, StoryObj } from '@storybook/angular';
 
-import {ButtonComponent} from './button.component';
+import { ButtonComponent } from './button.component';
 
 const meta: Meta<ButtonComponent> = {
   title: 'UI/Button',
   component: ButtonComponent,
-  tags: ['autodocs']
+  tags: ['autodocs'],
 };
 
 export const Default: StoryObj<ButtonComponent> = {
@@ -20,6 +20,15 @@ export const Secondary: StoryObj<ButtonComponent> = {
   args: {
     type: 'secondary',
     label: 'Your Secondary Button label',
+  },
+};
+
+export const WithIcon: StoryObj<ButtonComponent> = {
+  name: 'Icon Button',
+  args: {
+    type: 'primary',
+    label: 'A button with an icon',
+    icon: 'coffee',
   },
 };
 

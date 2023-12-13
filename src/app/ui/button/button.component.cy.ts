@@ -23,6 +23,6 @@ describe('The ButtonComponent', () => {
   });
 
   it('should check that the button label is rendering correctly', () => {
-    cy.get('button').should('have.text', 'Your Button label');
+    cy.get('button').should('contain.text', 'Your Button label');
   });
 });

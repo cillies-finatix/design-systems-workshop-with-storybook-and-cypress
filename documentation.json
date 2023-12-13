@@ -9,8 +9,9 @@
     "components": [
         {
             "name": "AppComponent",
-            "id": "component-AppComponent-acd41e4b21c9049e674b871b308f23336c91f293fe7d0c14f09681206e366548aaa06c80348fde1a831294249becdaab741ea725f5caa8586072f737b4db9da7",
+            "id": "component-AppComponent-34a047e769bb02406086ca2b5bc0f2622fac4489898f54ce49c8e1311afb4d6a6cb9b86e9e282661444e00f113e1d984af0437d6da14d12b9d2397d67d4296d9",
             "file": "src/app/app.component.ts",
+            "changeDetection": "ChangeDetectionStrategy.OnPush",
             "encapsulation": [],
             "entryComponents": [],
             "inputs": [],
@@ -35,7 +36,7 @@
                     "type": "string",
                     "optional": false,
                     "description": "",
-                    "line": 12
+                    "line": 13
                 }
             ],
             "methodsClass": [],
@@ -53,7 +54,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component } from '@angular/core';\nimport { CommonModule } from '@angular/common';\n\n@Component({\n  selector: 'app-root',\n  standalone: true,\n  imports: [CommonModule],\n  templateUrl: './app.component.html',\n  styleUrl: './app.component.scss'\n})\nexport class AppComponent {\n  title = 'design-systems';\n}\n",
+            "sourceCode": "import { ChangeDetectionStrategy, Component } from '@angular/core';\nimport { CommonModule } from '@angular/common';\n\n@Component({\n  selector: 'app-root',\n  standalone: true,\n  imports: [CommonModule],\n  templateUrl: './app.component.html',\n  styleUrl: './app.component.scss',\n  changeDetection: ChangeDetectionStrategy.OnPush,\n})\nexport class AppComponent {\n  title = 'design-systems';\n}\n",
             "styleUrl": "./app.component.scss",
             "assetsDirs": [],
             "styleUrlsData": "",
@@ -63,8 +64,9 @@
         },
         {
             "name": "ButtonComponent",
-            "id": "component-ButtonComponent-28175669d759aa687651bef69b6b3f7e26cb5048e6c7980faf7c863ee33863fca1c86d172f294022610e66d2344a8b440e94ff7bfca66014202333245bd377b9",
+            "id": "component-ButtonComponent-a4f60582c3431b14b02aeff82f15f075832241b28246e5d9bf5c821c57b2e56591c6ca598e27dc2633cc21a6baeb7eb52a3cf435d6e5d7b148af6e628ceb2679",
             "file": "src/app/ui/button/button.component.ts",
+            "changeDetection": "ChangeDetectionStrategy.OnPush",
             "encapsulation": [],
             "entryComponents": [],
             "inputs": [],
@@ -81,76 +83,57 @@
             "inputsClass": [
                 {
                     "required": true,
-                    "name": "label",
-                    "defaultValue": "'Button Label'",
+                    "name": "icon",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "optional": false,
+                    "optional": true,
                     "jsdoctags": [
                         {
-                            "pos": 734,
-                            "end": 749,
+                            "pos": 1546,
+                            "end": 1564,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 735,
-                                "end": 743,
-                                "flags": 16842752,
-                                "modifierFlagsCache": 0,
-                                "transformFlags": 0,
-                                "kind": 80,
-                                "escapedText": "required"
-                            },
-                            "comment": ""
-                        },
-                        {
-                            "pos": 749,
-                            "end": 767,
-                            "flags": 16842752,
-                            "modifierFlagsCache": 0,
-                            "transformFlags": 0,
-                            "kind": 334,
-                            "tagName": {
-                                "pos": 750,
-                                "end": 755,
+                                "pos": 1547,
+                                "end": 1552,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
                                 "kind": 80,
                                 "escapedText": "since"
                             },
-                            "comment": "<p>0.0.1</p>\n"
+                            "comment": "<p>0.0.2</p>\n"
                         },
                         {
-                            "pos": 767,
-                            "end": 801,
+                            "pos": 1564,
+                            "end": 1598,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 768,
-                                "end": 775,
+                                "pos": 1565,
+                                "end": 1572,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
                                 "kind": 80,
                                 "escapedText": "summary"
                             },
-                            "comment": "<p>Label of the button</p>\n"
+                            "comment": "<p>icon for the button</p>\n"
                         },
                         {
-                            "pos": 801,
-                            "end": 852,
+                            "pos": 1598,
+                            "end": 1649,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 337,
                             "tagName": {
-                                "pos": 802,
-                                "end": 808,
+                                "pos": 1599,
+                                "end": 1605,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -160,33 +143,15 @@
                             "comment": "<p>Christian Illies<a href=\"mailto:c.illies@finatix.de\">c.illies@finatix.de</a></p>\n"
                         },
                         {
-                            "pos": 852,
-                            "end": 865,
-                            "flags": 16842752,
-                            "modifierFlagsCache": 0,
-                            "transformFlags": 0,
-                            "kind": 340,
-                            "tagName": {
-                                "pos": 853,
-                                "end": 859,
-                                "flags": 16842752,
-                                "modifierFlagsCache": 0,
-                                "transformFlags": 0,
-                                "kind": 80,
-                                "escapedText": "public"
-                            },
-                            "comment": ""
-                        },
-                        {
-                            "pos": 865,
-                            "end": 882,
+                            "pos": 1649,
+                            "end": 1664,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 866,
-                                "end": 873,
+                                "pos": 1650,
+                                "end": 1657,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -194,63 +159,116 @@
                                 "escapedText": "package"
                             },
                             "comment": "<p>ui</p>\n"
-                        },
+                        }
+                    ],
+                    "rawdescription": "\n\nAdd icon to button (prefix)\n\n",
+                    "description": "<p>Add icon to button (prefix)</p>\n",
+                    "line": 65,
+                    "type": "IconName | undefined",
+                    "decorators": []
+                },
+                {
+                    "required": true,
+                    "name": "label",
+                    "defaultValue": "'Button Label'",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "optional": false,
+                    "jsdoctags": [
                         {
-                            "pos": 882,
-                            "end": 897,
+                            "pos": 1062,
+                            "end": 1077,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 883,
-                                "end": 891,
+                                "pos": 1063,
+                                "end": 1071,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
                                 "kind": 80,
-                                "escapedText": "property"
+                                "escapedText": "required"
                             },
                             "comment": ""
                         },
                         {
-                            "pos": 897,
-                            "end": 909,
+                            "pos": 1077,
+                            "end": 1095,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
-                            "kind": 351,
+                            "kind": 334,
                             "tagName": {
-                                "pos": 898,
-                                "end": 902,
+                                "pos": 1078,
+                                "end": 1083,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
                                 "kind": 80,
-                                "escapedText": "type"
+                                "escapedText": "since"
                             },
-                            "comment": "",
-                            "typeExpression": {
-                                "pos": 903,
-                                "end": 909,
+                            "comment": "<p>0.0.1</p>\n"
+                        },
+                        {
+                            "pos": 1095,
+                            "end": 1129,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 334,
+                            "tagName": {
+                                "pos": 1096,
+                                "end": 1103,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
-                                "kind": 316,
-                                "type": {
-                                    "pos": 903,
-                                    "end": 909,
-                                    "flags": 16777216,
-                                    "modifierFlagsCache": 0,
-                                    "transformFlags": 1,
-                                    "kind": 154
-                                }
-                            }
+                                "kind": 80,
+                                "escapedText": "summary"
+                            },
+                            "comment": "<p>Label of the button</p>\n"
+                        },
+                        {
+                            "pos": 1129,
+                            "end": 1180,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 337,
+                            "tagName": {
+                                "pos": 1130,
+                                "end": 1136,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 80,
+                                "escapedText": "author"
+                            },
+                            "comment": "<p>Christian Illies<a href=\"mailto:c.illies@finatix.de\">c.illies@finatix.de</a></p>\n"
+                        },
+                        {
+                            "pos": 1180,
+                            "end": 1195,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 334,
+                            "tagName": {
+                                "pos": 1181,
+                                "end": 1188,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 80,
+                                "escapedText": "package"
+                            },
+                            "comment": "<p>ui</p>\n"
                         }
                     ],
                     "rawdescription": "\n\nChange the label of the button by passing the input \"label\" here.\nThis is mandatory to show a button anyway.\n",
                     "description": "<p>Change the label of the button by passing the input &quot;label&quot; here.\nThis is mandatory to show a button anyway.</p>\n",
-                    "line": 41,
+                    "line": 47,
                     "type": "string",
                     "decorators": []
                 },
@@ -263,15 +281,15 @@
                     "optional": true,
                     "jsdoctags": [
                         {
-                            "pos": 1033,
-                            "end": 1051,
+                            "pos": 1317,
+                            "end": 1335,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 1034,
-                                "end": 1039,
+                                "pos": 1318,
+                                "end": 1323,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -281,15 +299,15 @@
                             "comment": "<p>0.0.1</p>\n"
                         },
                         {
-                            "pos": 1051,
-                            "end": 1084,
+                            "pos": 1335,
+                            "end": 1368,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 1052,
-                                "end": 1059,
+                                "pos": 1336,
+                                "end": 1343,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -299,15 +317,15 @@
                             "comment": "<p>Type of the button</p>\n"
                         },
                         {
-                            "pos": 1084,
-                            "end": 1135,
+                            "pos": 1368,
+                            "end": 1419,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 337,
                             "tagName": {
-                                "pos": 1085,
-                                "end": 1091,
+                                "pos": 1369,
+                                "end": 1375,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -317,33 +335,15 @@
                             "comment": "<p>Christian Illies<a href=\"mailto:c.illies@finatix.de\">c.illies@finatix.de</a></p>\n"
                         },
                         {
-                            "pos": 1135,
-                            "end": 1148,
-                            "flags": 16842752,
-                            "modifierFlagsCache": 0,
-                            "transformFlags": 0,
-                            "kind": 340,
-                            "tagName": {
-                                "pos": 1136,
-                                "end": 1142,
-                                "flags": 16842752,
-                                "modifierFlagsCache": 0,
-                                "transformFlags": 0,
-                                "kind": 80,
-                                "escapedText": "public"
-                            },
-                            "comment": ""
-                        },
-                        {
-                            "pos": 1148,
-                            "end": 1165,
+                            "pos": 1419,
+                            "end": 1434,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 1149,
-                                "end": 1156,
+                                "pos": 1420,
+                                "end": 1427,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -351,63 +351,11 @@
                                 "escapedText": "package"
                             },
                             "comment": "<p>ui</p>\n"
-                        },
-                        {
-                            "pos": 1165,
-                            "end": 1180,
-                            "flags": 16842752,
-                            "modifierFlagsCache": 0,
-                            "transformFlags": 0,
-                            "kind": 334,
-                            "tagName": {
-                                "pos": 1166,
-                                "end": 1174,
-                                "flags": 16842752,
-                                "modifierFlagsCache": 0,
-                                "transformFlags": 0,
-                                "kind": 80,
-                                "escapedText": "property"
-                            },
-                            "comment": ""
-                        },
-                        {
-                            "pos": 1180,
-                            "end": 1192,
-                            "flags": 16842752,
-                            "modifierFlagsCache": 0,
-                            "transformFlags": 0,
-                            "kind": 351,
-                            "tagName": {
-                                "pos": 1181,
-                                "end": 1185,
-                                "flags": 16842752,
-                                "modifierFlagsCache": 0,
-                                "transformFlags": 0,
-                                "kind": 80,
-                                "escapedText": "type"
-                            },
-                            "comment": "",
-                            "typeExpression": {
-                                "pos": 1186,
-                                "end": 1192,
-                                "flags": 16842752,
-                                "modifierFlagsCache": 0,
-                                "transformFlags": 0,
-                                "kind": 316,
-                                "type": {
-                                    "pos": 1186,
-                                    "end": 1192,
-                                    "flags": 16777216,
-                                    "modifierFlagsCache": 0,
-                                    "transformFlags": 1,
-                                    "kind": 154
-                                }
-                            }
                         }
                     ],
                     "rawdescription": "\n\nChange the type of the button\n\n",
                     "description": "<p>Change the type of the button</p>\n",
-                    "line": 53,
+                    "line": 56,
                     "type": "ButtonType",
                     "decorators": []
                 }
@@ -420,22 +368,93 @@
             "hostBindings": [],
             "hostListeners": [],
             "standalone": true,
-            "imports": [],
-            "description": "<p>A simple button that can have click listeners and so on.</p>\n<p>Provide a label at least and an optional type for its appearance.</p>\n<p>Usage:</p>\n<b>Example :</b><div><pre class=\"line-numbers\"><code class=\"language-html\">&lt;app-button label=&quot;My button&quot; type=&quot;primary&quot; /&gt;</code></pre></div>",
-            "rawdescription": "\n\nA simple button that can have click listeners and so on.\n\nProvide a label at least and an optional type for its appearance.\n\nUsage:\n\n```html\n<app-button label=\"My button\" type=\"primary\" />\n```\n\n",
+            "imports": [
+                {
+                    "name": "IconComponent",
+                    "type": "component"
+                }
+            ],
+            "description": "<p>A simple button that can have click listeners and so on.</p>\n<p>Provide a label at least and an optional type for its appearance.</p>\n<p>Usage:</p>\n<b>Example :</b><div><pre class=\"line-numbers\"><code class=\"language-html\">&lt;app-button label=&quot;My button&quot; type=&quot;primary&quot; /&gt;</code></pre></div><p>Or with an icon</p>\n<b>Example :</b><div><pre class=\"line-numbers\"><code class=\"language-html\">&lt;app-button icon=&quot;fingerprint&quot; label=&quot;My button&quot; type=&quot;primary&quot; /&gt;</code></pre></div>",
+            "rawdescription": "\n\nA simple button that can have click listeners and so on.\n\nProvide a label at least and an optional type for its appearance.\n\nUsage:\n\n```html\n<app-button label=\"My button\" type=\"primary\" />\n```\n\nOr with an icon\n\n```html\n<app-button icon=\"fingerprint\" label=\"My button\" type=\"primary\" />\n```\n\n",
             "type": "component",
-            "sourceCode": "import {Component, Input} from '@angular/core';\n\nexport type ButtonType= 'primary'|'secondary';\n\n/**\n * A simple button that can have click listeners and so on.\n *\n * Provide a label at least and an optional type for its appearance.\n *\n * Usage:\n *\n * ```html\n * <app-button label=\"My button\" type=\"primary\" />\n * ```\n *\n * @since 0.0.1\n * @author Christian Illies<c.illies@finatix.de>\n * @public\n * @package ui\n */\n@Component({\n  selector: 'app-button',\n  standalone: true,\n  imports: [],\n  templateUrl: './button.component.html',\n  styleUrl: './button.component.scss'\n})\nexport class ButtonComponent {\n  /**\n   * Change the label of the button by passing the input \"label\" here.\n   * This is mandatory to show a button anyway.\n   * @required\n   * @since 0.0.1\n   * @summary Label of the button\n   * @author Christian Illies<c.illies@finatix.de>\n   * @public\n   * @package ui\n   * @property\n   * @type string\n   */\n  @Input({required: true}) public label: string = 'Button Label';\n  /**\n   * Change the type of the button\n   *\n   * @since 0.0.1\n   * @summary Type of the button\n   * @author Christian Illies<c.illies@finatix.de>\n   * @public\n   * @package ui\n   * @property\n   * @type string\n   */\n  @Input({required: false}) type: ButtonType = 'primary';\n}\n",
+            "sourceCode": "import { ChangeDetectionStrategy, Component, Input } from '@angular/core';\nimport { IconName } from '@fortawesome/free-regular-svg-icons';\nimport { IconComponent } from '../icon/icon.component';\n\nexport type ButtonType = 'primary' | 'secondary';\n\n/**\n * A simple button that can have click listeners and so on.\n *\n * Provide a label at least and an optional type for its appearance.\n *\n * Usage:\n *\n * ```html\n * <app-button label=\"My button\" type=\"primary\" />\n * ```\n *\n * Or with an icon\n *\n * ```html\n * <app-button icon=\"fingerprint\" label=\"My button\" type=\"primary\" />\n * ```\n *\n * @since 0.0.1\n * @author Christian Illies<c.illies@finatix.de>\n * @public\n * @package ui\n */\n@Component({\n  selector: 'app-button',\n  standalone: true,\n  imports: [IconComponent],\n  templateUrl: './button.component.html',\n  styleUrl: './button.component.scss',\n  changeDetection: ChangeDetectionStrategy.OnPush,\n})\nexport class ButtonComponent {\n  /**\n   * Change the label of the button by passing the input \"label\" here.\n   * This is mandatory to show a button anyway.\n   * @required\n   * @since 0.0.1\n   * @summary Label of the button\n   * @author Christian Illies<c.illies@finatix.de>\n   * @package ui\n   */\n  @Input({ required: true }) public label: string = 'Button Label';\n  /**\n   * Change the type of the button\n   *\n   * @since 0.0.1\n   * @summary Type of the button\n   * @author Christian Illies<c.illies@finatix.de>\n   * @package ui\n   */\n  @Input({ required: false }) type: ButtonType = 'primary';\n  /**\n   * Add icon to button (prefix)\n   *\n   * @since 0.0.2\n   * @summary icon for the button\n   * @author Christian Illies<c.illies@finatix.de>\n   * @package ui\n   */\n  @Input({ required: false }) icon: IconName | undefined;\n}\n",
             "styleUrl": "./button.component.scss",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
             "extends": [],
-            "templateData": "<button [attr.class]=\"type\">{{label}}</button>\n"
+            "templateData": "<button [attr.class]=\"type\">\n  @if (icon) {\n    <app-icon [iconName]=\"icon\"></app-icon>\n  }\n  {{ label }}\n</button>\n"
+        },
+        {
+            "name": "IconComponent",
+            "id": "component-IconComponent-a5e6dd84d85a29c4d22fba38f09ba8b6318316b46bafc422525243eb326814326861ce3dde1e7ff7f2951db590b1620648f275b54ef362caf5323bd56f2a05d0",
+            "file": "src/app/ui/icon/icon.component.ts",
+            "changeDetection": "ChangeDetectionStrategy.OnPush",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-icon",
+            "styleUrls": [],
+            "styles": [],
+            "templateUrl": [
+                "./icon.component.html"
+            ],
+            "viewProviders": [],
+            "hostDirectives": [],
+            "inputsClass": [
+                {
+                    "required": true,
+                    "name": "iconName",
+                    "defaultValue": "'fingerprint'",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "optional": false,
+                    "rawdescription": "\n\nthe icon name in font-awesome you want to use.\n\nSamples: fingerprint, coffee, arrow-right, ...\n\n[Fontawesome Library (free)](https://fontawesome.com/search?o=r&m=free&f=classic)\n",
+                    "description": "<p>the icon name in font-awesome you want to use.</p>\n<p>Samples: fingerprint, coffee, arrow-right, ...</p>\n<p><a href=\"https://fontawesome.com/search?o=r&m=free&f=classic\">Fontawesome Library (free)</a></p>\n",
+                    "line": 35,
+                    "type": "IconName",
+                    "decorators": []
+                }
+            ],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "standalone": true,
+            "imports": [
+                {
+                    "name": "FontAwesomeModule",
+                    "type": "module"
+                }
+            ],
+            "description": "<p>A simple icon of <a href=\"https://fontawesome.com/search?o=r&m=free&f=classic\">Fontawesome Library (free)</a></p>\n<p>Usage:</p>\n<b>Example :</b><div><pre class=\"line-numbers\"><code class=\"language-html\">&lt;app-icon iconName=&quot;fingerprint&quot; /&gt;</code></pre></div>",
+            "rawdescription": "\n\nA simple icon of [Fontawesome Library (free)](https://fontawesome.com/search?o=r&m=free&f=classic)\n\nUsage:\n\n```html\n<app-icon iconName=\"fingerprint\" />\n```\n\n",
+            "type": "component",
+            "sourceCode": "import {ChangeDetectionStrategy, Component, inject, Input,} from '@angular/core';\nimport {FaIconLibrary, FontAwesomeModule,} from '@fortawesome/angular-fontawesome';\nimport {fas} from '@fortawesome/free-solid-svg-icons';\nimport {far, IconName} from '@fortawesome/free-regular-svg-icons';\n\n/**\n * A simple icon of [Fontawesome Library (free)](https://fontawesome.com/search?o=r&m=free&f=classic)\n *\n * Usage:\n *\n * ```html\n * <app-icon iconName=\"fingerprint\" />\n * ```\n *\n * @since 0.0.2\n * @author Christian Illies<c.illies@finatix.de>\n * @public\n * @package ui\n */\n@Component({\n  selector: 'app-icon',\n  standalone: true,\n  imports: [FontAwesomeModule],\n  templateUrl: './icon.component.html',\n  changeDetection: ChangeDetectionStrategy.OnPush,\n})\nexport class IconComponent {\n  /**\n   * the icon name in font-awesome you want to use.\n   *\n   * Samples: fingerprint, coffee, arrow-right, ...\n   *\n   * [Fontawesome Library (free)](https://fontawesome.com/search?o=r&m=free&f=classic)\n   */\n  @Input({ required: true }) iconName: IconName = 'fingerprint';\n\n  constructor() {\n    inject(FaIconLibrary).addIconPacks(fas, far);\n  }\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": "",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [],
+                "line": 35
+            },
+            "extends": [],
+            "templateData": "<fa-icon [icon]=\"iconName\"></fa-icon>\n"
         },
         {
             "name": "InputComponent",
-            "id": "component-InputComponent-25e0f7d1f37535028da679e8f860a01713bb4253877c798d9927302a361bd0b971ca24eede9ceddee53438b820167a2e8abd276ea7729eceb20d0a0551ced1b6",
+            "id": "component-InputComponent-bdb0ca728a1a8c0da25657d2332e6e7d9160ff26fdf84af71db486c2da7e46e539fcd29627ee69e57fa42ca942de6f1d978bc27b5e887fb6cbe38557fff0658e",
             "file": "src/app/ui/input/input.component.ts",
+            "changeDetection": "ChangeDetectionStrategy.OnPush",
             "encapsulation": [],
             "entryComponents": [],
             "inputs": [],
@@ -452,76 +471,57 @@
             "inputsClass": [
                 {
                     "required": true,
-                    "name": "label",
-                    "defaultValue": "'Input Label'",
+                    "name": "icon",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "optional": false,
+                    "optional": true,
                     "jsdoctags": [
                         {
-                            "pos": 724,
-                            "end": 739,
+                            "pos": 1412,
+                            "end": 1430,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 725,
-                                "end": 733,
-                                "flags": 16842752,
-                                "modifierFlagsCache": 0,
-                                "transformFlags": 0,
-                                "kind": 80,
-                                "escapedText": "required"
-                            },
-                            "comment": ""
-                        },
-                        {
-                            "pos": 739,
-                            "end": 757,
-                            "flags": 16842752,
-                            "modifierFlagsCache": 0,
-                            "transformFlags": 0,
-                            "kind": 334,
-                            "tagName": {
-                                "pos": 740,
-                                "end": 745,
+                                "pos": 1413,
+                                "end": 1418,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
                                 "kind": 80,
                                 "escapedText": "since"
                             },
-                            "comment": "<p>0.0.1</p>\n"
+                            "comment": "<p>0.0.2</p>\n"
                         },
                         {
-                            "pos": 757,
-                            "end": 790,
+                            "pos": 1430,
+                            "end": 1463,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 758,
-                                "end": 765,
+                                "pos": 1431,
+                                "end": 1438,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
                                 "kind": 80,
                                 "escapedText": "summary"
                             },
-                            "comment": "<p>Label of the input</p>\n"
+                            "comment": "<p>icon for the input</p>\n"
                         },
                         {
-                            "pos": 790,
-                            "end": 841,
+                            "pos": 1463,
+                            "end": 1514,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 337,
                             "tagName": {
-                                "pos": 791,
-                                "end": 797,
+                                "pos": 1464,
+                                "end": 1470,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -531,33 +531,15 @@
                             "comment": "<p>Christian Illies<a href=\"mailto:c.illies@finatix.de\">c.illies@finatix.de</a></p>\n"
                         },
                         {
-                            "pos": 841,
-                            "end": 854,
-                            "flags": 16842752,
-                            "modifierFlagsCache": 0,
-                            "transformFlags": 0,
-                            "kind": 340,
-                            "tagName": {
-                                "pos": 842,
-                                "end": 848,
-                                "flags": 16842752,
-                                "modifierFlagsCache": 0,
-                                "transformFlags": 0,
-                                "kind": 80,
-                                "escapedText": "public"
-                            },
-                            "comment": ""
-                        },
-                        {
-                            "pos": 854,
-                            "end": 871,
+                            "pos": 1514,
+                            "end": 1529,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 855,
-                                "end": 862,
+                                "pos": 1515,
+                                "end": 1522,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -565,58 +547,111 @@
                                 "escapedText": "package"
                             },
                             "comment": "<p>ui</p>\n"
-                        },
+                        }
+                    ],
+                    "rawdescription": "\n\nAdd an icon if needed\n\n",
+                    "description": "<p>Add an icon if needed</p>\n",
+                    "line": 59,
+                    "type": "IconName | undefined",
+                    "decorators": []
+                },
+                {
+                    "required": true,
+                    "name": "label",
+                    "defaultValue": "'Input Label'",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "optional": false,
+                    "jsdoctags": [
                         {
-                            "pos": 871,
-                            "end": 886,
+                            "pos": 939,
+                            "end": 954,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 872,
-                                "end": 880,
+                                "pos": 940,
+                                "end": 948,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
                                 "kind": 80,
-                                "escapedText": "property"
+                                "escapedText": "required"
                             },
                             "comment": ""
                         },
                         {
-                            "pos": 886,
-                            "end": 898,
+                            "pos": 954,
+                            "end": 972,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
-                            "kind": 351,
+                            "kind": 334,
                             "tagName": {
-                                "pos": 887,
-                                "end": 891,
+                                "pos": 955,
+                                "end": 960,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
                                 "kind": 80,
-                                "escapedText": "type"
+                                "escapedText": "since"
                             },
-                            "comment": "",
-                            "typeExpression": {
-                                "pos": 892,
-                                "end": 898,
+                            "comment": "<p>0.0.1</p>\n"
+                        },
+                        {
+                            "pos": 972,
+                            "end": 1005,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 334,
+                            "tagName": {
+                                "pos": 973,
+                                "end": 980,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
-                                "kind": 316,
-                                "type": {
-                                    "pos": 892,
-                                    "end": 898,
-                                    "flags": 16777216,
-                                    "modifierFlagsCache": 0,
-                                    "transformFlags": 1,
-                                    "kind": 154
-                                }
-                            }
+                                "kind": 80,
+                                "escapedText": "summary"
+                            },
+                            "comment": "<p>Label of the input</p>\n"
+                        },
+                        {
+                            "pos": 1005,
+                            "end": 1056,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 337,
+                            "tagName": {
+                                "pos": 1006,
+                                "end": 1012,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 80,
+                                "escapedText": "author"
+                            },
+                            "comment": "<p>Christian Illies<a href=\"mailto:c.illies@finatix.de\">c.illies@finatix.de</a></p>\n"
+                        },
+                        {
+                            "pos": 1056,
+                            "end": 1071,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 334,
+                            "tagName": {
+                                "pos": 1057,
+                                "end": 1064,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 80,
+                                "escapedText": "package"
+                            },
+                            "comment": "<p>ui</p>\n"
                         }
                     ],
                     "rawdescription": "\n\nChange the label of the input by passing the input \"label\" here.\nThis is mandatory to show a input anyway.\n",
@@ -634,15 +669,15 @@
                     "optional": true,
                     "jsdoctags": [
                         {
-                            "pos": 1020,
-                            "end": 1038,
+                            "pos": 1191,
+                            "end": 1209,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 1021,
-                                "end": 1026,
+                                "pos": 1192,
+                                "end": 1197,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -652,15 +687,15 @@
                             "comment": "<p>0.0.1</p>\n"
                         },
                         {
-                            "pos": 1038,
-                            "end": 1070,
+                            "pos": 1209,
+                            "end": 1241,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 1039,
-                                "end": 1046,
+                                "pos": 1210,
+                                "end": 1217,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -670,15 +705,15 @@
                             "comment": "<p>Type of the input</p>\n"
                         },
                         {
-                            "pos": 1070,
-                            "end": 1121,
+                            "pos": 1241,
+                            "end": 1292,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 337,
                             "tagName": {
-                                "pos": 1071,
-                                "end": 1077,
+                                "pos": 1242,
+                                "end": 1248,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -688,33 +723,15 @@
                             "comment": "<p>Christian Illies<a href=\"mailto:c.illies@finatix.de\">c.illies@finatix.de</a></p>\n"
                         },
                         {
-                            "pos": 1121,
-                            "end": 1134,
-                            "flags": 16842752,
-                            "modifierFlagsCache": 0,
-                            "transformFlags": 0,
-                            "kind": 340,
-                            "tagName": {
-                                "pos": 1122,
-                                "end": 1128,
-                                "flags": 16842752,
-                                "modifierFlagsCache": 0,
-                                "transformFlags": 0,
-                                "kind": 80,
-                                "escapedText": "public"
-                            },
-                            "comment": ""
-                        },
-                        {
-                            "pos": 1134,
-                            "end": 1151,
+                            "pos": 1292,
+                            "end": 1307,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 1135,
-                                "end": 1142,
+                                "pos": 1293,
+                                "end": 1300,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -722,86 +739,53 @@
                                 "escapedText": "package"
                             },
                             "comment": "<p>ui</p>\n"
-                        },
-                        {
-                            "pos": 1151,
-                            "end": 1166,
-                            "flags": 16842752,
-                            "modifierFlagsCache": 0,
-                            "transformFlags": 0,
-                            "kind": 334,
-                            "tagName": {
-                                "pos": 1152,
-                                "end": 1160,
-                                "flags": 16842752,
-                                "modifierFlagsCache": 0,
-                                "transformFlags": 0,
-                                "kind": 80,
-                                "escapedText": "property"
-                            },
-                            "comment": ""
-                        },
-                        {
-                            "pos": 1166,
-                            "end": 1178,
-                            "flags": 16842752,
-                            "modifierFlagsCache": 0,
-                            "transformFlags": 0,
-                            "kind": 351,
-                            "tagName": {
-                                "pos": 1167,
-                                "end": 1171,
-                                "flags": 16842752,
-                                "modifierFlagsCache": 0,
-                                "transformFlags": 0,
-                                "kind": 80,
-                                "escapedText": "type"
-                            },
-                            "comment": "",
-                            "typeExpression": {
-                                "pos": 1172,
-                                "end": 1178,
-                                "flags": 16842752,
-                                "modifierFlagsCache": 0,
-                                "transformFlags": 0,
-                                "kind": 316,
-                                "type": {
-                                    "pos": 1172,
-                                    "end": 1178,
-                                    "flags": 16777216,
-                                    "modifierFlagsCache": 0,
-                                    "transformFlags": 1,
-                                    "kind": 154
-                                }
-                            }
                         }
                     ],
                     "rawdescription": "\n\nChange the type of the input\n\n",
                     "description": "<p>Change the type of the input</p>\n",
-                    "line": 53,
+                    "line": 50,
                     "type": "InputType",
                     "decorators": []
                 }
             ],
             "outputsClass": [],
-            "propertiesClass": [],
+            "propertiesClass": [
+                {
+                    "name": "internalRefId",
+                    "defaultValue": "crypto.randomUUID()",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 61,
+                    "modifierKind": [
+                        124
+                    ]
+                }
+            ],
             "methodsClass": [],
             "deprecated": false,
             "deprecationMessage": "",
             "hostBindings": [],
             "hostListeners": [],
             "standalone": true,
-            "imports": [],
+            "imports": [
+                {
+                    "name": "IconComponent",
+                    "type": "component"
+                }
+            ],
             "description": "<p>A simple input that can have click listeners and so on.</p>\n<p>Provide a label at least and an optional type for its appearance.</p>\n<p>Usage:</p>\n<b>Example :</b><div><pre class=\"line-numbers\"><code class=\"language-html\">&lt;app-input label=&quot;My input&quot; type=&quot;primary&quot; /&gt;</code></pre></div>",
             "rawdescription": "\n\nA simple input that can have click listeners and so on.\n\nProvide a label at least and an optional type for its appearance.\n\nUsage:\n\n```html\n<app-input label=\"My input\" type=\"primary\" />\n```\n\n",
             "type": "component",
-            "sourceCode": "import {Component, Input} from '@angular/core';\n\nexport type InputType= 'primary'|'secondary';\n\n/**\n * A simple input that can have click listeners and so on.\n *\n * Provide a label at least and an optional type for its appearance.\n *\n * Usage:\n *\n * ```html\n * <app-input label=\"My input\" type=\"primary\" />\n * ```\n *\n * @since 0.0.1\n * @author Christian Illies<c.illies@finatix.de>\n * @public\n * @package ui\n */\n@Component({\n  selector: 'app-input',\n  standalone: true,\n  imports: [],\n  templateUrl: './input.component.html',\n  styleUrl: './input.component.scss'\n})\nexport class InputComponent {\n  /**\n   * Change the label of the input by passing the input \"label\" here.\n   * This is mandatory to show a input anyway.\n   * @required\n   * @since 0.0.1\n   * @summary Label of the input\n   * @author Christian Illies<c.illies@finatix.de>\n   * @public\n   * @package ui\n   * @property\n   * @type string\n   */\n  @Input({required: true}) public label: string = 'Input Label';\n  /**\n   * Change the type of the input\n   *\n   * @since 0.0.1\n   * @summary Type of the input\n   * @author Christian Illies<c.illies@finatix.de>\n   * @public\n   * @package ui\n   * @property\n   * @type string\n   */\n  @Input({required: false}) type: InputType = 'primary';\n}\n",
+            "sourceCode": "import { ChangeDetectionStrategy, Component, Input } from '@angular/core';\nimport { IconName } from '@fortawesome/free-regular-svg-icons';\nimport { IconComponent } from '../icon/icon.component';\n\nexport type InputType = 'primary' | 'secondary';\n\n/**\n * A simple input that can have click listeners and so on.\n *\n * Provide a label at least and an optional type for its appearance.\n *\n * Usage:\n *\n * ```html\n * <app-input label=\"My input\" type=\"primary\" />\n * ```\n *\n * @since 0.0.1\n * @author Christian Illies<c.illies@finatix.de>\n * @public\n * @package ui\n */\n@Component({\n  selector: 'app-input',\n  standalone: true,\n  imports: [IconComponent],\n  templateUrl: './input.component.html',\n  styleUrl: './input.component.scss',\n  changeDetection: ChangeDetectionStrategy.OnPush,\n})\nexport class InputComponent {\n  /**\n   * Change the label of the input by passing the input \"label\" here.\n   * This is mandatory to show a input anyway.\n   * @required\n   * @since 0.0.1\n   * @summary Label of the input\n   * @author Christian Illies<c.illies@finatix.de>\n   * @package ui\n   */\n  @Input({ required: true }) public label: string = 'Input Label';\n  /**\n   * Change the type of the input\n   *\n   * @since 0.0.1\n   * @summary Type of the input\n   * @author Christian Illies<c.illies@finatix.de>\n   * @package ui\n   */\n  @Input({ required: false }) type: InputType = 'primary';\n  /**\n   * Add an icon if needed\n   *\n   * @since 0.0.2\n   * @summary icon for the input\n   * @author Christian Illies<c.illies@finatix.de>\n   * @package ui\n   */\n  @Input({ required: false }) icon: IconName | undefined;\n\n  protected internalRefId = crypto.randomUUID();\n}\n",
             "styleUrl": "./input.component.scss",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
             "extends": [],
-            "templateData": "<label>{{label}}: <input [attr.class]=\"type\" type=\"text\"/></label>\n"
+            "templateData": "<label [attr.for]=\"internalRefId\">@if (icon) {\n  <app-icon [iconName]=\"icon\"/>\n} {{ label }}:</label>\n<input [attr.class]=\"type\" [attr.id]=\"internalRefId\" type=\"text\"/>\n"
         }
     ],
     "modules": [],
@@ -816,6 +800,16 @@
                 "deprecationMessage": "",
                 "type": "ApplicationConfig",
                 "defaultValue": "{\n  providers: []\n}"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/ui/icon/icon.component.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "StoryObj<IconComponent>",
+                "defaultValue": "{\n  args: {\n    iconName: 'coffee',\n  },\n}"
             },
             {
                 "name": "Default",
@@ -841,11 +835,21 @@
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
+                "file": "src/app/ui/icon/icon.component.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<IconComponent>",
+                "defaultValue": "{\n  title: 'UI/Icon',\n  component: IconComponent,\n  tags: ['autodocs'],\n  argTypes: {\n    iconName: {\n      options: [\n        'cookie-bite',\n        'arrow-trend-down',\n        'rss',\n        'feed',\n        'face-monocle',\n        'draw-polygon',\n        'scale-balanced',\n        'balance-scale',\n        'calendar-lines',\n        'calendar-note',\n        'arrow-down-big-small',\n        'sort-size-down',\n        'gauge-simple-high',\n        'tachometer',\n        'tachometer-fast',\n        'do-not-enter',\n        'shower',\n        'dice-d8',\n        'desktop',\n        'desktop-alt',\n        'm',\n        'spinner-scale',\n        'grip-dots-vertical',\n        'face-viewfinder',\n        'soft-serve',\n        'creemee',\n        'h5',\n        'hand-back-point-down',\n        'table-list',\n        'th-list',\n        'basket-shopping-minus',\n        'comment-sms',\n        'sms',\n        'rectangle',\n        'rectangle-landscape',\n        'clipboard-list-check',\n        'turkey',\n        'book',\n        'user-plus',\n        'ice-skate',\n        'check',\n        'battery-three-quarters',\n        'battery4',\n        'tomato',\n        'sword-laser',\n        'house-circle-check',\n        'buildings',\n        'angle-left',\n        'cart-flatbed-boxes',\n        'dolly-flatbed-alt',\n        'diagram-successor',\n        'truck-arrow-right',\n        'square-w',\n        'arrows-split-up-and-left',\n        'lamp',\n        'airplay',\n        'hand-fist',\n        'fist-raised',\n        'shield-quartered',\n        'slash-forward',\n        'location-pen',\n        'map-marker-edit',\n        'cloud-moon',\n        'pot-food',\n        'briefcase',\n        'person-falling',\n        'image-portrait',\n        'portrait',\n        'user-tag',\n        'rug',\n        'print-slash',\n        'earth-europe',\n        'globe-europe',\n        'cart-flatbed-suitcase',\n        'luggage-cart',\n        'hand-back-point-ribbon',\n        'rectangle-xmark',\n        'rectangle-times',\n        'times-rectangle',\n        'window-close',\n        'tire-rugged',\n        'lightbulb-dollar',\n        'cowbell',\n        'baht-sign',\n        'corner',\n        'chevrons-right',\n        'chevron-double-right',\n        'book-open',\n        'book-journal-whills',\n        'journal-whills',\n        'inhaler',\n        'handcuffs',\n        'snake',\n        'triangle-exclamation',\n        'exclamation-triangle',\n        'warning',\n        'note-medical',\n        'database',\n        'down-left',\n        'share',\n        'mail-forward',\n        'face-thinking',\n        'turn-down-right',\n        'bottle-droplet',\n        'mask-face',\n        'hill-rockslide',\n        'scanner-keyboard',\n        'circle-o',\n        'grid-horizontal',\n        'message-dollar',\n        'comment-alt-dollar',\n        'right-left',\n        'exchange-alt',\n        'columns-3',\n        'paper-plane',\n        'road-circle-exclamation',\n        'dungeon',\n        'hand-holding-box',\n        'input-text',\n        'window-flip',\n        'window-alt',\n        'align-right',\n        'scanner-gun',\n        'scanner',\n        'tire',\n        'engine',\n        'money-bill-1-wave',\n        'money-bill-wave-alt',\n        'life-ring',\n        'hands',\n        'sign-language',\n        'signing',\n        'circle-caret-right',\n        'caret-circle-right',\n        'turn-left',\n        'wheat',\n        'file-spreadsheet',\n        'audio-description-slash',\n        'bell-ring',\n        'calendar-day',\n        'water-ladder',\n        'ladder-water',\n        'swimming-pool',\n        'arrows-up-down',\n        'arrows-v',\n        'chess-pawn-piece',\n        'chess-pawn-alt',\n        'face-grimace',\n        'grimace',\n      ],\n      control: { type: 'select' }, // Automatically inferred when 'options' is defined\n    },\n  },\n}"
+            },
+            {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
                 "file": "src/app/ui/button/button.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<ButtonComponent>",
-                "defaultValue": "{\n  title: 'UI/Button',\n  component: ButtonComponent,\n  tags: ['autodocs']\n}"
+                "defaultValue": "{\n  title: 'UI/Button',\n  component: ButtonComponent,\n  tags: ['autodocs'],\n}"
             },
             {
                 "name": "meta",
@@ -886,6 +890,26 @@
                 "deprecationMessage": "",
                 "type": "StoryObj<InputComponent>",
                 "defaultValue": "{\n  name: 'Secondary Input',\n  args: {\n    type: 'secondary',\n    label: 'Your Secondary Input label',\n  },\n}"
+            },
+            {
+                "name": "WithIcon",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/ui/button/button.component.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "StoryObj<ButtonComponent>",
+                "defaultValue": "{\n  name: 'Icon Button',\n  args: {\n    type: 'primary',\n    label: 'A button with an icon',\n    icon: 'coffee',\n  },\n}"
+            },
+            {
+                "name": "WithIcon",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/ui/input/input.component.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "StoryObj<InputComponent>",
+                "defaultValue": "{\n  name: 'Input with Icon',\n  args: {\n    label: 'Your Input label',\n    icon: 'fingerprint',\n  },\n}"
             }
         ],
         "functions": [],
@@ -927,6 +951,28 @@
                     "defaultValue": "{\n  providers: []\n}"
                 }
             ],
+            "src/app/ui/icon/icon.component.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/ui/icon/icon.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "StoryObj<IconComponent>",
+                    "defaultValue": "{\n  args: {\n    iconName: 'coffee',\n  },\n}"
+                },
+                {
+                    "name": "meta",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/ui/icon/icon.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Meta<IconComponent>",
+                    "defaultValue": "{\n  title: 'UI/Icon',\n  component: IconComponent,\n  tags: ['autodocs'],\n  argTypes: {\n    iconName: {\n      options: [\n        'cookie-bite',\n        'arrow-trend-down',\n        'rss',\n        'feed',\n        'face-monocle',\n        'draw-polygon',\n        'scale-balanced',\n        'balance-scale',\n        'calendar-lines',\n        'calendar-note',\n        'arrow-down-big-small',\n        'sort-size-down',\n        'gauge-simple-high',\n        'tachometer',\n        'tachometer-fast',\n        'do-not-enter',\n        'shower',\n        'dice-d8',\n        'desktop',\n        'desktop-alt',\n        'm',\n        'spinner-scale',\n        'grip-dots-vertical',\n        'face-viewfinder',\n        'soft-serve',\n        'creemee',\n        'h5',\n        'hand-back-point-down',\n        'table-list',\n        'th-list',\n        'basket-shopping-minus',\n        'comment-sms',\n        'sms',\n        'rectangle',\n        'rectangle-landscape',\n        'clipboard-list-check',\n        'turkey',\n        'book',\n        'user-plus',\n        'ice-skate',\n        'check',\n        'battery-three-quarters',\n        'battery4',\n        'tomato',\n        'sword-laser',\n        'house-circle-check',\n        'buildings',\n        'angle-left',\n        'cart-flatbed-boxes',\n        'dolly-flatbed-alt',\n        'diagram-successor',\n        'truck-arrow-right',\n        'square-w',\n        'arrows-split-up-and-left',\n        'lamp',\n        'airplay',\n        'hand-fist',\n        'fist-raised',\n        'shield-quartered',\n        'slash-forward',\n        'location-pen',\n        'map-marker-edit',\n        'cloud-moon',\n        'pot-food',\n        'briefcase',\n        'person-falling',\n        'image-portrait',\n        'portrait',\n        'user-tag',\n        'rug',\n        'print-slash',\n        'earth-europe',\n        'globe-europe',\n        'cart-flatbed-suitcase',\n        'luggage-cart',\n        'hand-back-point-ribbon',\n        'rectangle-xmark',\n        'rectangle-times',\n        'times-rectangle',\n        'window-close',\n        'tire-rugged',\n        'lightbulb-dollar',\n        'cowbell',\n        'baht-sign',\n        'corner',\n        'chevrons-right',\n        'chevron-double-right',\n        'book-open',\n        'book-journal-whills',\n        'journal-whills',\n        'inhaler',\n        'handcuffs',\n        'snake',\n        'triangle-exclamation',\n        'exclamation-triangle',\n        'warning',\n        'note-medical',\n        'database',\n        'down-left',\n        'share',\n        'mail-forward',\n        'face-thinking',\n        'turn-down-right',\n        'bottle-droplet',\n        'mask-face',\n        'hill-rockslide',\n        'scanner-keyboard',\n        'circle-o',\n        'grid-horizontal',\n        'message-dollar',\n        'comment-alt-dollar',\n        'right-left',\n        'exchange-alt',\n        'columns-3',\n        'paper-plane',\n        'road-circle-exclamation',\n        'dungeon',\n        'hand-holding-box',\n        'input-text',\n        'window-flip',\n        'window-alt',\n        'align-right',\n        'scanner-gun',\n        'scanner',\n        'tire',\n        'engine',\n        'money-bill-1-wave',\n        'money-bill-wave-alt',\n        'life-ring',\n        'hands',\n        'sign-language',\n        'signing',\n        'circle-caret-right',\n        'caret-circle-right',\n        'turn-left',\n        'wheat',\n        'file-spreadsheet',\n        'audio-description-slash',\n        'bell-ring',\n        'calendar-day',\n        'water-ladder',\n        'ladder-water',\n        'swimming-pool',\n        'arrows-up-down',\n        'arrows-v',\n        'chess-pawn-piece',\n        'chess-pawn-alt',\n        'face-grimace',\n        'grimace',\n      ],\n      control: { type: 'select' }, // Automatically inferred when 'options' is defined\n    },\n  },\n}"
+                }
+            ],
             "src/app/ui/button/button.component.stories.ts": [
                 {
                     "name": "Default",
@@ -946,7 +992,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Meta<ButtonComponent>",
-                    "defaultValue": "{\n  title: 'UI/Button',\n  component: ButtonComponent,\n  tags: ['autodocs']\n}"
+                    "defaultValue": "{\n  title: 'UI/Button',\n  component: ButtonComponent,\n  tags: ['autodocs'],\n}"
                 },
                 {
                     "name": "Secondary",
@@ -957,6 +1003,16 @@
                     "deprecationMessage": "",
                     "type": "StoryObj<ButtonComponent>",
                     "defaultValue": "{\n  name: 'Secondary Button',\n  args: {\n    type: 'secondary',\n    label: 'Your Secondary Button label',\n  },\n}"
+                },
+                {
+                    "name": "WithIcon",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/ui/button/button.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "StoryObj<ButtonComponent>",
+                    "defaultValue": "{\n  name: 'Icon Button',\n  args: {\n    type: 'primary',\n    label: 'A button with an icon',\n    icon: 'coffee',\n  },\n}"
                 }
             ],
             "src/app/ui/input/input.component.stories.ts": [
@@ -989,6 +1045,16 @@
                     "deprecationMessage": "",
                     "type": "StoryObj<InputComponent>",
                     "defaultValue": "{\n  name: 'Secondary Input',\n  args: {\n    type: 'secondary',\n    label: 'Your Secondary Input label',\n  },\n}"
+                },
+                {
+                    "name": "WithIcon",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/ui/input/input.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "StoryObj<InputComponent>",
+                    "defaultValue": "{\n  name: 'Input with Icon',\n  args: {\n    label: 'Your Input label',\n    icon: 'fingerprint',\n  },\n}"
                 }
             ],
             ".storybook/preview.ts": [
@@ -1037,7 +1103,7 @@
     },
     "routes": [],
     "coverage": {
-        "count": 18,
+        "count": 15,
         "status": "low",
         "files": [
             {
@@ -1100,13 +1166,52 @@
                 "status": "low"
             },
             {
+                "filePath": "src/app/ui/button/button.component.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "WithIcon",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
                 "filePath": "src/app/ui/button/button.component.ts",
                 "type": "component",
                 "linktype": "component",
                 "name": "ButtonComponent",
                 "coveragePercent": 100,
-                "coverageCount": "3/3",
+                "coverageCount": "4/4",
                 "status": "very-good"
+            },
+            {
+                "filePath": "src/app/ui/icon/icon.component.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Default",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/ui/icon/icon.component.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "meta",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/ui/icon/icon.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "IconComponent",
+                "coveragePercent": 66,
+                "coverageCount": "2/3",
+                "status": "good"
             },
             {
                 "filePath": "src/app/ui/input/input.component.stories.ts",
@@ -1139,12 +1244,22 @@
                 "status": "low"
             },
             {
+                "filePath": "src/app/ui/input/input.component.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "WithIcon",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
                 "filePath": "src/app/ui/input/input.component.ts",
                 "type": "component",
                 "linktype": "component",
                 "name": "InputComponent",
-                "coveragePercent": 100,
-                "coverageCount": "3/3",
+                "coveragePercent": 80,
+                "coverageCount": "4/5",
                 "status": "very-good"
             }
         ]

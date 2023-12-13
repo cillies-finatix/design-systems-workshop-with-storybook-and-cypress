@@ -1,4 +1,6 @@
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
+import { IconName } from '@fortawesome/free-regular-svg-icons';
+import { IconComponent } from '../icon/icon.component';
 
 export type InputType = 'primary' | 'secondary';
 
@@ -21,7 +23,7 @@ export type InputType = 'primary' | 'secondary';
 @Component({
   selector: 'app-input',
   standalone: true,
-  imports: [],
+  imports: [IconComponent],
   templateUrl: './input.component.html',
   styleUrl: './input.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -34,10 +36,7 @@ export class InputComponent {
    * @since 0.0.1
    * @summary Label of the input
    * @author Christian Illies<c.illies@finatix.de>
-   * @public
    * @package ui
-   * @property
-   * @type string
    */
   @Input({ required: true }) public label: string = 'Input Label';
   /**
@@ -46,12 +45,18 @@ export class InputComponent {
    * @since 0.0.1
    * @summary Type of the input
    * @author Christian Illies<c.illies@finatix.de>
-   * @public
    * @package ui
-   * @property
-   * @type string
    */
   @Input({ required: false }) type: InputType = 'primary';
+  /**
+   * Add an icon if needed
+   *
+   * @since 0.0.2
+   * @summary icon for the input
+   * @author Christian Illies<c.illies@finatix.de>
+   * @package ui
+   */
+  @Input({ required: false }) icon: IconName | undefined;
 
-  protected internalRefId = Math.random().toString(32).substring(2);
+  protected internalRefId = crypto.randomUUID();
 }

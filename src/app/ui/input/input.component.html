@@ -1,2 +1,4 @@
-<label [attr.for]="internalRefId">{{ label }}:</label>
+<label [attr.for]="internalRefId">@if (icon) {
+  <app-icon [iconName]="icon"/>
+} {{ label }}:</label>
 <input [attr.class]="type" [attr.id]="internalRefId" type="text"/>
