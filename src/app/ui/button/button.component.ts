@@ -1,6 +1,6 @@
-import {Component, Input} from '@angular/core';
+import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 
-export type ButtonType= 'primary'|'secondary';
+export type ButtonType = 'primary' | 'secondary';
 
 /**
  * A simple button that can have click listeners and so on.
@@ -23,7 +23,8 @@ export type ButtonType= 'primary'|'secondary';
   standalone: true,
   imports: [],
   templateUrl: './button.component.html',
-  styleUrl: './button.component.scss'
+  styleUrl: './button.component.scss',
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ButtonComponent {
   /**
@@ -38,7 +39,7 @@ export class ButtonComponent {
    * @property
    * @type string
    */
-  @Input({required: true}) public label: string = 'Button Label';
+  @Input({ required: true }) public label: string = 'Button Label';
   /**
    * Change the type of the button
    *
@@ -50,5 +51,5 @@ export class ButtonComponent {
    * @property
    * @type string
    */
-  @Input({required: false}) type: ButtonType = 'primary';
+  @Input({ required: false }) type: ButtonType = 'primary';
 }

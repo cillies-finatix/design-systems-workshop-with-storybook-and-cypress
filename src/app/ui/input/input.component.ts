@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 
 export type InputType = 'primary' | 'secondary';
 
@@ -24,6 +24,7 @@ export type InputType = 'primary' | 'secondary';
   imports: [],
   templateUrl: './input.component.html',
   styleUrl: './input.component.scss',
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class InputComponent {
   /**
