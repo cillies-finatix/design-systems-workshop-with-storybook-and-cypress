@@ -1,9 +1,9 @@
-import { InputComponent } from './input.component';
-import { Default } from './input.component.stories';
+import { FormInputComponent } from './form-input.component';
+import { Default } from './form-input.component.stories';
 
-describe('The InputComponent', () => {
+describe('The FormInputComponent', () => {
   beforeEach(() => {
-    cy.mount(InputComponent, {
+    cy.mount(FormInputComponent, {
       componentProperties: Default.args,
     });
   });

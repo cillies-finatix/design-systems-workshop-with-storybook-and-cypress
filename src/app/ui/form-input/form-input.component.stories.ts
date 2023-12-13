@@ -1,24 +1,24 @@
 import type { Meta, StoryObj } from '@storybook/angular';
 
-import { InputComponent } from './input.component';
+import { FormInputComponent } from './form-input.component';
 
-const meta: Meta<InputComponent> = {
+const meta: Meta<FormInputComponent> = {
   title: 'UI/Form/Input',
-  component: InputComponent,
+  component: FormInputComponent,
   argTypes: {
     placeholder: { control: 'text' },
     value: { control: 'text' },
   },
 };
 
-export const Default: StoryObj<InputComponent> = {
+export const Default: StoryObj<FormInputComponent> = {
   name: 'Default/Primary Input',
   args: {
     placeholder: 'Straße und Hausnummer',
   },
 };
 
-export const Email: StoryObj<InputComponent> = {
+export const Email: StoryObj<FormInputComponent> = {
   name: 'Email Input',
   args: {
     type: 'email',
@@ -26,7 +26,7 @@ export const Email: StoryObj<InputComponent> = {
   },
 };
 
-export const Password: StoryObj<InputComponent> = {
+export const Password: StoryObj<FormInputComponent> = {
   name: 'Password Input',
   args: {
     type: 'password',

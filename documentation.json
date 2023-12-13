@@ -387,7 +387,7 @@
         },
         {
             "name": "FormElementComponent",
-            "id": "component-FormElementComponent-bc4dc3c7990bd91851a33bb133a2b1c4014eee277cc6ce4b5d0444b4841f613ea93021949309202329556ab88ca1b0d186eb3cd288dd73e0ef1671a20403b7f2",
+            "id": "component-FormElementComponent-3efeba18dca95f4096aba90a7e73d03292b62620c4b506e0f9da7508930cb987ef848776067a1e429584be02af5aa883c7ea7b6f969098a74d6c7a6393adbe9b",
             "file": "src/app/ui/form-element/form-element.component.ts",
             "changeDetection": "ChangeDetectionStrategy.OnPush",
             "encapsulation": [],
@@ -413,15 +413,15 @@
                     "optional": false,
                     "jsdoctags": [
                         {
-                            "pos": 484,
-                            "end": 502,
+                            "pos": 507,
+                            "end": 525,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 485,
-                                "end": 490,
+                                "pos": 508,
+                                "end": 513,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -431,15 +431,15 @@
                             "comment": "<p>0.0.3</p>\n"
                         },
                         {
-                            "pos": 502,
-                            "end": 522,
+                            "pos": 525,
+                            "end": 545,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 503,
-                                "end": 510,
+                                "pos": 526,
+                                "end": 533,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -449,15 +449,15 @@
                             "comment": "<p>label</p>\n"
                         },
                         {
-                            "pos": 522,
-                            "end": 573,
+                            "pos": 545,
+                            "end": 596,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 337,
                             "tagName": {
-                                "pos": 523,
-                                "end": 529,
+                                "pos": 546,
+                                "end": 552,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -467,15 +467,15 @@
                             "comment": "<p>Christian Illies<a href=\"mailto:c.illies@finatix.de\">c.illies@finatix.de</a></p>\n"
                         },
                         {
-                            "pos": 573,
-                            "end": 588,
+                            "pos": 596,
+                            "end": 611,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 574,
-                                "end": 581,
+                                "pos": 597,
+                                "end": 604,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -487,7 +487,7 @@
                     ],
                     "rawdescription": "\n\nlabel of the input\n\n",
                     "description": "<p>label of the input</p>\n",
-                    "line": 26,
+                    "line": 29,
                     "type": "string",
                     "decorators": []
                 },
@@ -498,15 +498,15 @@
                     "deprecationMessage": "",
                     "jsdoctags": [
                         {
-                            "pos": 893,
-                            "end": 911,
+                            "pos": 916,
+                            "end": 934,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 894,
-                                "end": 899,
+                                "pos": 917,
+                                "end": 922,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -516,15 +516,15 @@
                             "comment": "<p>0.0.3</p>\n"
                         },
                         {
-                            "pos": 911,
-                            "end": 963,
+                            "pos": 934,
+                            "end": 986,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 912,
-                                "end": 919,
+                                "pos": 935,
+                                "end": 942,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -534,15 +534,15 @@
                             "comment": "<p>Placeholder when no value is provided</p>\n"
                         },
                         {
-                            "pos": 963,
-                            "end": 1014,
+                            "pos": 986,
+                            "end": 1037,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 337,
                             "tagName": {
-                                "pos": 964,
-                                "end": 970,
+                                "pos": 987,
+                                "end": 993,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -552,15 +552,15 @@
                             "comment": "<p>Christian Illies<a href=\"mailto:c.illies@finatix.de\">c.illies@finatix.de</a></p>\n"
                         },
                         {
-                            "pos": 1014,
-                            "end": 1029,
+                            "pos": 1037,
+                            "end": 1052,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 1015,
-                                "end": 1022,
+                                "pos": 1038,
+                                "end": 1045,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -572,7 +572,7 @@
                     ],
                     "rawdescription": "\n\nPlaceholder of the input\n\n",
                     "description": "<p>Placeholder of the input</p>\n",
-                    "line": 45,
+                    "line": 48,
                     "type": "string",
                     "decorators": []
                 },
@@ -583,15 +583,15 @@
                     "deprecationMessage": "",
                     "jsdoctags": [
                         {
-                            "pos": 690,
-                            "end": 708,
+                            "pos": 713,
+                            "end": 731,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 691,
-                                "end": 696,
+                                "pos": 714,
+                                "end": 719,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -601,15 +601,15 @@
                             "comment": "<p>0.0.1</p>\n"
                         },
                         {
-                            "pos": 708,
-                            "end": 740,
+                            "pos": 731,
+                            "end": 763,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 709,
-                                "end": 716,
+                                "pos": 732,
+                                "end": 739,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -619,15 +619,15 @@
                             "comment": "<p>Type of the input</p>\n"
                         },
                         {
-                            "pos": 740,
-                            "end": 791,
+                            "pos": 763,
+                            "end": 814,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 337,
                             "tagName": {
-                                "pos": 741,
-                                "end": 747,
+                                "pos": 764,
+                                "end": 770,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -637,15 +637,15 @@
                             "comment": "<p>Christian Illies<a href=\"mailto:c.illies@finatix.de\">c.illies@finatix.de</a></p>\n"
                         },
                         {
-                            "pos": 791,
-                            "end": 806,
+                            "pos": 814,
+                            "end": 829,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 792,
-                                "end": 799,
+                                "pos": 815,
+                                "end": 822,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -657,7 +657,7 @@
                     ],
                     "rawdescription": "\n\nChange the type of the input\n\n",
                     "description": "<p>Change the type of the input</p>\n",
-                    "line": 35,
+                    "line": 38,
                     "type": "InputType",
                     "decorators": []
                 },
@@ -667,15 +667,15 @@
                     "deprecationMessage": "",
                     "jsdoctags": [
                         {
-                            "pos": 1109,
-                            "end": 1127,
+                            "pos": 1132,
+                            "end": 1150,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 1110,
-                                "end": 1115,
+                                "pos": 1133,
+                                "end": 1138,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -685,15 +685,15 @@
                             "comment": "<p>0.0.3</p>\n"
                         },
                         {
-                            "pos": 1127,
-                            "end": 1147,
+                            "pos": 1150,
+                            "end": 1170,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 1128,
-                                "end": 1135,
+                                "pos": 1151,
+                                "end": 1158,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -703,15 +703,15 @@
                             "comment": "<p>value</p>\n"
                         },
                         {
-                            "pos": 1147,
-                            "end": 1198,
+                            "pos": 1170,
+                            "end": 1221,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 337,
                             "tagName": {
-                                "pos": 1148,
-                                "end": 1154,
+                                "pos": 1171,
+                                "end": 1177,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -721,15 +721,15 @@
                             "comment": "<p>Christian Illies<a href=\"mailto:c.illies@finatix.de\">c.illies@finatix.de</a></p>\n"
                         },
                         {
-                            "pos": 1198,
-                            "end": 1213,
+                            "pos": 1221,
+                            "end": 1236,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 1199,
-                                "end": 1206,
+                                "pos": 1222,
+                                "end": 1229,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -741,7 +741,7 @@
                     ],
                     "rawdescription": "\n\nvalue of the input\n\n",
                     "description": "<p>value of the input</p>\n",
-                    "line": 54,
+                    "line": 57,
                     "type": "string | undefined",
                     "decorators": []
                 }
@@ -756,7 +756,7 @@
                     "type": "string",
                     "optional": false,
                     "description": "",
-                    "line": 56,
+                    "line": 59,
                     "modifierKind": [
                         124
                     ]
@@ -770,7 +770,7 @@
                     "name": "class",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 58,
+                    "line": 61,
                     "type": "InputType",
                     "decorators": []
                 }
@@ -779,14 +779,14 @@
             "standalone": true,
             "imports": [
                 {
-                    "name": "InputComponent",
+                    "name": "FormInputComponent",
                     "type": "component"
                 }
             ],
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import {\n  ChangeDetectionStrategy,\n  Component,\n  HostBinding,\n  Input,\n} from '@angular/core';\nimport { InputComponent, InputType } from '../input/input.component';\n\n@Component({\n  selector: 'app-form-element',\n  standalone: true,\n  imports: [InputComponent],\n  templateUrl: './form-element.component.html',\n  styleUrl: './form-element.component.css',\n  changeDetection: ChangeDetectionStrategy.OnPush,\n})\nexport class FormElementComponent {\n  /**\n   * label of the input\n   *\n   * @since 0.0.3\n   * @summary label\n   * @author Christian Illies<c.illies@finatix.de>\n   * @package ui\n   */\n  @Input({ required: true }) label: string = '';\n  /**\n   * Change the type of the input\n   *\n   * @since 0.0.1\n   * @summary Type of the input\n   * @author Christian Illies<c.illies@finatix.de>\n   * @package ui\n   */\n  @Input() type: InputType = 'text';\n\n  /**\n   * Placeholder of the input\n   *\n   * @since 0.0.3\n   * @summary Placeholder when no value is provided\n   * @author Christian Illies<c.illies@finatix.de>\n   * @package ui\n   */\n  @Input() placeholder: string = '';\n  /**\n   * value of the input\n   *\n   * @since 0.0.3\n   * @summary value\n   * @author Christian Illies<c.illies@finatix.de>\n   * @package ui\n   */\n  @Input() value: string | undefined;\n\n  protected id: string = crypto.randomUUID();\n\n  @HostBinding('class') get classNames() {\n    return this.type;\n  }\n}\n",
+            "sourceCode": "import {\n  ChangeDetectionStrategy,\n  Component,\n  HostBinding,\n  Input,\n} from '@angular/core';\nimport {\n  FormInputComponent,\n  InputType,\n} from '../form-input/form-input.component';\n\n@Component({\n  selector: 'app-form-element',\n  standalone: true,\n  imports: [FormInputComponent],\n  templateUrl: './form-element.component.html',\n  styleUrl: './form-element.component.css',\n  changeDetection: ChangeDetectionStrategy.OnPush,\n})\nexport class FormElementComponent {\n  /**\n   * label of the input\n   *\n   * @since 0.0.3\n   * @summary label\n   * @author Christian Illies<c.illies@finatix.de>\n   * @package ui\n   */\n  @Input({ required: true }) label: string = '';\n  /**\n   * Change the type of the input\n   *\n   * @since 0.0.1\n   * @summary Type of the input\n   * @author Christian Illies<c.illies@finatix.de>\n   * @package ui\n   */\n  @Input() type: InputType = 'text';\n\n  /**\n   * Placeholder of the input\n   *\n   * @since 0.0.3\n   * @summary Placeholder when no value is provided\n   * @author Christian Illies<c.illies@finatix.de>\n   * @package ui\n   */\n  @Input() placeholder: string = '';\n  /**\n   * value of the input\n   *\n   * @since 0.0.3\n   * @summary value\n   * @author Christian Illies<c.illies@finatix.de>\n   * @package ui\n   */\n  @Input() value: string | undefined;\n\n  protected id: string = crypto.randomUUID();\n\n  @HostBinding('class') get classNames() {\n    return this.type;\n  }\n}\n",
             "styleUrl": "./form-element.component.css",
             "assetsDirs": [],
             "styleUrlsData": "",
@@ -799,11 +799,451 @@
                         "name": "classNames",
                         "type": "",
                         "returnType": "",
-                        "line": 58
+                        "line": 61
                     }
                 }
             },
-            "templateData": "<label [attr.for]=\"id\">{{ label }}</label>\n<app-input [id]=\"id\"\n           [placeholder]=\"placeholder\"\n           [type]=\"type\"\n           [value]=\"value\"/>\n"
+            "templateData": "<label [attr.for]=\"id\">{{ label }}</label>\n<app-form-input [id]=\"id\"\n                [placeholder]=\"placeholder\"\n                [type]=\"type\"\n                [value]=\"value\"/>\n"
+        },
+        {
+            "name": "FormInputComponent",
+            "id": "component-FormInputComponent-e64ee4ceaee1fd44c37f740ea4ece3ba799e80e1f83ff262e1e715c1dfe76fcb08a1b39980f2610979919da48be8235206cbc59fe05ed94becdf2da61ffe2f7b",
+            "file": "src/app/ui/form-input/form-input.component.ts",
+            "changeDetection": "ChangeDetectionStrategy.OnPush",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-form-input",
+            "styleUrls": [],
+            "styles": [],
+            "templateUrl": [
+                "./form-input.component.html"
+            ],
+            "viewProviders": [],
+            "hostDirectives": [],
+            "inputsClass": [
+                {
+                    "name": "id",
+                    "defaultValue": "crypto.randomUUID()",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "jsdoctags": [
+                        {
+                            "pos": 1345,
+                            "end": 1363,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 334,
+                            "tagName": {
+                                "pos": 1346,
+                                "end": 1351,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 80,
+                                "escapedText": "since"
+                            },
+                            "comment": "<p>0.0.3</p>\n"
+                        },
+                        {
+                            "pos": 1363,
+                            "end": 1415,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 334,
+                            "tagName": {
+                                "pos": 1364,
+                                "end": 1371,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 80,
+                                "escapedText": "summary"
+                            },
+                            "comment": "<p>Placeholder when no value is provided</p>\n"
+                        },
+                        {
+                            "pos": 1415,
+                            "end": 1466,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 337,
+                            "tagName": {
+                                "pos": 1416,
+                                "end": 1422,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 80,
+                                "escapedText": "author"
+                            },
+                            "comment": "<p>Christian Illies<a href=\"mailto:c.illies@finatix.de\">c.illies@finatix.de</a></p>\n"
+                        },
+                        {
+                            "pos": 1466,
+                            "end": 1483,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 334,
+                            "tagName": {
+                                "pos": 1467,
+                                "end": 1474,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 80,
+                                "escapedText": "package"
+                            },
+                            "comment": "<p>ui</p>\n"
+                        },
+                        {
+                            "pos": 1483,
+                            "end": 1496,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 334,
+                            "tagName": {
+                                "pos": 1484,
+                                "end": 1492,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 80,
+                                "escapedText": "internal"
+                            },
+                            "comment": ""
+                        }
+                    ],
+                    "rawdescription": "\n\nPlaceholder of the input\n\n",
+                    "description": "<p>Placeholder of the input</p>\n",
+                    "line": 66,
+                    "type": "string",
+                    "decorators": []
+                },
+                {
+                    "name": "placeholder",
+                    "defaultValue": "''",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "jsdoctags": [
+                        {
+                            "pos": 938,
+                            "end": 956,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 334,
+                            "tagName": {
+                                "pos": 939,
+                                "end": 944,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 80,
+                                "escapedText": "since"
+                            },
+                            "comment": "<p>0.0.3</p>\n"
+                        },
+                        {
+                            "pos": 956,
+                            "end": 1008,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 334,
+                            "tagName": {
+                                "pos": 957,
+                                "end": 964,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 80,
+                                "escapedText": "summary"
+                            },
+                            "comment": "<p>Placeholder when no value is provided</p>\n"
+                        },
+                        {
+                            "pos": 1008,
+                            "end": 1059,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 337,
+                            "tagName": {
+                                "pos": 1009,
+                                "end": 1015,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 80,
+                                "escapedText": "author"
+                            },
+                            "comment": "<p>Christian Illies<a href=\"mailto:c.illies@finatix.de\">c.illies@finatix.de</a></p>\n"
+                        },
+                        {
+                            "pos": 1059,
+                            "end": 1074,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 334,
+                            "tagName": {
+                                "pos": 1060,
+                                "end": 1067,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 80,
+                                "escapedText": "package"
+                            },
+                            "comment": "<p>ui</p>\n"
+                        }
+                    ],
+                    "rawdescription": "\n\nPlaceholder of the input\n\n",
+                    "description": "<p>Placeholder of the input</p>\n",
+                    "line": 47,
+                    "type": "string",
+                    "decorators": []
+                },
+                {
+                    "name": "type",
+                    "defaultValue": "'text'",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "jsdoctags": [
+                        {
+                            "pos": 735,
+                            "end": 753,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 334,
+                            "tagName": {
+                                "pos": 736,
+                                "end": 741,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 80,
+                                "escapedText": "since"
+                            },
+                            "comment": "<p>0.0.1</p>\n"
+                        },
+                        {
+                            "pos": 753,
+                            "end": 785,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 334,
+                            "tagName": {
+                                "pos": 754,
+                                "end": 761,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 80,
+                                "escapedText": "summary"
+                            },
+                            "comment": "<p>Type of the input</p>\n"
+                        },
+                        {
+                            "pos": 785,
+                            "end": 836,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 337,
+                            "tagName": {
+                                "pos": 786,
+                                "end": 792,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 80,
+                                "escapedText": "author"
+                            },
+                            "comment": "<p>Christian Illies<a href=\"mailto:c.illies@finatix.de\">c.illies@finatix.de</a></p>\n"
+                        },
+                        {
+                            "pos": 836,
+                            "end": 851,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 334,
+                            "tagName": {
+                                "pos": 837,
+                                "end": 844,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 80,
+                                "escapedText": "package"
+                            },
+                            "comment": "<p>ui</p>\n"
+                        }
+                    ],
+                    "rawdescription": "\n\nChange the type of the input\n\n",
+                    "description": "<p>Change the type of the input</p>\n",
+                    "line": 37,
+                    "type": "InputType",
+                    "decorators": []
+                },
+                {
+                    "name": "value",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "jsdoctags": [
+                        {
+                            "pos": 1154,
+                            "end": 1172,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 334,
+                            "tagName": {
+                                "pos": 1155,
+                                "end": 1160,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 80,
+                                "escapedText": "since"
+                            },
+                            "comment": "<p>0.0.3</p>\n"
+                        },
+                        {
+                            "pos": 1172,
+                            "end": 1192,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 334,
+                            "tagName": {
+                                "pos": 1173,
+                                "end": 1180,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 80,
+                                "escapedText": "summary"
+                            },
+                            "comment": "<p>value</p>\n"
+                        },
+                        {
+                            "pos": 1192,
+                            "end": 1243,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 337,
+                            "tagName": {
+                                "pos": 1193,
+                                "end": 1199,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 80,
+                                "escapedText": "author"
+                            },
+                            "comment": "<p>Christian Illies<a href=\"mailto:c.illies@finatix.de\">c.illies@finatix.de</a></p>\n"
+                        },
+                        {
+                            "pos": 1243,
+                            "end": 1258,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "kind": 334,
+                            "tagName": {
+                                "pos": 1244,
+                                "end": 1251,
+                                "flags": 16842752,
+                                "modifierFlagsCache": 0,
+                                "transformFlags": 0,
+                                "kind": 80,
+                                "escapedText": "package"
+                            },
+                            "comment": "<p>ui</p>\n"
+                        }
+                    ],
+                    "rawdescription": "\n\nvalue of the input\n\n",
+                    "description": "<p>value of the input</p>\n",
+                    "line": 56,
+                    "type": "string | undefined",
+                    "decorators": []
+                }
+            ],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "standalone": true,
+            "imports": [
+                {
+                    "name": "IconComponent",
+                    "type": "component"
+                }
+            ],
+            "description": "<p>A simple input that can have click listeners and so on.</p>\n<p>Usage:</p>\n<b>Example :</b><div><pre class=\"line-numbers\"><code class=\"language-html\">&lt;app-form-input type=&quot;text&quot; /&gt;</code></pre></div>",
+            "rawdescription": "\n\nA simple input that can have click listeners and so on.\n\nUsage:\n\n```html\n<app-form-input type=\"text\" />\n```\n\n",
+            "type": "component",
+            "sourceCode": "import { ChangeDetectionStrategy, Component, Input } from '@angular/core';\nimport { IconComponent } from '../icon/icon.component';\n\nexport type InputType = 'text' | 'password' | 'email';\n\n/**\n * A simple input that can have click listeners and so on.\n *\n * Usage:\n *\n * ```html\n * <app-form-input type=\"text\" />\n * ```\n *\n * @since 0.0.1\n * @author Christian Illies<c.illies@finatix.de>\n * @public\n * @package ui\n */\n@Component({\n  selector: 'app-form-input',\n  standalone: true,\n  imports: [IconComponent],\n  templateUrl: './form-input.component.html',\n  styleUrl: './form-input.component.scss',\n  changeDetection: ChangeDetectionStrategy.OnPush,\n})\nexport class FormInputComponent {\n  /**\n   * Change the type of the input\n   *\n   * @since 0.0.1\n   * @summary Type of the input\n   * @author Christian Illies<c.illies@finatix.de>\n   * @package ui\n   */\n  @Input() type: InputType = 'text';\n\n  /**\n   * Placeholder of the input\n   *\n   * @since 0.0.3\n   * @summary Placeholder when no value is provided\n   * @author Christian Illies<c.illies@finatix.de>\n   * @package ui\n   */\n  @Input() placeholder: string = '';\n  /**\n   * value of the input\n   *\n   * @since 0.0.3\n   * @summary value\n   * @author Christian Illies<c.illies@finatix.de>\n   * @package ui\n   */\n  @Input() value: string | undefined;\n  /**\n   * Placeholder of the input\n   *\n   * @since 0.0.3\n   * @summary Placeholder when no value is provided\n   * @author Christian Illies<c.illies@finatix.de>\n   * @package ui\n   * @internal\n   */\n  @Input() id: string = crypto.randomUUID();\n}\n",
+            "styleUrl": "./form-input.component.scss",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": "",
+            "extends": [],
+            "templateData": "<input [attr.class]=\"type\" [attr.id]=\"id\" [attr.placeholder]=\"placeholder\" [attr.type]=\"type\" [attr.value]=\"value\"/>\n"
+        },
+        {
+            "name": "FormLayoutComponent",
+            "id": "component-FormLayoutComponent-97e9c1dd7bb55e363323d75c60ce228b31f42742a94102ff9b70fc67c420c5ce50469a731196f13b83b6365011ff989a6b2d7ed71a11869829510530bd1b5ed6",
+            "file": "src/app/ui/form-layout/form-layout.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-form-layout",
+            "styleUrls": [],
+            "styles": [],
+            "templateUrl": [
+                "./form-layout.component.html"
+            ],
+            "viewProviders": [],
+            "hostDirectives": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "standalone": true,
+            "imports": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-form-layout',\n  standalone: true,\n  imports: [],\n  templateUrl: './form-layout.component.html',\n  styleUrl: './form-layout.component.css'\n})\nexport class FormLayoutComponent {\n\n}\n",
+            "styleUrl": "./form-layout.component.css",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": "",
+            "extends": [],
+            "templateData": "<p>form-layout works!</p>\n"
         },
         {
             "name": "IconComponent",
@@ -869,408 +1309,6 @@
             },
             "extends": [],
             "templateData": "<fa-icon [icon]=\"iconName\"></fa-icon>\n"
-        },
-        {
-            "name": "InputComponent",
-            "id": "component-InputComponent-357fd5fd8cb6c1c7fe881bbe52a4fecdcdfa48bb4bcbf73964a47441995a7200676db3af6137e6cf502074fa50d27465477bb7e957aa340986c25895b091dba7",
-            "file": "src/app/ui/input/input.component.ts",
-            "changeDetection": "ChangeDetectionStrategy.OnPush",
-            "encapsulation": [],
-            "entryComponents": [],
-            "inputs": [],
-            "outputs": [],
-            "providers": [],
-            "selector": "app-input",
-            "styleUrls": [],
-            "styles": [],
-            "templateUrl": [
-                "./input.component.html"
-            ],
-            "viewProviders": [],
-            "hostDirectives": [],
-            "inputsClass": [
-                {
-                    "name": "id",
-                    "defaultValue": "crypto.randomUUID()",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "jsdoctags": [
-                        {
-                            "pos": 1321,
-                            "end": 1339,
-                            "flags": 16842752,
-                            "modifierFlagsCache": 0,
-                            "transformFlags": 0,
-                            "kind": 334,
-                            "tagName": {
-                                "pos": 1322,
-                                "end": 1327,
-                                "flags": 16842752,
-                                "modifierFlagsCache": 0,
-                                "transformFlags": 0,
-                                "kind": 80,
-                                "escapedText": "since"
-                            },
-                            "comment": "<p>0.0.3</p>\n"
-                        },
-                        {
-                            "pos": 1339,
-                            "end": 1391,
-                            "flags": 16842752,
-                            "modifierFlagsCache": 0,
-                            "transformFlags": 0,
-                            "kind": 334,
-                            "tagName": {
-                                "pos": 1340,
-                                "end": 1347,
-                                "flags": 16842752,
-                                "modifierFlagsCache": 0,
-                                "transformFlags": 0,
-                                "kind": 80,
-                                "escapedText": "summary"
-                            },
-                            "comment": "<p>Placeholder when no value is provided</p>\n"
-                        },
-                        {
-                            "pos": 1391,
-                            "end": 1442,
-                            "flags": 16842752,
-                            "modifierFlagsCache": 0,
-                            "transformFlags": 0,
-                            "kind": 337,
-                            "tagName": {
-                                "pos": 1392,
-                                "end": 1398,
-                                "flags": 16842752,
-                                "modifierFlagsCache": 0,
-                                "transformFlags": 0,
-                                "kind": 80,
-                                "escapedText": "author"
-                            },
-                            "comment": "<p>Christian Illies<a href=\"mailto:c.illies@finatix.de\">c.illies@finatix.de</a></p>\n"
-                        },
-                        {
-                            "pos": 1442,
-                            "end": 1459,
-                            "flags": 16842752,
-                            "modifierFlagsCache": 0,
-                            "transformFlags": 0,
-                            "kind": 334,
-                            "tagName": {
-                                "pos": 1443,
-                                "end": 1450,
-                                "flags": 16842752,
-                                "modifierFlagsCache": 0,
-                                "transformFlags": 0,
-                                "kind": 80,
-                                "escapedText": "package"
-                            },
-                            "comment": "<p>ui</p>\n"
-                        },
-                        {
-                            "pos": 1459,
-                            "end": 1472,
-                            "flags": 16842752,
-                            "modifierFlagsCache": 0,
-                            "transformFlags": 0,
-                            "kind": 334,
-                            "tagName": {
-                                "pos": 1460,
-                                "end": 1468,
-                                "flags": 16842752,
-                                "modifierFlagsCache": 0,
-                                "transformFlags": 0,
-                                "kind": 80,
-                                "escapedText": "internal"
-                            },
-                            "comment": ""
-                        }
-                    ],
-                    "rawdescription": "\n\nPlaceholder of the input\n\n",
-                    "description": "<p>Placeholder of the input</p>\n",
-                    "line": 66,
-                    "type": "string",
-                    "decorators": []
-                },
-                {
-                    "name": "placeholder",
-                    "defaultValue": "''",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "jsdoctags": [
-                        {
-                            "pos": 914,
-                            "end": 932,
-                            "flags": 16842752,
-                            "modifierFlagsCache": 0,
-                            "transformFlags": 0,
-                            "kind": 334,
-                            "tagName": {
-                                "pos": 915,
-                                "end": 920,
-                                "flags": 16842752,
-                                "modifierFlagsCache": 0,
-                                "transformFlags": 0,
-                                "kind": 80,
-                                "escapedText": "since"
-                            },
-                            "comment": "<p>0.0.3</p>\n"
-                        },
-                        {
-                            "pos": 932,
-                            "end": 984,
-                            "flags": 16842752,
-                            "modifierFlagsCache": 0,
-                            "transformFlags": 0,
-                            "kind": 334,
-                            "tagName": {
-                                "pos": 933,
-                                "end": 940,
-                                "flags": 16842752,
-                                "modifierFlagsCache": 0,
-                                "transformFlags": 0,
-                                "kind": 80,
-                                "escapedText": "summary"
-                            },
-                            "comment": "<p>Placeholder when no value is provided</p>\n"
-                        },
-                        {
-                            "pos": 984,
-                            "end": 1035,
-                            "flags": 16842752,
-                            "modifierFlagsCache": 0,
-                            "transformFlags": 0,
-                            "kind": 337,
-                            "tagName": {
-                                "pos": 985,
-                                "end": 991,
-                                "flags": 16842752,
-                                "modifierFlagsCache": 0,
-                                "transformFlags": 0,
-                                "kind": 80,
-                                "escapedText": "author"
-                            },
-                            "comment": "<p>Christian Illies<a href=\"mailto:c.illies@finatix.de\">c.illies@finatix.de</a></p>\n"
-                        },
-                        {
-                            "pos": 1035,
-                            "end": 1050,
-                            "flags": 16842752,
-                            "modifierFlagsCache": 0,
-                            "transformFlags": 0,
-                            "kind": 334,
-                            "tagName": {
-                                "pos": 1036,
-                                "end": 1043,
-                                "flags": 16842752,
-                                "modifierFlagsCache": 0,
-                                "transformFlags": 0,
-                                "kind": 80,
-                                "escapedText": "package"
-                            },
-                            "comment": "<p>ui</p>\n"
-                        }
-                    ],
-                    "rawdescription": "\n\nPlaceholder of the input\n\n",
-                    "description": "<p>Placeholder of the input</p>\n",
-                    "line": 47,
-                    "type": "string",
-                    "decorators": []
-                },
-                {
-                    "name": "type",
-                    "defaultValue": "'text'",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "jsdoctags": [
-                        {
-                            "pos": 711,
-                            "end": 729,
-                            "flags": 16842752,
-                            "modifierFlagsCache": 0,
-                            "transformFlags": 0,
-                            "kind": 334,
-                            "tagName": {
-                                "pos": 712,
-                                "end": 717,
-                                "flags": 16842752,
-                                "modifierFlagsCache": 0,
-                                "transformFlags": 0,
-                                "kind": 80,
-                                "escapedText": "since"
-                            },
-                            "comment": "<p>0.0.1</p>\n"
-                        },
-                        {
-                            "pos": 729,
-                            "end": 761,
-                            "flags": 16842752,
-                            "modifierFlagsCache": 0,
-                            "transformFlags": 0,
-                            "kind": 334,
-                            "tagName": {
-                                "pos": 730,
-                                "end": 737,
-                                "flags": 16842752,
-                                "modifierFlagsCache": 0,
-                                "transformFlags": 0,
-                                "kind": 80,
-                                "escapedText": "summary"
-                            },
-                            "comment": "<p>Type of the input</p>\n"
-                        },
-                        {
-                            "pos": 761,
-                            "end": 812,
-                            "flags": 16842752,
-                            "modifierFlagsCache": 0,
-                            "transformFlags": 0,
-                            "kind": 337,
-                            "tagName": {
-                                "pos": 762,
-                                "end": 768,
-                                "flags": 16842752,
-                                "modifierFlagsCache": 0,
-                                "transformFlags": 0,
-                                "kind": 80,
-                                "escapedText": "author"
-                            },
-                            "comment": "<p>Christian Illies<a href=\"mailto:c.illies@finatix.de\">c.illies@finatix.de</a></p>\n"
-                        },
-                        {
-                            "pos": 812,
-                            "end": 827,
-                            "flags": 16842752,
-                            "modifierFlagsCache": 0,
-                            "transformFlags": 0,
-                            "kind": 334,
-                            "tagName": {
-                                "pos": 813,
-                                "end": 820,
-                                "flags": 16842752,
-                                "modifierFlagsCache": 0,
-                                "transformFlags": 0,
-                                "kind": 80,
-                                "escapedText": "package"
-                            },
-                            "comment": "<p>ui</p>\n"
-                        }
-                    ],
-                    "rawdescription": "\n\nChange the type of the input\n\n",
-                    "description": "<p>Change the type of the input</p>\n",
-                    "line": 37,
-                    "type": "InputType",
-                    "decorators": []
-                },
-                {
-                    "name": "value",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "jsdoctags": [
-                        {
-                            "pos": 1130,
-                            "end": 1148,
-                            "flags": 16842752,
-                            "modifierFlagsCache": 0,
-                            "transformFlags": 0,
-                            "kind": 334,
-                            "tagName": {
-                                "pos": 1131,
-                                "end": 1136,
-                                "flags": 16842752,
-                                "modifierFlagsCache": 0,
-                                "transformFlags": 0,
-                                "kind": 80,
-                                "escapedText": "since"
-                            },
-                            "comment": "<p>0.0.3</p>\n"
-                        },
-                        {
-                            "pos": 1148,
-                            "end": 1168,
-                            "flags": 16842752,
-                            "modifierFlagsCache": 0,
-                            "transformFlags": 0,
-                            "kind": 334,
-                            "tagName": {
-                                "pos": 1149,
-                                "end": 1156,
-                                "flags": 16842752,
-                                "modifierFlagsCache": 0,
-                                "transformFlags": 0,
-                                "kind": 80,
-                                "escapedText": "summary"
-                            },
-                            "comment": "<p>value</p>\n"
-                        },
-                        {
-                            "pos": 1168,
-                            "end": 1219,
-                            "flags": 16842752,
-                            "modifierFlagsCache": 0,
-                            "transformFlags": 0,
-                            "kind": 337,
-                            "tagName": {
-                                "pos": 1169,
-                                "end": 1175,
-                                "flags": 16842752,
-                                "modifierFlagsCache": 0,
-                                "transformFlags": 0,
-                                "kind": 80,
-                                "escapedText": "author"
-                            },
-                            "comment": "<p>Christian Illies<a href=\"mailto:c.illies@finatix.de\">c.illies@finatix.de</a></p>\n"
-                        },
-                        {
-                            "pos": 1219,
-                            "end": 1234,
-                            "flags": 16842752,
-                            "modifierFlagsCache": 0,
-                            "transformFlags": 0,
-                            "kind": 334,
-                            "tagName": {
-                                "pos": 1220,
-                                "end": 1227,
-                                "flags": 16842752,
-                                "modifierFlagsCache": 0,
-                                "transformFlags": 0,
-                                "kind": 80,
-                                "escapedText": "package"
-                            },
-                            "comment": "<p>ui</p>\n"
-                        }
-                    ],
-                    "rawdescription": "\n\nvalue of the input\n\n",
-                    "description": "<p>value of the input</p>\n",
-                    "line": 56,
-                    "type": "string | undefined",
-                    "decorators": []
-                }
-            ],
-            "outputsClass": [],
-            "propertiesClass": [],
-            "methodsClass": [],
-            "deprecated": false,
-            "deprecationMessage": "",
-            "hostBindings": [],
-            "hostListeners": [],
-            "standalone": true,
-            "imports": [
-                {
-                    "name": "IconComponent",
-                    "type": "component"
-                }
-            ],
-            "description": "<p>A simple input that can have click listeners and so on.</p>\n<p>Usage:</p>\n<b>Example :</b><div><pre class=\"line-numbers\"><code class=\"language-html\">&lt;app-input type=&quot;text&quot; /&gt;</code></pre></div>",
-            "rawdescription": "\n\nA simple input that can have click listeners and so on.\n\nUsage:\n\n```html\n<app-input type=\"text\" />\n```\n\n",
-            "type": "component",
-            "sourceCode": "import { ChangeDetectionStrategy, Component, Input } from '@angular/core';\nimport { IconComponent } from '../icon/icon.component';\n\nexport type InputType = 'text' | 'password' | 'email';\n\n/**\n * A simple input that can have click listeners and so on.\n *\n * Usage:\n *\n * ```html\n * <app-input type=\"text\" />\n * ```\n *\n * @since 0.0.1\n * @author Christian Illies<c.illies@finatix.de>\n * @public\n * @package ui\n */\n@Component({\n  selector: 'app-input',\n  standalone: true,\n  imports: [IconComponent],\n  templateUrl: './input.component.html',\n  styleUrl: './input.component.scss',\n  changeDetection: ChangeDetectionStrategy.OnPush,\n})\nexport class InputComponent {\n  /**\n   * Change the type of the input\n   *\n   * @since 0.0.1\n   * @summary Type of the input\n   * @author Christian Illies<c.illies@finatix.de>\n   * @package ui\n   */\n  @Input() type: InputType = 'text';\n\n  /**\n   * Placeholder of the input\n   *\n   * @since 0.0.3\n   * @summary Placeholder when no value is provided\n   * @author Christian Illies<c.illies@finatix.de>\n   * @package ui\n   */\n  @Input() placeholder: string = '';\n  /**\n   * value of the input\n   *\n   * @since 0.0.3\n   * @summary value\n   * @author Christian Illies<c.illies@finatix.de>\n   * @package ui\n   */\n  @Input() value: string | undefined;\n  /**\n   * Placeholder of the input\n   *\n   * @since 0.0.3\n   * @summary Placeholder when no value is provided\n   * @author Christian Illies<c.illies@finatix.de>\n   * @package ui\n   * @internal\n   */\n  @Input() id: string = crypto.randomUUID();\n}\n",
-            "styleUrl": "./input.component.scss",
-            "assetsDirs": [],
-            "styleUrlsData": "",
-            "stylesData": "",
-            "extends": [],
-            "templateData": "<input [attr.class]=\"type\" [attr.id]=\"id\" [attr.placeholder]=\"placeholder\" [attr.type]=\"type\" [attr.value]=\"value\"/>\n"
         }
     ],
     "modules": [],
@@ -1300,21 +1338,11 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/ui/input/input.component.stories.ts",
+                "file": "src/app/ui/form-input/form-input.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "StoryObj<InputComponent>",
+                "type": "StoryObj<FormInputComponent>",
                 "defaultValue": "{\n  name: 'Default/Primary Input',\n  args: {\n    placeholder: 'Straße und Hausnummer',\n  },\n}"
-            },
-            {
-                "name": "Default",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
-                "file": "src/app/ui/icon/icon.component.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "StoryObj<IconComponent>",
-                "defaultValue": "{\n  args: {\n    iconName: 'coffee',\n  },\n}"
             },
             {
                 "name": "Default",
@@ -1327,13 +1355,23 @@
                 "defaultValue": "{\n  name: 'Default/Primary Input',\n  args: {\n    ...InputStories.Default.args,\n    label: 'Straße und Hausnummer angeben',\n  },\n}"
             },
             {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/ui/icon/icon.component.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "StoryObj<IconComponent>",
+                "defaultValue": "{\n  args: {\n    iconName: 'coffee',\n  },\n}"
+            },
+            {
                 "name": "Email",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/ui/input/input.component.stories.ts",
+                "file": "src/app/ui/form-input/form-input.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "StoryObj<InputComponent>",
+                "type": "StoryObj<FormInputComponent>",
                 "defaultValue": "{\n  name: 'Email Input',\n  args: {\n    type: 'email',\n    placeholder: 'E-Mail Adresse',\n  },\n}"
             },
             {
@@ -1360,11 +1398,21 @@
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/ui/input/input.component.stories.ts",
+                "file": "src/app/ui/form-input/form-input.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "Meta<InputComponent>",
-                "defaultValue": "{\n  title: 'UI/Form/Input',\n  component: InputComponent,\n  argTypes: {\n    placeholder: { control: 'text' },\n    value: { control: 'text' },\n  },\n}"
+                "type": "Meta<FormInputComponent>",
+                "defaultValue": "{\n  title: 'UI/Form/Input',\n  component: FormInputComponent,\n  argTypes: {\n    placeholder: { control: 'text' },\n    value: { control: 'text' },\n  },\n}"
+            },
+            {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/ui/form-element/form-element.component.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<FormElementComponent>",
+                "defaultValue": "{\n  title: 'UI/Form/Element',\n  component: FormElementComponent,\n  tags: ['autodocs'],\n  argTypes: {\n    placeholder: { control: 'text' },\n    value: { control: 'text' },\n  },\n}"
             },
             {
                 "name": "meta",
@@ -1377,23 +1425,13 @@
                 "defaultValue": "{\n  title: 'UI/Icon',\n  component: IconComponent,\n  tags: ['autodocs'],\n  argTypes: {\n    iconName: {\n      options: [\n        'cookie-bite',\n        'arrow-trend-down',\n        'rss',\n        'feed',\n        'face-monocle',\n        'draw-polygon',\n        'scale-balanced',\n        'balance-scale',\n        'calendar-lines',\n        'calendar-note',\n        'arrow-down-big-small',\n        'sort-size-down',\n        'gauge-simple-high',\n        'tachometer',\n        'tachometer-fast',\n        'do-not-enter',\n        'shower',\n        'dice-d8',\n        'desktop',\n        'desktop-alt',\n        'm',\n        'spinner-scale',\n        'grip-dots-vertical',\n        'face-viewfinder',\n        'soft-serve',\n        'creemee',\n        'h5',\n        'hand-back-point-down',\n        'table-list',\n        'th-list',\n        'basket-shopping-minus',\n        'comment-sms',\n        'sms',\n        'rectangle',\n        'rectangle-landscape',\n        'clipboard-list-check',\n        'turkey',\n        'book',\n        'user-plus',\n        'ice-skate',\n        'check',\n        'battery-three-quarters',\n        'battery4',\n        'tomato',\n        'sword-laser',\n        'house-circle-check',\n        'buildings',\n        'angle-left',\n        'cart-flatbed-boxes',\n        'dolly-flatbed-alt',\n        'diagram-successor',\n        'truck-arrow-right',\n        'square-w',\n        'arrows-split-up-and-left',\n        'lamp',\n        'airplay',\n        'hand-fist',\n        'fist-raised',\n        'shield-quartered',\n        'slash-forward',\n        'location-pen',\n        'map-marker-edit',\n        'cloud-moon',\n        'pot-food',\n        'briefcase',\n        'person-falling',\n        'image-portrait',\n        'portrait',\n        'user-tag',\n        'rug',\n        'print-slash',\n        'earth-europe',\n        'globe-europe',\n        'cart-flatbed-suitcase',\n        'luggage-cart',\n        'hand-back-point-ribbon',\n        'rectangle-xmark',\n        'rectangle-times',\n        'times-rectangle',\n        'window-close',\n        'tire-rugged',\n        'lightbulb-dollar',\n        'cowbell',\n        'baht-sign',\n        'corner',\n        'chevrons-right',\n        'chevron-double-right',\n        'book-open',\n        'book-journal-whills',\n        'journal-whills',\n        'inhaler',\n        'handcuffs',\n        'snake',\n        'triangle-exclamation',\n        'exclamation-triangle',\n        'warning',\n        'note-medical',\n        'database',\n        'down-left',\n        'share',\n        'mail-forward',\n        'face-thinking',\n        'turn-down-right',\n        'bottle-droplet',\n        'mask-face',\n        'hill-rockslide',\n        'scanner-keyboard',\n        'circle-o',\n        'grid-horizontal',\n        'message-dollar',\n        'comment-alt-dollar',\n        'right-left',\n        'exchange-alt',\n        'columns-3',\n        'paper-plane',\n        'road-circle-exclamation',\n        'dungeon',\n        'hand-holding-box',\n        'input-text',\n        'window-flip',\n        'window-alt',\n        'align-right',\n        'scanner-gun',\n        'scanner',\n        'tire',\n        'engine',\n        'money-bill-1-wave',\n        'money-bill-wave-alt',\n        'life-ring',\n        'hands',\n        'sign-language',\n        'signing',\n        'circle-caret-right',\n        'caret-circle-right',\n        'turn-left',\n        'wheat',\n        'file-spreadsheet',\n        'audio-description-slash',\n        'bell-ring',\n        'calendar-day',\n        'water-ladder',\n        'ladder-water',\n        'swimming-pool',\n        'arrows-up-down',\n        'arrows-v',\n        'chess-pawn-piece',\n        'chess-pawn-alt',\n        'face-grimace',\n        'grimace',\n      ],\n      control: { type: 'select' }, // Automatically inferred when 'options' is defined\n    },\n  },\n}"
             },
             {
-                "name": "meta",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
-                "file": "src/app/ui/form-element/form-element.component.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Meta<FormElementComponent>",
-                "defaultValue": "{\n  title: 'UI/Form/Element',\n  component: FormElementComponent,\n  argTypes: {\n    placeholder: { control: 'text' },\n    value: { control: 'text' },\n  },\n}"
-            },
-            {
                 "name": "Password",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/ui/input/input.component.stories.ts",
+                "file": "src/app/ui/form-input/form-input.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "StoryObj<InputComponent>",
+                "type": "StoryObj<FormInputComponent>",
                 "defaultValue": "{\n  name: 'Password Input',\n  args: {\n    type: 'password',\n    placeholder: 'Passwort',\n  },\n}"
             },
             {
@@ -1455,7 +1493,7 @@
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
                 "rawtype": "\"text\" | \"password\" | \"email\"",
-                "file": "src/app/ui/input/input.component.ts",
+                "file": "src/app/ui/form-input/form-input.component.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -1518,68 +1556,46 @@
                     "defaultValue": "{\n  name: 'Icon Button',\n  args: {\n    type: 'primary',\n    label: 'A button with an icon',\n    icon: 'coffee',\n  },\n}"
                 }
             ],
-            "src/app/ui/input/input.component.stories.ts": [
+            "src/app/ui/form-input/form-input.component.stories.ts": [
                 {
                     "name": "Default",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/app/ui/input/input.component.stories.ts",
+                    "file": "src/app/ui/form-input/form-input.component.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "type": "StoryObj<InputComponent>",
+                    "type": "StoryObj<FormInputComponent>",
                     "defaultValue": "{\n  name: 'Default/Primary Input',\n  args: {\n    placeholder: 'Straße und Hausnummer',\n  },\n}"
                 },
                 {
                     "name": "Email",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/app/ui/input/input.component.stories.ts",
+                    "file": "src/app/ui/form-input/form-input.component.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "type": "StoryObj<InputComponent>",
+                    "type": "StoryObj<FormInputComponent>",
                     "defaultValue": "{\n  name: 'Email Input',\n  args: {\n    type: 'email',\n    placeholder: 'E-Mail Adresse',\n  },\n}"
                 },
                 {
                     "name": "meta",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/app/ui/input/input.component.stories.ts",
+                    "file": "src/app/ui/form-input/form-input.component.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "type": "Meta<InputComponent>",
-                    "defaultValue": "{\n  title: 'UI/Form/Input',\n  component: InputComponent,\n  argTypes: {\n    placeholder: { control: 'text' },\n    value: { control: 'text' },\n  },\n}"
+                    "type": "Meta<FormInputComponent>",
+                    "defaultValue": "{\n  title: 'UI/Form/Input',\n  component: FormInputComponent,\n  argTypes: {\n    placeholder: { control: 'text' },\n    value: { control: 'text' },\n  },\n}"
                 },
                 {
                     "name": "Password",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/app/ui/input/input.component.stories.ts",
+                    "file": "src/app/ui/form-input/form-input.component.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "type": "StoryObj<InputComponent>",
+                    "type": "StoryObj<FormInputComponent>",
                     "defaultValue": "{\n  name: 'Password Input',\n  args: {\n    type: 'password',\n    placeholder: 'Passwort',\n  },\n}"
-                }
-            ],
-            "src/app/ui/icon/icon.component.stories.ts": [
-                {
-                    "name": "Default",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/ui/icon/icon.component.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "StoryObj<IconComponent>",
-                    "defaultValue": "{\n  args: {\n    iconName: 'coffee',\n  },\n}"
-                },
-                {
-                    "name": "meta",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/ui/icon/icon.component.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Meta<IconComponent>",
-                    "defaultValue": "{\n  title: 'UI/Icon',\n  component: IconComponent,\n  tags: ['autodocs'],\n  argTypes: {\n    iconName: {\n      options: [\n        'cookie-bite',\n        'arrow-trend-down',\n        'rss',\n        'feed',\n        'face-monocle',\n        'draw-polygon',\n        'scale-balanced',\n        'balance-scale',\n        'calendar-lines',\n        'calendar-note',\n        'arrow-down-big-small',\n        'sort-size-down',\n        'gauge-simple-high',\n        'tachometer',\n        'tachometer-fast',\n        'do-not-enter',\n        'shower',\n        'dice-d8',\n        'desktop',\n        'desktop-alt',\n        'm',\n        'spinner-scale',\n        'grip-dots-vertical',\n        'face-viewfinder',\n        'soft-serve',\n        'creemee',\n        'h5',\n        'hand-back-point-down',\n        'table-list',\n        'th-list',\n        'basket-shopping-minus',\n        'comment-sms',\n        'sms',\n        'rectangle',\n        'rectangle-landscape',\n        'clipboard-list-check',\n        'turkey',\n        'book',\n        'user-plus',\n        'ice-skate',\n        'check',\n        'battery-three-quarters',\n        'battery4',\n        'tomato',\n        'sword-laser',\n        'house-circle-check',\n        'buildings',\n        'angle-left',\n        'cart-flatbed-boxes',\n        'dolly-flatbed-alt',\n        'diagram-successor',\n        'truck-arrow-right',\n        'square-w',\n        'arrows-split-up-and-left',\n        'lamp',\n        'airplay',\n        'hand-fist',\n        'fist-raised',\n        'shield-quartered',\n        'slash-forward',\n        'location-pen',\n        'map-marker-edit',\n        'cloud-moon',\n        'pot-food',\n        'briefcase',\n        'person-falling',\n        'image-portrait',\n        'portrait',\n        'user-tag',\n        'rug',\n        'print-slash',\n        'earth-europe',\n        'globe-europe',\n        'cart-flatbed-suitcase',\n        'luggage-cart',\n        'hand-back-point-ribbon',\n        'rectangle-xmark',\n        'rectangle-times',\n        'times-rectangle',\n        'window-close',\n        'tire-rugged',\n        'lightbulb-dollar',\n        'cowbell',\n        'baht-sign',\n        'corner',\n        'chevrons-right',\n        'chevron-double-right',\n        'book-open',\n        'book-journal-whills',\n        'journal-whills',\n        'inhaler',\n        'handcuffs',\n        'snake',\n        'triangle-exclamation',\n        'exclamation-triangle',\n        'warning',\n        'note-medical',\n        'database',\n        'down-left',\n        'share',\n        'mail-forward',\n        'face-thinking',\n        'turn-down-right',\n        'bottle-droplet',\n        'mask-face',\n        'hill-rockslide',\n        'scanner-keyboard',\n        'circle-o',\n        'grid-horizontal',\n        'message-dollar',\n        'comment-alt-dollar',\n        'right-left',\n        'exchange-alt',\n        'columns-3',\n        'paper-plane',\n        'road-circle-exclamation',\n        'dungeon',\n        'hand-holding-box',\n        'input-text',\n        'window-flip',\n        'window-alt',\n        'align-right',\n        'scanner-gun',\n        'scanner',\n        'tire',\n        'engine',\n        'money-bill-1-wave',\n        'money-bill-wave-alt',\n        'life-ring',\n        'hands',\n        'sign-language',\n        'signing',\n        'circle-caret-right',\n        'caret-circle-right',\n        'turn-left',\n        'wheat',\n        'file-spreadsheet',\n        'audio-description-slash',\n        'bell-ring',\n        'calendar-day',\n        'water-ladder',\n        'ladder-water',\n        'swimming-pool',\n        'arrows-up-down',\n        'arrows-v',\n        'chess-pawn-piece',\n        'chess-pawn-alt',\n        'face-grimace',\n        'grimace',\n      ],\n      control: { type: 'select' }, // Automatically inferred when 'options' is defined\n    },\n  },\n}"
                 }
             ],
             "src/app/ui/form-element/form-element.component.stories.ts": [
@@ -1611,7 +1627,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Meta<FormElementComponent>",
-                    "defaultValue": "{\n  title: 'UI/Form/Element',\n  component: FormElementComponent,\n  argTypes: {\n    placeholder: { control: 'text' },\n    value: { control: 'text' },\n  },\n}"
+                    "defaultValue": "{\n  title: 'UI/Form/Element',\n  component: FormElementComponent,\n  tags: ['autodocs'],\n  argTypes: {\n    placeholder: { control: 'text' },\n    value: { control: 'text' },\n  },\n}"
                 },
                 {
                     "name": "Password",
@@ -1622,6 +1638,28 @@
                     "deprecationMessage": "",
                     "type": "StoryObj<FormElementComponent>",
                     "defaultValue": "{\n  name: 'Password Input',\n  args: {\n    ...InputStories.Password.args,\n    label: 'Passwort eingeben',\n  },\n}"
+                }
+            ],
+            "src/app/ui/icon/icon.component.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/ui/icon/icon.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "StoryObj<IconComponent>",
+                    "defaultValue": "{\n  args: {\n    iconName: 'coffee',\n  },\n}"
+                },
+                {
+                    "name": "meta",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/ui/icon/icon.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Meta<IconComponent>",
+                    "defaultValue": "{\n  title: 'UI/Icon',\n  component: IconComponent,\n  tags: ['autodocs'],\n  argTypes: {\n    iconName: {\n      options: [\n        'cookie-bite',\n        'arrow-trend-down',\n        'rss',\n        'feed',\n        'face-monocle',\n        'draw-polygon',\n        'scale-balanced',\n        'balance-scale',\n        'calendar-lines',\n        'calendar-note',\n        'arrow-down-big-small',\n        'sort-size-down',\n        'gauge-simple-high',\n        'tachometer',\n        'tachometer-fast',\n        'do-not-enter',\n        'shower',\n        'dice-d8',\n        'desktop',\n        'desktop-alt',\n        'm',\n        'spinner-scale',\n        'grip-dots-vertical',\n        'face-viewfinder',\n        'soft-serve',\n        'creemee',\n        'h5',\n        'hand-back-point-down',\n        'table-list',\n        'th-list',\n        'basket-shopping-minus',\n        'comment-sms',\n        'sms',\n        'rectangle',\n        'rectangle-landscape',\n        'clipboard-list-check',\n        'turkey',\n        'book',\n        'user-plus',\n        'ice-skate',\n        'check',\n        'battery-three-quarters',\n        'battery4',\n        'tomato',\n        'sword-laser',\n        'house-circle-check',\n        'buildings',\n        'angle-left',\n        'cart-flatbed-boxes',\n        'dolly-flatbed-alt',\n        'diagram-successor',\n        'truck-arrow-right',\n        'square-w',\n        'arrows-split-up-and-left',\n        'lamp',\n        'airplay',\n        'hand-fist',\n        'fist-raised',\n        'shield-quartered',\n        'slash-forward',\n        'location-pen',\n        'map-marker-edit',\n        'cloud-moon',\n        'pot-food',\n        'briefcase',\n        'person-falling',\n        'image-portrait',\n        'portrait',\n        'user-tag',\n        'rug',\n        'print-slash',\n        'earth-europe',\n        'globe-europe',\n        'cart-flatbed-suitcase',\n        'luggage-cart',\n        'hand-back-point-ribbon',\n        'rectangle-xmark',\n        'rectangle-times',\n        'times-rectangle',\n        'window-close',\n        'tire-rugged',\n        'lightbulb-dollar',\n        'cowbell',\n        'baht-sign',\n        'corner',\n        'chevrons-right',\n        'chevron-double-right',\n        'book-open',\n        'book-journal-whills',\n        'journal-whills',\n        'inhaler',\n        'handcuffs',\n        'snake',\n        'triangle-exclamation',\n        'exclamation-triangle',\n        'warning',\n        'note-medical',\n        'database',\n        'down-left',\n        'share',\n        'mail-forward',\n        'face-thinking',\n        'turn-down-right',\n        'bottle-droplet',\n        'mask-face',\n        'hill-rockslide',\n        'scanner-keyboard',\n        'circle-o',\n        'grid-horizontal',\n        'message-dollar',\n        'comment-alt-dollar',\n        'right-left',\n        'exchange-alt',\n        'columns-3',\n        'paper-plane',\n        'road-circle-exclamation',\n        'dungeon',\n        'hand-holding-box',\n        'input-text',\n        'window-flip',\n        'window-alt',\n        'align-right',\n        'scanner-gun',\n        'scanner',\n        'tire',\n        'engine',\n        'money-bill-1-wave',\n        'money-bill-wave-alt',\n        'life-ring',\n        'hands',\n        'sign-language',\n        'signing',\n        'circle-caret-right',\n        'caret-circle-right',\n        'turn-left',\n        'wheat',\n        'file-spreadsheet',\n        'audio-description-slash',\n        'bell-ring',\n        'calendar-day',\n        'water-ladder',\n        'ladder-water',\n        'swimming-pool',\n        'arrows-up-down',\n        'arrows-v',\n        'chess-pawn-piece',\n        'chess-pawn-alt',\n        'face-grimace',\n        'grimace',\n      ],\n      control: { type: 'select' }, // Automatically inferred when 'options' is defined\n    },\n  },\n}"
                 }
             ],
             ".storybook/preview.ts": [
@@ -1653,13 +1691,13 @@
                     "kind": 192
                 }
             ],
-            "src/app/ui/input/input.component.ts": [
+            "src/app/ui/form-input/form-input.component.ts": [
                 {
                     "name": "InputType",
                     "ctype": "miscellaneous",
                     "subtype": "typealias",
                     "rawtype": "\"text\" | \"password\" | \"email\"",
-                    "file": "src/app/ui/input/input.component.ts",
+                    "file": "src/app/ui/form-input/form-input.component.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
@@ -1670,7 +1708,7 @@
     },
     "routes": [],
     "coverage": {
-        "count": 15,
+        "count": 14,
         "status": "low",
         "files": [
             {
@@ -1801,6 +1839,64 @@
                 "status": "good"
             },
             {
+                "filePath": "src/app/ui/form-input/form-input.component.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Default",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/ui/form-input/form-input.component.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Email",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/ui/form-input/form-input.component.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "meta",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/ui/form-input/form-input.component.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Password",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/ui/form-input/form-input.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "FormInputComponent",
+                "coveragePercent": 100,
+                "coverageCount": "5/5",
+                "status": "very-good"
+            },
+            {
+                "filePath": "src/app/ui/form-layout/form-layout.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "FormLayoutComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
                 "filePath": "src/app/ui/icon/icon.component.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
@@ -1828,55 +1924,6 @@
                 "coveragePercent": 66,
                 "coverageCount": "2/3",
                 "status": "good"
-            },
-            {
-                "filePath": "src/app/ui/input/input.component.stories.ts",
-                "type": "variable",
-                "linktype": "miscellaneous",
-                "linksubtype": "variable",
-                "name": "Default",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
-                "filePath": "src/app/ui/input/input.component.stories.ts",
-                "type": "variable",
-                "linktype": "miscellaneous",
-                "linksubtype": "variable",
-                "name": "Email",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
-                "filePath": "src/app/ui/input/input.component.stories.ts",
-                "type": "variable",
-                "linktype": "miscellaneous",
-                "linksubtype": "variable",
-                "name": "meta",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
-                "filePath": "src/app/ui/input/input.component.stories.ts",
-                "type": "variable",
-                "linktype": "miscellaneous",
-                "linksubtype": "variable",
-                "name": "Password",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
-                "filePath": "src/app/ui/input/input.component.ts",
-                "type": "component",
-                "linktype": "component",
-                "name": "InputComponent",
-                "coveragePercent": 100,
-                "coverageCount": "5/5",
-                "status": "very-good"
             }
         ]
     }

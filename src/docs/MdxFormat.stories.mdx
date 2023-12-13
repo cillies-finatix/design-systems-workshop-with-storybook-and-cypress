@@ -1,13 +1,13 @@
 import {Canvas, Meta, Story} from "@storybook/addon-docs/blocks";
 import {moduleMetadata} from "@storybook/angular";
 import {ButtonComponent} from "../app/ui/button/button.component";
-import {InputComponent} from "../app/ui/input/input.component";
+import {FormInputComponent} from "../app/ui/form-input/form-input.component";
 
 <Meta
   title="Docs/MDX Format"
   decorators={[
     moduleMetadata({
-      imports: [ButtonComponent, InputComponent],
+      imports: [ButtonComponent, FormInputComponent],
     }),
     ]}
   parameters={{
@@ -32,7 +32,7 @@ See the <a href="https://storybook.js.org/docs/react/writing-docs/mdx" target="_
 <br/>
 <app-button [label]="'Button with an icon'" icon="fingerprint" />
 <br/>
-<app-input [label]="'Fully functional input!'" />
+<app-form-input [label]="'Fully functional input!'" />
 `,
     }}
   </Story>

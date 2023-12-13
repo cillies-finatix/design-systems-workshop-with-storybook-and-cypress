@@ -4,12 +4,15 @@ import {
   HostBinding,
   Input,
 } from '@angular/core';
-import { InputComponent, InputType } from '../input/input.component';
+import {
+  FormInputComponent,
+  InputType,
+} from '../form-input/form-input.component';
 
 @Component({
   selector: 'app-form-element',
   standalone: true,
-  imports: [InputComponent],
+  imports: [FormInputComponent],
   templateUrl: './form-element.component.html',
   styleUrl: './form-element.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,

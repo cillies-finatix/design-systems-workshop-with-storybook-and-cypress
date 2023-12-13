@@ -9,7 +9,7 @@ export type InputType = 'text' | 'password' | 'email';
  * Usage:
  *
  * ```html
- * <app-input type="text" />
+ * <app-form-input type="text" />
  * ```
  *
  * @since 0.0.1
@@ -18,14 +18,14 @@ export type InputType = 'text' | 'password' | 'email';
  * @package ui
  */
 @Component({
-  selector: 'app-input',
+  selector: 'app-form-input',
   standalone: true,
   imports: [IconComponent],
-  templateUrl: './input.component.html',
-  styleUrl: './input.component.scss',
+  templateUrl: './form-input.component.html',
+  styleUrl: './form-input.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class InputComponent {
+export class FormInputComponent {
   /**
    * Change the type of the input
    *

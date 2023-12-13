@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/angular';
 
 import { FormElementComponent } from './form-element.component';
-import * as InputStories from '../input/input.component.stories';
+import * as InputStories from '../form-input/form-input.component.stories';
 
 const meta: Meta<FormElementComponent> = {
   title: 'UI/Form/Element',
