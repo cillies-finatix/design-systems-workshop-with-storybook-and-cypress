@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
-import { IconComponent } from '../icon/icon.component';
+import { IconComponent } from '../../icon/icon.component';
 
 export type InputType = 'text' | 'password' | 'email';
 

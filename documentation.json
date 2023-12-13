@@ -388,7 +388,7 @@
         {
             "name": "FormElementComponent",
             "id": "component-FormElementComponent-3efeba18dca95f4096aba90a7e73d03292b62620c4b506e0f9da7508930cb987ef848776067a1e429584be02af5aa883c7ea7b6f969098a74d6c7a6393adbe9b",
-            "file": "src/app/ui/form-element/form-element.component.ts",
+            "file": "src/app/ui/form/form-element/form-element.component.ts",
             "changeDetection": "ChangeDetectionStrategy.OnPush",
             "encapsulation": [],
             "entryComponents": [],
@@ -807,8 +807,8 @@
         },
         {
             "name": "FormInputComponent",
-            "id": "component-FormInputComponent-e64ee4ceaee1fd44c37f740ea4ece3ba799e80e1f83ff262e1e715c1dfe76fcb08a1b39980f2610979919da48be8235206cbc59fe05ed94becdf2da61ffe2f7b",
-            "file": "src/app/ui/form-input/form-input.component.ts",
+            "id": "component-FormInputComponent-80fcf52a037f65755a5c3f97a6276a30defae09367ff7834e079f10f71932e86ef27d0079d73b978a8d2399aad61dff4a093b5121941bb489c3dd53bb58ead17",
+            "file": "src/app/ui/form/form-input/form-input.component.ts",
             "changeDetection": "ChangeDetectionStrategy.OnPush",
             "encapsulation": [],
             "entryComponents": [],
@@ -831,15 +831,15 @@
                     "deprecationMessage": "",
                     "jsdoctags": [
                         {
-                            "pos": 1345,
-                            "end": 1363,
+                            "pos": 1348,
+                            "end": 1366,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 1346,
-                                "end": 1351,
+                                "pos": 1349,
+                                "end": 1354,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -849,15 +849,15 @@
                             "comment": "<p>0.0.3</p>\n"
                         },
                         {
-                            "pos": 1363,
-                            "end": 1415,
+                            "pos": 1366,
+                            "end": 1418,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 1364,
-                                "end": 1371,
+                                "pos": 1367,
+                                "end": 1374,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -867,15 +867,15 @@
                             "comment": "<p>Placeholder when no value is provided</p>\n"
                         },
                         {
-                            "pos": 1415,
-                            "end": 1466,
+                            "pos": 1418,
+                            "end": 1469,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 337,
                             "tagName": {
-                                "pos": 1416,
-                                "end": 1422,
+                                "pos": 1419,
+                                "end": 1425,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -885,15 +885,15 @@
                             "comment": "<p>Christian Illies<a href=\"mailto:c.illies@finatix.de\">c.illies@finatix.de</a></p>\n"
                         },
                         {
-                            "pos": 1466,
-                            "end": 1483,
+                            "pos": 1469,
+                            "end": 1486,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 1467,
-                                "end": 1474,
+                                "pos": 1470,
+                                "end": 1477,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -903,15 +903,15 @@
                             "comment": "<p>ui</p>\n"
                         },
                         {
-                            "pos": 1483,
-                            "end": 1496,
+                            "pos": 1486,
+                            "end": 1499,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 1484,
-                                "end": 1492,
+                                "pos": 1487,
+                                "end": 1495,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -934,15 +934,15 @@
                     "deprecationMessage": "",
                     "jsdoctags": [
                         {
-                            "pos": 938,
-                            "end": 956,
+                            "pos": 941,
+                            "end": 959,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 939,
-                                "end": 944,
+                                "pos": 942,
+                                "end": 947,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -952,15 +952,15 @@
                             "comment": "<p>0.0.3</p>\n"
                         },
                         {
-                            "pos": 956,
-                            "end": 1008,
+                            "pos": 959,
+                            "end": 1011,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 957,
-                                "end": 964,
+                                "pos": 960,
+                                "end": 967,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -970,15 +970,15 @@
                             "comment": "<p>Placeholder when no value is provided</p>\n"
                         },
                         {
-                            "pos": 1008,
-                            "end": 1059,
+                            "pos": 1011,
+                            "end": 1062,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 337,
                             "tagName": {
-                                "pos": 1009,
-                                "end": 1015,
+                                "pos": 1012,
+                                "end": 1018,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -988,15 +988,15 @@
                             "comment": "<p>Christian Illies<a href=\"mailto:c.illies@finatix.de\">c.illies@finatix.de</a></p>\n"
                         },
                         {
-                            "pos": 1059,
-                            "end": 1074,
+                            "pos": 1062,
+                            "end": 1077,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 1060,
-                                "end": 1067,
+                                "pos": 1063,
+                                "end": 1070,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -1019,15 +1019,15 @@
                     "deprecationMessage": "",
                     "jsdoctags": [
                         {
-                            "pos": 735,
-                            "end": 753,
+                            "pos": 738,
+                            "end": 756,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 736,
-                                "end": 741,
+                                "pos": 739,
+                                "end": 744,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -1037,15 +1037,15 @@
                             "comment": "<p>0.0.1</p>\n"
                         },
                         {
-                            "pos": 753,
-                            "end": 785,
+                            "pos": 756,
+                            "end": 788,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 754,
-                                "end": 761,
+                                "pos": 757,
+                                "end": 764,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -1055,15 +1055,15 @@
                             "comment": "<p>Type of the input</p>\n"
                         },
                         {
-                            "pos": 785,
-                            "end": 836,
+                            "pos": 788,
+                            "end": 839,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 337,
                             "tagName": {
-                                "pos": 786,
-                                "end": 792,
+                                "pos": 789,
+                                "end": 795,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -1073,15 +1073,15 @@
                             "comment": "<p>Christian Illies<a href=\"mailto:c.illies@finatix.de\">c.illies@finatix.de</a></p>\n"
                         },
                         {
-                            "pos": 836,
-                            "end": 851,
+                            "pos": 839,
+                            "end": 854,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 837,
-                                "end": 844,
+                                "pos": 840,
+                                "end": 847,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -1103,15 +1103,15 @@
                     "deprecationMessage": "",
                     "jsdoctags": [
                         {
-                            "pos": 1154,
-                            "end": 1172,
+                            "pos": 1157,
+                            "end": 1175,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 1155,
-                                "end": 1160,
+                                "pos": 1158,
+                                "end": 1163,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -1121,15 +1121,15 @@
                             "comment": "<p>0.0.3</p>\n"
                         },
                         {
-                            "pos": 1172,
-                            "end": 1192,
+                            "pos": 1175,
+                            "end": 1195,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 1173,
-                                "end": 1180,
+                                "pos": 1176,
+                                "end": 1183,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -1139,15 +1139,15 @@
                             "comment": "<p>value</p>\n"
                         },
                         {
-                            "pos": 1192,
-                            "end": 1243,
+                            "pos": 1195,
+                            "end": 1246,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 337,
                             "tagName": {
-                                "pos": 1193,
-                                "end": 1199,
+                                "pos": 1196,
+                                "end": 1202,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -1157,15 +1157,15 @@
                             "comment": "<p>Christian Illies<a href=\"mailto:c.illies@finatix.de\">c.illies@finatix.de</a></p>\n"
                         },
                         {
-                            "pos": 1243,
-                            "end": 1258,
+                            "pos": 1246,
+                            "end": 1261,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 1244,
-                                "end": 1251,
+                                "pos": 1247,
+                                "end": 1254,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -1199,7 +1199,7 @@
             "description": "<p>A simple input that can have click listeners and so on.</p>\n<p>Usage:</p>\n<b>Example :</b><div><pre class=\"line-numbers\"><code class=\"language-html\">&lt;app-form-input type=&quot;text&quot; /&gt;</code></pre></div>",
             "rawdescription": "\n\nA simple input that can have click listeners and so on.\n\nUsage:\n\n```html\n<app-form-input type=\"text\" />\n```\n\n",
             "type": "component",
-            "sourceCode": "import { ChangeDetectionStrategy, Component, Input } from '@angular/core';\nimport { IconComponent } from '../icon/icon.component';\n\nexport type InputType = 'text' | 'password' | 'email';\n\n/**\n * A simple input that can have click listeners and so on.\n *\n * Usage:\n *\n * ```html\n * <app-form-input type=\"text\" />\n * ```\n *\n * @since 0.0.1\n * @author Christian Illies<c.illies@finatix.de>\n * @public\n * @package ui\n */\n@Component({\n  selector: 'app-form-input',\n  standalone: true,\n  imports: [IconComponent],\n  templateUrl: './form-input.component.html',\n  styleUrl: './form-input.component.scss',\n  changeDetection: ChangeDetectionStrategy.OnPush,\n})\nexport class FormInputComponent {\n  /**\n   * Change the type of the input\n   *\n   * @since 0.0.1\n   * @summary Type of the input\n   * @author Christian Illies<c.illies@finatix.de>\n   * @package ui\n   */\n  @Input() type: InputType = 'text';\n\n  /**\n   * Placeholder of the input\n   *\n   * @since 0.0.3\n   * @summary Placeholder when no value is provided\n   * @author Christian Illies<c.illies@finatix.de>\n   * @package ui\n   */\n  @Input() placeholder: string = '';\n  /**\n   * value of the input\n   *\n   * @since 0.0.3\n   * @summary value\n   * @author Christian Illies<c.illies@finatix.de>\n   * @package ui\n   */\n  @Input() value: string | undefined;\n  /**\n   * Placeholder of the input\n   *\n   * @since 0.0.3\n   * @summary Placeholder when no value is provided\n   * @author Christian Illies<c.illies@finatix.de>\n   * @package ui\n   * @internal\n   */\n  @Input() id: string = crypto.randomUUID();\n}\n",
+            "sourceCode": "import { ChangeDetectionStrategy, Component, Input } from '@angular/core';\nimport { IconComponent } from '../../icon/icon.component';\n\nexport type InputType = 'text' | 'password' | 'email';\n\n/**\n * A simple input that can have click listeners and so on.\n *\n * Usage:\n *\n * ```html\n * <app-form-input type=\"text\" />\n * ```\n *\n * @since 0.0.1\n * @author Christian Illies<c.illies@finatix.de>\n * @public\n * @package ui\n */\n@Component({\n  selector: 'app-form-input',\n  standalone: true,\n  imports: [IconComponent],\n  templateUrl: './form-input.component.html',\n  styleUrl: './form-input.component.scss',\n  changeDetection: ChangeDetectionStrategy.OnPush,\n})\nexport class FormInputComponent {\n  /**\n   * Change the type of the input\n   *\n   * @since 0.0.1\n   * @summary Type of the input\n   * @author Christian Illies<c.illies@finatix.de>\n   * @package ui\n   */\n  @Input() type: InputType = 'text';\n\n  /**\n   * Placeholder of the input\n   *\n   * @since 0.0.3\n   * @summary Placeholder when no value is provided\n   * @author Christian Illies<c.illies@finatix.de>\n   * @package ui\n   */\n  @Input() placeholder: string = '';\n  /**\n   * value of the input\n   *\n   * @since 0.0.3\n   * @summary value\n   * @author Christian Illies<c.illies@finatix.de>\n   * @package ui\n   */\n  @Input() value: string | undefined;\n  /**\n   * Placeholder of the input\n   *\n   * @since 0.0.3\n   * @summary Placeholder when no value is provided\n   * @author Christian Illies<c.illies@finatix.de>\n   * @package ui\n   * @internal\n   */\n  @Input() id: string = crypto.randomUUID();\n}\n",
             "styleUrl": "./form-input.component.scss",
             "assetsDirs": [],
             "styleUrlsData": "",
@@ -1210,7 +1210,7 @@
         {
             "name": "FormLayoutComponent",
             "id": "component-FormLayoutComponent-97e9c1dd7bb55e363323d75c60ce228b31f42742a94102ff9b70fc67c420c5ce50469a731196f13b83b6365011ff989a6b2d7ed71a11869829510530bd1b5ed6",
-            "file": "src/app/ui/form-layout/form-layout.component.ts",
+            "file": "src/app/ui/form/form-layout/form-layout.component.ts",
             "encapsulation": [],
             "entryComponents": [],
             "inputs": [],
@@ -1338,17 +1338,17 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/ui/form-input/form-input.component.stories.ts",
+                "file": "src/app/ui/icon/icon.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "StoryObj<FormInputComponent>",
-                "defaultValue": "{\n  name: 'Default/Primary Input',\n  args: {\n    placeholder: 'Straße und Hausnummer',\n  },\n}"
+                "type": "StoryObj<IconComponent>",
+                "defaultValue": "{\n  args: {\n    iconName: 'coffee',\n  },\n}"
             },
             {
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/ui/form-element/form-element.component.stories.ts",
+                "file": "src/app/ui/form/form-element/form-element.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "StoryObj<FormElementComponent>",
@@ -1358,31 +1358,31 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/ui/icon/icon.component.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "StoryObj<IconComponent>",
-                "defaultValue": "{\n  args: {\n    iconName: 'coffee',\n  },\n}"
-            },
-            {
-                "name": "Email",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
-                "file": "src/app/ui/form-input/form-input.component.stories.ts",
+                "file": "src/app/ui/form/form-input/form-input.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "StoryObj<FormInputComponent>",
-                "defaultValue": "{\n  name: 'Email Input',\n  args: {\n    type: 'email',\n    placeholder: 'E-Mail Adresse',\n  },\n}"
+                "defaultValue": "{\n  name: 'Default/Primary Input',\n  args: {\n    placeholder: 'Straße und Hausnummer',\n  },\n}"
             },
             {
                 "name": "Email",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/ui/form-element/form-element.component.stories.ts",
+                "file": "src/app/ui/form/form-element/form-element.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "StoryObj<FormElementComponent>",
                 "defaultValue": "{\n  name: 'Email Input',\n  args: {\n    ...InputStories.Email.args,\n    label: 'E-Mail Adresse eintragen',\n  },\n}"
+            },
+            {
+                "name": "Email",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/ui/form/form-input/form-input.component.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "StoryObj<FormInputComponent>",
+                "defaultValue": "{\n  name: 'Email Input',\n  args: {\n    type: 'email',\n    placeholder: 'E-Mail Adresse',\n  },\n}"
             },
             {
                 "name": "meta",
@@ -1398,17 +1398,17 @@
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/ui/form-input/form-input.component.stories.ts",
+                "file": "src/app/ui/icon/icon.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "Meta<FormInputComponent>",
-                "defaultValue": "{\n  title: 'UI/Form/Input',\n  component: FormInputComponent,\n  argTypes: {\n    placeholder: { control: 'text' },\n    value: { control: 'text' },\n  },\n}"
+                "type": "Meta<IconComponent>",
+                "defaultValue": "{\n  title: 'UI/Icon',\n  component: IconComponent,\n  tags: ['autodocs'],\n  argTypes: {\n    iconName: {\n      options: [\n        'cookie-bite',\n        'arrow-trend-down',\n        'rss',\n        'feed',\n        'face-monocle',\n        'draw-polygon',\n        'scale-balanced',\n        'balance-scale',\n        'calendar-lines',\n        'calendar-note',\n        'arrow-down-big-small',\n        'sort-size-down',\n        'gauge-simple-high',\n        'tachometer',\n        'tachometer-fast',\n        'do-not-enter',\n        'shower',\n        'dice-d8',\n        'desktop',\n        'desktop-alt',\n        'm',\n        'spinner-scale',\n        'grip-dots-vertical',\n        'face-viewfinder',\n        'soft-serve',\n        'creemee',\n        'h5',\n        'hand-back-point-down',\n        'table-list',\n        'th-list',\n        'basket-shopping-minus',\n        'comment-sms',\n        'sms',\n        'rectangle',\n        'rectangle-landscape',\n        'clipboard-list-check',\n        'turkey',\n        'book',\n        'user-plus',\n        'ice-skate',\n        'check',\n        'battery-three-quarters',\n        'battery4',\n        'tomato',\n        'sword-laser',\n        'house-circle-check',\n        'buildings',\n        'angle-left',\n        'cart-flatbed-boxes',\n        'dolly-flatbed-alt',\n        'diagram-successor',\n        'truck-arrow-right',\n        'square-w',\n        'arrows-split-up-and-left',\n        'lamp',\n        'airplay',\n        'hand-fist',\n        'fist-raised',\n        'shield-quartered',\n        'slash-forward',\n        'location-pen',\n        'map-marker-edit',\n        'cloud-moon',\n        'pot-food',\n        'briefcase',\n        'person-falling',\n        'image-portrait',\n        'portrait',\n        'user-tag',\n        'rug',\n        'print-slash',\n        'earth-europe',\n        'globe-europe',\n        'cart-flatbed-suitcase',\n        'luggage-cart',\n        'hand-back-point-ribbon',\n        'rectangle-xmark',\n        'rectangle-times',\n        'times-rectangle',\n        'window-close',\n        'tire-rugged',\n        'lightbulb-dollar',\n        'cowbell',\n        'baht-sign',\n        'corner',\n        'chevrons-right',\n        'chevron-double-right',\n        'book-open',\n        'book-journal-whills',\n        'journal-whills',\n        'inhaler',\n        'handcuffs',\n        'snake',\n        'triangle-exclamation',\n        'exclamation-triangle',\n        'warning',\n        'note-medical',\n        'database',\n        'down-left',\n        'share',\n        'mail-forward',\n        'face-thinking',\n        'turn-down-right',\n        'bottle-droplet',\n        'mask-face',\n        'hill-rockslide',\n        'scanner-keyboard',\n        'circle-o',\n        'grid-horizontal',\n        'message-dollar',\n        'comment-alt-dollar',\n        'right-left',\n        'exchange-alt',\n        'columns-3',\n        'paper-plane',\n        'road-circle-exclamation',\n        'dungeon',\n        'hand-holding-box',\n        'input-text',\n        'window-flip',\n        'window-alt',\n        'align-right',\n        'scanner-gun',\n        'scanner',\n        'tire',\n        'engine',\n        'money-bill-1-wave',\n        'money-bill-wave-alt',\n        'life-ring',\n        'hands',\n        'sign-language',\n        'signing',\n        'circle-caret-right',\n        'caret-circle-right',\n        'turn-left',\n        'wheat',\n        'file-spreadsheet',\n        'audio-description-slash',\n        'bell-ring',\n        'calendar-day',\n        'water-ladder',\n        'ladder-water',\n        'swimming-pool',\n        'arrows-up-down',\n        'arrows-v',\n        'chess-pawn-piece',\n        'chess-pawn-alt',\n        'face-grimace',\n        'grimace',\n      ],\n      control: { type: 'select' }, // Automatically inferred when 'options' is defined\n    },\n  },\n}"
             },
             {
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/ui/form-element/form-element.component.stories.ts",
+                "file": "src/app/ui/form/form-element/form-element.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<FormElementComponent>",
@@ -1418,31 +1418,31 @@
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/ui/icon/icon.component.stories.ts",
+                "file": "src/app/ui/form/form-input/form-input.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "Meta<IconComponent>",
-                "defaultValue": "{\n  title: 'UI/Icon',\n  component: IconComponent,\n  tags: ['autodocs'],\n  argTypes: {\n    iconName: {\n      options: [\n        'cookie-bite',\n        'arrow-trend-down',\n        'rss',\n        'feed',\n        'face-monocle',\n        'draw-polygon',\n        'scale-balanced',\n        'balance-scale',\n        'calendar-lines',\n        'calendar-note',\n        'arrow-down-big-small',\n        'sort-size-down',\n        'gauge-simple-high',\n        'tachometer',\n        'tachometer-fast',\n        'do-not-enter',\n        'shower',\n        'dice-d8',\n        'desktop',\n        'desktop-alt',\n        'm',\n        'spinner-scale',\n        'grip-dots-vertical',\n        'face-viewfinder',\n        'soft-serve',\n        'creemee',\n        'h5',\n        'hand-back-point-down',\n        'table-list',\n        'th-list',\n        'basket-shopping-minus',\n        'comment-sms',\n        'sms',\n        'rectangle',\n        'rectangle-landscape',\n        'clipboard-list-check',\n        'turkey',\n        'book',\n        'user-plus',\n        'ice-skate',\n        'check',\n        'battery-three-quarters',\n        'battery4',\n        'tomato',\n        'sword-laser',\n        'house-circle-check',\n        'buildings',\n        'angle-left',\n        'cart-flatbed-boxes',\n        'dolly-flatbed-alt',\n        'diagram-successor',\n        'truck-arrow-right',\n        'square-w',\n        'arrows-split-up-and-left',\n        'lamp',\n        'airplay',\n        'hand-fist',\n        'fist-raised',\n        'shield-quartered',\n        'slash-forward',\n        'location-pen',\n        'map-marker-edit',\n        'cloud-moon',\n        'pot-food',\n        'briefcase',\n        'person-falling',\n        'image-portrait',\n        'portrait',\n        'user-tag',\n        'rug',\n        'print-slash',\n        'earth-europe',\n        'globe-europe',\n        'cart-flatbed-suitcase',\n        'luggage-cart',\n        'hand-back-point-ribbon',\n        'rectangle-xmark',\n        'rectangle-times',\n        'times-rectangle',\n        'window-close',\n        'tire-rugged',\n        'lightbulb-dollar',\n        'cowbell',\n        'baht-sign',\n        'corner',\n        'chevrons-right',\n        'chevron-double-right',\n        'book-open',\n        'book-journal-whills',\n        'journal-whills',\n        'inhaler',\n        'handcuffs',\n        'snake',\n        'triangle-exclamation',\n        'exclamation-triangle',\n        'warning',\n        'note-medical',\n        'database',\n        'down-left',\n        'share',\n        'mail-forward',\n        'face-thinking',\n        'turn-down-right',\n        'bottle-droplet',\n        'mask-face',\n        'hill-rockslide',\n        'scanner-keyboard',\n        'circle-o',\n        'grid-horizontal',\n        'message-dollar',\n        'comment-alt-dollar',\n        'right-left',\n        'exchange-alt',\n        'columns-3',\n        'paper-plane',\n        'road-circle-exclamation',\n        'dungeon',\n        'hand-holding-box',\n        'input-text',\n        'window-flip',\n        'window-alt',\n        'align-right',\n        'scanner-gun',\n        'scanner',\n        'tire',\n        'engine',\n        'money-bill-1-wave',\n        'money-bill-wave-alt',\n        'life-ring',\n        'hands',\n        'sign-language',\n        'signing',\n        'circle-caret-right',\n        'caret-circle-right',\n        'turn-left',\n        'wheat',\n        'file-spreadsheet',\n        'audio-description-slash',\n        'bell-ring',\n        'calendar-day',\n        'water-ladder',\n        'ladder-water',\n        'swimming-pool',\n        'arrows-up-down',\n        'arrows-v',\n        'chess-pawn-piece',\n        'chess-pawn-alt',\n        'face-grimace',\n        'grimace',\n      ],\n      control: { type: 'select' }, // Automatically inferred when 'options' is defined\n    },\n  },\n}"
+                "type": "Meta<FormInputComponent>",
+                "defaultValue": "{\n  title: 'UI/Form/Input',\n  component: FormInputComponent,\n  argTypes: {\n    placeholder: { control: 'text' },\n    value: { control: 'text' },\n  },\n}"
             },
             {
                 "name": "Password",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/ui/form-input/form-input.component.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "StoryObj<FormInputComponent>",
-                "defaultValue": "{\n  name: 'Password Input',\n  args: {\n    type: 'password',\n    placeholder: 'Passwort',\n  },\n}"
-            },
-            {
-                "name": "Password",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
-                "file": "src/app/ui/form-element/form-element.component.stories.ts",
+                "file": "src/app/ui/form/form-element/form-element.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "StoryObj<FormElementComponent>",
                 "defaultValue": "{\n  name: 'Password Input',\n  args: {\n    ...InputStories.Password.args,\n    label: 'Passwort eingeben',\n  },\n}"
+            },
+            {
+                "name": "Password",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/ui/form/form-input/form-input.component.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "StoryObj<FormInputComponent>",
+                "defaultValue": "{\n  name: 'Password Input',\n  args: {\n    type: 'password',\n    placeholder: 'Passwort',\n  },\n}"
             },
             {
                 "name": "preview",
@@ -1493,7 +1493,7 @@
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
                 "rawtype": "\"text\" | \"password\" | \"email\"",
-                "file": "src/app/ui/form-input/form-input.component.ts",
+                "file": "src/app/ui/form/form-input/form-input.component.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -1556,90 +1556,6 @@
                     "defaultValue": "{\n  name: 'Icon Button',\n  args: {\n    type: 'primary',\n    label: 'A button with an icon',\n    icon: 'coffee',\n  },\n}"
                 }
             ],
-            "src/app/ui/form-input/form-input.component.stories.ts": [
-                {
-                    "name": "Default",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/ui/form-input/form-input.component.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "StoryObj<FormInputComponent>",
-                    "defaultValue": "{\n  name: 'Default/Primary Input',\n  args: {\n    placeholder: 'Straße und Hausnummer',\n  },\n}"
-                },
-                {
-                    "name": "Email",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/ui/form-input/form-input.component.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "StoryObj<FormInputComponent>",
-                    "defaultValue": "{\n  name: 'Email Input',\n  args: {\n    type: 'email',\n    placeholder: 'E-Mail Adresse',\n  },\n}"
-                },
-                {
-                    "name": "meta",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/ui/form-input/form-input.component.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Meta<FormInputComponent>",
-                    "defaultValue": "{\n  title: 'UI/Form/Input',\n  component: FormInputComponent,\n  argTypes: {\n    placeholder: { control: 'text' },\n    value: { control: 'text' },\n  },\n}"
-                },
-                {
-                    "name": "Password",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/ui/form-input/form-input.component.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "StoryObj<FormInputComponent>",
-                    "defaultValue": "{\n  name: 'Password Input',\n  args: {\n    type: 'password',\n    placeholder: 'Passwort',\n  },\n}"
-                }
-            ],
-            "src/app/ui/form-element/form-element.component.stories.ts": [
-                {
-                    "name": "Default",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/ui/form-element/form-element.component.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "StoryObj<FormElementComponent>",
-                    "defaultValue": "{\n  name: 'Default/Primary Input',\n  args: {\n    ...InputStories.Default.args,\n    label: 'Straße und Hausnummer angeben',\n  },\n}"
-                },
-                {
-                    "name": "Email",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/ui/form-element/form-element.component.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "StoryObj<FormElementComponent>",
-                    "defaultValue": "{\n  name: 'Email Input',\n  args: {\n    ...InputStories.Email.args,\n    label: 'E-Mail Adresse eintragen',\n  },\n}"
-                },
-                {
-                    "name": "meta",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/ui/form-element/form-element.component.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Meta<FormElementComponent>",
-                    "defaultValue": "{\n  title: 'UI/Form/Element',\n  component: FormElementComponent,\n  tags: ['autodocs'],\n  argTypes: {\n    placeholder: { control: 'text' },\n    value: { control: 'text' },\n  },\n}"
-                },
-                {
-                    "name": "Password",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/ui/form-element/form-element.component.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "StoryObj<FormElementComponent>",
-                    "defaultValue": "{\n  name: 'Password Input',\n  args: {\n    ...InputStories.Password.args,\n    label: 'Passwort eingeben',\n  },\n}"
-                }
-            ],
             "src/app/ui/icon/icon.component.stories.ts": [
                 {
                     "name": "Default",
@@ -1660,6 +1576,90 @@
                     "deprecationMessage": "",
                     "type": "Meta<IconComponent>",
                     "defaultValue": "{\n  title: 'UI/Icon',\n  component: IconComponent,\n  tags: ['autodocs'],\n  argTypes: {\n    iconName: {\n      options: [\n        'cookie-bite',\n        'arrow-trend-down',\n        'rss',\n        'feed',\n        'face-monocle',\n        'draw-polygon',\n        'scale-balanced',\n        'balance-scale',\n        'calendar-lines',\n        'calendar-note',\n        'arrow-down-big-small',\n        'sort-size-down',\n        'gauge-simple-high',\n        'tachometer',\n        'tachometer-fast',\n        'do-not-enter',\n        'shower',\n        'dice-d8',\n        'desktop',\n        'desktop-alt',\n        'm',\n        'spinner-scale',\n        'grip-dots-vertical',\n        'face-viewfinder',\n        'soft-serve',\n        'creemee',\n        'h5',\n        'hand-back-point-down',\n        'table-list',\n        'th-list',\n        'basket-shopping-minus',\n        'comment-sms',\n        'sms',\n        'rectangle',\n        'rectangle-landscape',\n        'clipboard-list-check',\n        'turkey',\n        'book',\n        'user-plus',\n        'ice-skate',\n        'check',\n        'battery-three-quarters',\n        'battery4',\n        'tomato',\n        'sword-laser',\n        'house-circle-check',\n        'buildings',\n        'angle-left',\n        'cart-flatbed-boxes',\n        'dolly-flatbed-alt',\n        'diagram-successor',\n        'truck-arrow-right',\n        'square-w',\n        'arrows-split-up-and-left',\n        'lamp',\n        'airplay',\n        'hand-fist',\n        'fist-raised',\n        'shield-quartered',\n        'slash-forward',\n        'location-pen',\n        'map-marker-edit',\n        'cloud-moon',\n        'pot-food',\n        'briefcase',\n        'person-falling',\n        'image-portrait',\n        'portrait',\n        'user-tag',\n        'rug',\n        'print-slash',\n        'earth-europe',\n        'globe-europe',\n        'cart-flatbed-suitcase',\n        'luggage-cart',\n        'hand-back-point-ribbon',\n        'rectangle-xmark',\n        'rectangle-times',\n        'times-rectangle',\n        'window-close',\n        'tire-rugged',\n        'lightbulb-dollar',\n        'cowbell',\n        'baht-sign',\n        'corner',\n        'chevrons-right',\n        'chevron-double-right',\n        'book-open',\n        'book-journal-whills',\n        'journal-whills',\n        'inhaler',\n        'handcuffs',\n        'snake',\n        'triangle-exclamation',\n        'exclamation-triangle',\n        'warning',\n        'note-medical',\n        'database',\n        'down-left',\n        'share',\n        'mail-forward',\n        'face-thinking',\n        'turn-down-right',\n        'bottle-droplet',\n        'mask-face',\n        'hill-rockslide',\n        'scanner-keyboard',\n        'circle-o',\n        'grid-horizontal',\n        'message-dollar',\n        'comment-alt-dollar',\n        'right-left',\n        'exchange-alt',\n        'columns-3',\n        'paper-plane',\n        'road-circle-exclamation',\n        'dungeon',\n        'hand-holding-box',\n        'input-text',\n        'window-flip',\n        'window-alt',\n        'align-right',\n        'scanner-gun',\n        'scanner',\n        'tire',\n        'engine',\n        'money-bill-1-wave',\n        'money-bill-wave-alt',\n        'life-ring',\n        'hands',\n        'sign-language',\n        'signing',\n        'circle-caret-right',\n        'caret-circle-right',\n        'turn-left',\n        'wheat',\n        'file-spreadsheet',\n        'audio-description-slash',\n        'bell-ring',\n        'calendar-day',\n        'water-ladder',\n        'ladder-water',\n        'swimming-pool',\n        'arrows-up-down',\n        'arrows-v',\n        'chess-pawn-piece',\n        'chess-pawn-alt',\n        'face-grimace',\n        'grimace',\n      ],\n      control: { type: 'select' }, // Automatically inferred when 'options' is defined\n    },\n  },\n}"
+                }
+            ],
+            "src/app/ui/form/form-element/form-element.component.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/ui/form/form-element/form-element.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "StoryObj<FormElementComponent>",
+                    "defaultValue": "{\n  name: 'Default/Primary Input',\n  args: {\n    ...InputStories.Default.args,\n    label: 'Straße und Hausnummer angeben',\n  },\n}"
+                },
+                {
+                    "name": "Email",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/ui/form/form-element/form-element.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "StoryObj<FormElementComponent>",
+                    "defaultValue": "{\n  name: 'Email Input',\n  args: {\n    ...InputStories.Email.args,\n    label: 'E-Mail Adresse eintragen',\n  },\n}"
+                },
+                {
+                    "name": "meta",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/ui/form/form-element/form-element.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Meta<FormElementComponent>",
+                    "defaultValue": "{\n  title: 'UI/Form/Element',\n  component: FormElementComponent,\n  tags: ['autodocs'],\n  argTypes: {\n    placeholder: { control: 'text' },\n    value: { control: 'text' },\n  },\n}"
+                },
+                {
+                    "name": "Password",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/ui/form/form-element/form-element.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "StoryObj<FormElementComponent>",
+                    "defaultValue": "{\n  name: 'Password Input',\n  args: {\n    ...InputStories.Password.args,\n    label: 'Passwort eingeben',\n  },\n}"
+                }
+            ],
+            "src/app/ui/form/form-input/form-input.component.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/ui/form/form-input/form-input.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "StoryObj<FormInputComponent>",
+                    "defaultValue": "{\n  name: 'Default/Primary Input',\n  args: {\n    placeholder: 'Straße und Hausnummer',\n  },\n}"
+                },
+                {
+                    "name": "Email",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/ui/form/form-input/form-input.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "StoryObj<FormInputComponent>",
+                    "defaultValue": "{\n  name: 'Email Input',\n  args: {\n    type: 'email',\n    placeholder: 'E-Mail Adresse',\n  },\n}"
+                },
+                {
+                    "name": "meta",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/ui/form/form-input/form-input.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Meta<FormInputComponent>",
+                    "defaultValue": "{\n  title: 'UI/Form/Input',\n  component: FormInputComponent,\n  argTypes: {\n    placeholder: { control: 'text' },\n    value: { control: 'text' },\n  },\n}"
+                },
+                {
+                    "name": "Password",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/ui/form/form-input/form-input.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "StoryObj<FormInputComponent>",
+                    "defaultValue": "{\n  name: 'Password Input',\n  args: {\n    type: 'password',\n    placeholder: 'Passwort',\n  },\n}"
                 }
             ],
             ".storybook/preview.ts": [
@@ -1691,13 +1691,13 @@
                     "kind": 192
                 }
             ],
-            "src/app/ui/form-input/form-input.component.ts": [
+            "src/app/ui/form/form-input/form-input.component.ts": [
                 {
                     "name": "InputType",
                     "ctype": "miscellaneous",
                     "subtype": "typealias",
                     "rawtype": "\"text\" | \"password\" | \"email\"",
-                    "file": "src/app/ui/form-input/form-input.component.ts",
+                    "file": "src/app/ui/form/form-input/form-input.component.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
@@ -1790,7 +1790,7 @@
                 "status": "very-good"
             },
             {
-                "filePath": "src/app/ui/form-element/form-element.component.stories.ts",
+                "filePath": "src/app/ui/form/form-element/form-element.component.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1800,7 +1800,7 @@
                 "status": "low"
             },
             {
-                "filePath": "src/app/ui/form-element/form-element.component.stories.ts",
+                "filePath": "src/app/ui/form/form-element/form-element.component.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1810,7 +1810,7 @@
                 "status": "low"
             },
             {
-                "filePath": "src/app/ui/form-element/form-element.component.stories.ts",
+                "filePath": "src/app/ui/form/form-element/form-element.component.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1820,7 +1820,7 @@
                 "status": "low"
             },
             {
-                "filePath": "src/app/ui/form-element/form-element.component.stories.ts",
+                "filePath": "src/app/ui/form/form-element/form-element.component.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1830,7 +1830,7 @@
                 "status": "low"
             },
             {
-                "filePath": "src/app/ui/form-element/form-element.component.ts",
+                "filePath": "src/app/ui/form/form-element/form-element.component.ts",
                 "type": "component",
                 "linktype": "component",
                 "name": "FormElementComponent",
@@ -1839,7 +1839,7 @@
                 "status": "good"
             },
             {
-                "filePath": "src/app/ui/form-input/form-input.component.stories.ts",
+                "filePath": "src/app/ui/form/form-input/form-input.component.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1849,7 +1849,7 @@
                 "status": "low"
             },
             {
-                "filePath": "src/app/ui/form-input/form-input.component.stories.ts",
+                "filePath": "src/app/ui/form/form-input/form-input.component.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1859,7 +1859,7 @@
                 "status": "low"
             },
             {
-                "filePath": "src/app/ui/form-input/form-input.component.stories.ts",
+                "filePath": "src/app/ui/form/form-input/form-input.component.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1869,7 +1869,7 @@
                 "status": "low"
             },
             {
-                "filePath": "src/app/ui/form-input/form-input.component.stories.ts",
+                "filePath": "src/app/ui/form/form-input/form-input.component.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1879,7 +1879,7 @@
                 "status": "low"
             },
             {
-                "filePath": "src/app/ui/form-input/form-input.component.ts",
+                "filePath": "src/app/ui/form/form-input/form-input.component.ts",
                 "type": "component",
                 "linktype": "component",
                 "name": "FormInputComponent",
@@ -1888,7 +1888,7 @@
                 "status": "very-good"
             },
             {
-                "filePath": "src/app/ui/form-layout/form-layout.component.ts",
+                "filePath": "src/app/ui/form/form-layout/form-layout.component.ts",
                 "type": "component",
                 "linktype": "component",
                 "name": "FormLayoutComponent",
