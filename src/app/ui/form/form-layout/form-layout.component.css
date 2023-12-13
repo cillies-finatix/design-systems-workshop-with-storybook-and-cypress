@@ -1,3 +1,7 @@
-:host {
-  @apply grid p-4 border border-gray-50 bg-blue-50/25 rounded-md;
+fieldset {
+  @apply p-4 border border-gray-50 bg-blue-50/25 rounded-md
+}
+
+.grid-layout {
+  @apply grid;
 }

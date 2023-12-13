@@ -1,5 +1,5 @@
 <label [attr.for]="id">{{ label }}</label>
 <app-form-input [id]="id"
-                [placeholder]="placeholder"
+                [placeholder]="placeholder || label"
                 [type]="type"
                 [value]="value"/>
