@@ -1,5 +1,11 @@
-import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
+import {
+  ChangeDetectionStrategy,
+  Component,
+  inject,
+  Input,
+} from '@angular/core';
 import { IconComponent } from '../../icon/icon.component';
+import { FormHelperService } from '../form-helper.service';
 
 export type InputType = 'text' | 'password' | 'email';
 
@@ -35,7 +41,6 @@ export class FormInputComponent {
    * @package ui
    */
   @Input() type: InputType = 'text';
-
   /**
    * Placeholder of the input
    *
@@ -64,4 +69,13 @@ export class FormInputComponent {
    * @internal
    */
   @Input() id: string = crypto.randomUUID();
+
+  /**
+   * @private
+   */
+  readonly #formHelper = inject(FormHelperService, { optional: true });
+
+  onChange(value: string) {
+    this.#formHelper?.update(this.type, value);
+  }
 }

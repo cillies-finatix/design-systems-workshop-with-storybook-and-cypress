@@ -1,1 +1,2 @@
-<input [attr.class]="type" [attr.id]="id" [attr.placeholder]="placeholder" [attr.type]="type" [attr.value]="value"/>
+<input (change)="onChange($event.target.value)" [attr.class]="type" [attr.id]="id" [attr.placeholder]="placeholder"
+       [attr.type]="type" [attr.value]="value"/>
