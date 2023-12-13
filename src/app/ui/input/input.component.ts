@@ -1,18 +1,15 @@
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
-import { IconName } from '@fortawesome/free-regular-svg-icons';
 import { IconComponent } from '../icon/icon.component';
 
-export type InputType = 'primary' | 'secondary';
+export type InputType = 'text' | 'password' | 'email';
 
 /**
  * A simple input that can have click listeners and so on.
  *
- * Provide a label at least and an optional type for its appearance.
- *
  * Usage:
  *
  * ```html
- * <app-input label="My input" type="primary" />
+ * <app-input type="text" />
  * ```
  *
  * @since 0.0.1
@@ -30,16 +27,6 @@ export type InputType = 'primary' | 'secondary';
 })
 export class InputComponent {
   /**
-   * Change the label of the input by passing the input "label" here.
-   * This is mandatory to show a input anyway.
-   * @required
-   * @since 0.0.1
-   * @summary Label of the input
-   * @author Christian Illies<c.illies@finatix.de>
-   * @package ui
-   */
-  @Input({ required: true }) public label: string = 'Input Label';
-  /**
    * Change the type of the input
    *
    * @since 0.0.1
@@ -47,16 +34,15 @@ export class InputComponent {
    * @author Christian Illies<c.illies@finatix.de>
    * @package ui
    */
-  @Input({ required: false }) type: InputType = 'primary';
+  @Input({ required: false }) type: InputType = 'text';
+
   /**
-   * Add an icon if needed
+   * Placeholder of the input
    *
-   * @since 0.0.2
-   * @summary icon for the input
+   * @since 0.0.3
+   * @summary Placeholder when no value is provided
    * @author Christian Illies<c.illies@finatix.de>
    * @package ui
    */
-  @Input({ required: false }) icon: IconName | undefined;
-
-  protected internalRefId = crypto.randomUUID();
+  @Input({ required: false }) placeholder: string = '';
 }

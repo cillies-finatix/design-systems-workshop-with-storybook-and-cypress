@@ -452,7 +452,7 @@
         },
         {
             "name": "InputComponent",
-            "id": "component-InputComponent-bdb0ca728a1a8c0da25657d2332e6e7d9160ff26fdf84af71db486c2da7e46e539fcd29627ee69e57fa42ca942de6f1d978bc27b5e887fb6cbe38557fff0658e",
+            "id": "component-InputComponent-e96ad3885db20b94a5dab70c223c4e14d6243227ff6b8dfa4def635bab0dc8ebc92d04d639e8d9b5fe844282bcfb9469918bfa90cc20348e00400d0303959517",
             "file": "src/app/ui/input/input.component.ts",
             "changeDetection": "ChangeDetectionStrategy.OnPush",
             "encapsulation": [],
@@ -471,57 +471,58 @@
             "inputsClass": [
                 {
                     "required": true,
-                    "name": "icon",
+                    "name": "placeholder",
+                    "defaultValue": "''",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "optional": true,
                     "jsdoctags": [
                         {
-                            "pos": 1412,
-                            "end": 1430,
+                            "pos": 933,
+                            "end": 951,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 1413,
-                                "end": 1418,
+                                "pos": 934,
+                                "end": 939,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
                                 "kind": 80,
                                 "escapedText": "since"
                             },
-                            "comment": "<p>0.0.2</p>\n"
+                            "comment": "<p>0.0.3</p>\n"
                         },
                         {
-                            "pos": 1430,
-                            "end": 1463,
+                            "pos": 951,
+                            "end": 1003,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 1431,
-                                "end": 1438,
+                                "pos": 952,
+                                "end": 959,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
                                 "kind": 80,
                                 "escapedText": "summary"
                             },
-                            "comment": "<p>icon for the input</p>\n"
+                            "comment": "<p>Placeholder when no value is provided</p>\n"
                         },
                         {
-                            "pos": 1463,
-                            "end": 1514,
+                            "pos": 1003,
+                            "end": 1054,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 337,
                             "tagName": {
-                                "pos": 1464,
-                                "end": 1470,
+                                "pos": 1004,
+                                "end": 1010,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -531,15 +532,15 @@
                             "comment": "<p>Christian Illies<a href=\"mailto:c.illies@finatix.de\">c.illies@finatix.de</a></p>\n"
                         },
                         {
-                            "pos": 1514,
-                            "end": 1529,
+                            "pos": 1054,
+                            "end": 1069,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 1515,
-                                "end": 1522,
+                                "pos": 1055,
+                                "end": 1062,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -549,135 +550,30 @@
                             "comment": "<p>ui</p>\n"
                         }
                     ],
-                    "rawdescription": "\n\nAdd an icon if needed\n\n",
-                    "description": "<p>Add an icon if needed</p>\n",
-                    "line": 59,
-                    "type": "IconName | undefined",
-                    "decorators": []
-                },
-                {
-                    "required": true,
-                    "name": "label",
-                    "defaultValue": "'Input Label'",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "optional": false,
-                    "jsdoctags": [
-                        {
-                            "pos": 939,
-                            "end": 954,
-                            "flags": 16842752,
-                            "modifierFlagsCache": 0,
-                            "transformFlags": 0,
-                            "kind": 334,
-                            "tagName": {
-                                "pos": 940,
-                                "end": 948,
-                                "flags": 16842752,
-                                "modifierFlagsCache": 0,
-                                "transformFlags": 0,
-                                "kind": 80,
-                                "escapedText": "required"
-                            },
-                            "comment": ""
-                        },
-                        {
-                            "pos": 954,
-                            "end": 972,
-                            "flags": 16842752,
-                            "modifierFlagsCache": 0,
-                            "transformFlags": 0,
-                            "kind": 334,
-                            "tagName": {
-                                "pos": 955,
-                                "end": 960,
-                                "flags": 16842752,
-                                "modifierFlagsCache": 0,
-                                "transformFlags": 0,
-                                "kind": 80,
-                                "escapedText": "since"
-                            },
-                            "comment": "<p>0.0.1</p>\n"
-                        },
-                        {
-                            "pos": 972,
-                            "end": 1005,
-                            "flags": 16842752,
-                            "modifierFlagsCache": 0,
-                            "transformFlags": 0,
-                            "kind": 334,
-                            "tagName": {
-                                "pos": 973,
-                                "end": 980,
-                                "flags": 16842752,
-                                "modifierFlagsCache": 0,
-                                "transformFlags": 0,
-                                "kind": 80,
-                                "escapedText": "summary"
-                            },
-                            "comment": "<p>Label of the input</p>\n"
-                        },
-                        {
-                            "pos": 1005,
-                            "end": 1056,
-                            "flags": 16842752,
-                            "modifierFlagsCache": 0,
-                            "transformFlags": 0,
-                            "kind": 337,
-                            "tagName": {
-                                "pos": 1006,
-                                "end": 1012,
-                                "flags": 16842752,
-                                "modifierFlagsCache": 0,
-                                "transformFlags": 0,
-                                "kind": 80,
-                                "escapedText": "author"
-                            },
-                            "comment": "<p>Christian Illies<a href=\"mailto:c.illies@finatix.de\">c.illies@finatix.de</a></p>\n"
-                        },
-                        {
-                            "pos": 1056,
-                            "end": 1071,
-                            "flags": 16842752,
-                            "modifierFlagsCache": 0,
-                            "transformFlags": 0,
-                            "kind": 334,
-                            "tagName": {
-                                "pos": 1057,
-                                "end": 1064,
-                                "flags": 16842752,
-                                "modifierFlagsCache": 0,
-                                "transformFlags": 0,
-                                "kind": 80,
-                                "escapedText": "package"
-                            },
-                            "comment": "<p>ui</p>\n"
-                        }
-                    ],
-                    "rawdescription": "\n\nChange the label of the input by passing the input \"label\" here.\nThis is mandatory to show a input anyway.\n",
-                    "description": "<p>Change the label of the input by passing the input &quot;label&quot; here.\nThis is mandatory to show a input anyway.</p>\n",
-                    "line": 41,
+                    "rawdescription": "\n\nPlaceholder of the input\n\n",
+                    "description": "<p>Placeholder of the input</p>\n",
+                    "line": 47,
                     "type": "string",
                     "decorators": []
                 },
                 {
                     "required": true,
                     "name": "type",
-                    "defaultValue": "'primary'",
+                    "defaultValue": "'text'",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "optional": true,
                     "jsdoctags": [
                         {
-                            "pos": 1191,
-                            "end": 1209,
+                            "pos": 711,
+                            "end": 729,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 1192,
-                                "end": 1197,
+                                "pos": 712,
+                                "end": 717,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -687,15 +583,15 @@
                             "comment": "<p>0.0.1</p>\n"
                         },
                         {
-                            "pos": 1209,
-                            "end": 1241,
+                            "pos": 729,
+                            "end": 761,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 1210,
-                                "end": 1217,
+                                "pos": 730,
+                                "end": 737,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -705,15 +601,15 @@
                             "comment": "<p>Type of the input</p>\n"
                         },
                         {
-                            "pos": 1241,
-                            "end": 1292,
+                            "pos": 761,
+                            "end": 812,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 337,
                             "tagName": {
-                                "pos": 1242,
-                                "end": 1248,
+                                "pos": 762,
+                                "end": 768,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -723,15 +619,15 @@
                             "comment": "<p>Christian Illies<a href=\"mailto:c.illies@finatix.de\">c.illies@finatix.de</a></p>\n"
                         },
                         {
-                            "pos": 1292,
-                            "end": 1307,
+                            "pos": 812,
+                            "end": 827,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 1293,
-                                "end": 1300,
+                                "pos": 813,
+                                "end": 820,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -743,27 +639,13 @@
                     ],
                     "rawdescription": "\n\nChange the type of the input\n\n",
                     "description": "<p>Change the type of the input</p>\n",
-                    "line": 50,
+                    "line": 37,
                     "type": "InputType",
                     "decorators": []
                 }
             ],
             "outputsClass": [],
-            "propertiesClass": [
-                {
-                    "name": "internalRefId",
-                    "defaultValue": "crypto.randomUUID()",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "",
-                    "optional": false,
-                    "description": "",
-                    "line": 61,
-                    "modifierKind": [
-                        124
-                    ]
-                }
-            ],
+            "propertiesClass": [],
             "methodsClass": [],
             "deprecated": false,
             "deprecationMessage": "",
@@ -776,16 +658,16 @@
                     "type": "component"
                 }
             ],
-            "description": "<p>A simple input that can have click listeners and so on.</p>\n<p>Provide a label at least and an optional type for its appearance.</p>\n<p>Usage:</p>\n<b>Example :</b><div><pre class=\"line-numbers\"><code class=\"language-html\">&lt;app-input label=&quot;My input&quot; type=&quot;primary&quot; /&gt;</code></pre></div>",
-            "rawdescription": "\n\nA simple input that can have click listeners and so on.\n\nProvide a label at least and an optional type for its appearance.\n\nUsage:\n\n```html\n<app-input label=\"My input\" type=\"primary\" />\n```\n\n",
+            "description": "<p>A simple input that can have click listeners and so on.</p>\n<p>Usage:</p>\n<b>Example :</b><div><pre class=\"line-numbers\"><code class=\"language-html\">&lt;app-input type=&quot;text&quot; /&gt;</code></pre></div>",
+            "rawdescription": "\n\nA simple input that can have click listeners and so on.\n\nUsage:\n\n```html\n<app-input type=\"text\" />\n```\n\n",
             "type": "component",
-            "sourceCode": "import { ChangeDetectionStrategy, Component, Input } from '@angular/core';\nimport { IconName } from '@fortawesome/free-regular-svg-icons';\nimport { IconComponent } from '../icon/icon.component';\n\nexport type InputType = 'primary' | 'secondary';\n\n/**\n * A simple input that can have click listeners and so on.\n *\n * Provide a label at least and an optional type for its appearance.\n *\n * Usage:\n *\n * ```html\n * <app-input label=\"My input\" type=\"primary\" />\n * ```\n *\n * @since 0.0.1\n * @author Christian Illies<c.illies@finatix.de>\n * @public\n * @package ui\n */\n@Component({\n  selector: 'app-input',\n  standalone: true,\n  imports: [IconComponent],\n  templateUrl: './input.component.html',\n  styleUrl: './input.component.scss',\n  changeDetection: ChangeDetectionStrategy.OnPush,\n})\nexport class InputComponent {\n  /**\n   * Change the label of the input by passing the input \"label\" here.\n   * This is mandatory to show a input anyway.\n   * @required\n   * @since 0.0.1\n   * @summary Label of the input\n   * @author Christian Illies<c.illies@finatix.de>\n   * @package ui\n   */\n  @Input({ required: true }) public label: string = 'Input Label';\n  /**\n   * Change the type of the input\n   *\n   * @since 0.0.1\n   * @summary Type of the input\n   * @author Christian Illies<c.illies@finatix.de>\n   * @package ui\n   */\n  @Input({ required: false }) type: InputType = 'primary';\n  /**\n   * Add an icon if needed\n   *\n   * @since 0.0.2\n   * @summary icon for the input\n   * @author Christian Illies<c.illies@finatix.de>\n   * @package ui\n   */\n  @Input({ required: false }) icon: IconName | undefined;\n\n  protected internalRefId = crypto.randomUUID();\n}\n",
+            "sourceCode": "import { ChangeDetectionStrategy, Component, Input } from '@angular/core';\nimport { IconComponent } from '../icon/icon.component';\n\nexport type InputType = 'text' | 'password' | 'email';\n\n/**\n * A simple input that can have click listeners and so on.\n *\n * Usage:\n *\n * ```html\n * <app-input type=\"text\" />\n * ```\n *\n * @since 0.0.1\n * @author Christian Illies<c.illies@finatix.de>\n * @public\n * @package ui\n */\n@Component({\n  selector: 'app-input',\n  standalone: true,\n  imports: [IconComponent],\n  templateUrl: './input.component.html',\n  styleUrl: './input.component.scss',\n  changeDetection: ChangeDetectionStrategy.OnPush,\n})\nexport class InputComponent {\n  /**\n   * Change the type of the input\n   *\n   * @since 0.0.1\n   * @summary Type of the input\n   * @author Christian Illies<c.illies@finatix.de>\n   * @package ui\n   */\n  @Input({ required: false }) type: InputType = 'text';\n\n  /**\n   * Placeholder of the input\n   *\n   * @since 0.0.3\n   * @summary Placeholder when no value is provided\n   * @author Christian Illies<c.illies@finatix.de>\n   * @package ui\n   */\n  @Input({ required: false }) placeholder: string = '';\n}\n",
             "styleUrl": "./input.component.scss",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
             "extends": [],
-            "templateData": "<label [attr.for]=\"internalRefId\">@if (icon) {\n  <app-icon [iconName]=\"icon\"/>\n} {{ label }}:</label>\n<input [attr.class]=\"type\" [attr.id]=\"internalRefId\" type=\"text\"/>\n"
+            "templateData": "<input [attr.class]=\"type\" [placeholder]=\"placeholder\" [type]=\"type\"/>\n"
         }
     ],
     "modules": [],
@@ -805,16 +687,6 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/ui/icon/icon.component.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "StoryObj<IconComponent>",
-                "defaultValue": "{\n  args: {\n    iconName: 'coffee',\n  },\n}"
-            },
-            {
-                "name": "Default",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "src/app/ui/button/button.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
@@ -825,21 +697,31 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
+                "file": "src/app/ui/icon/icon.component.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "StoryObj<IconComponent>",
+                "defaultValue": "{\n  args: {\n    iconName: 'coffee',\n  },\n}"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
                 "file": "src/app/ui/input/input.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "StoryObj<InputComponent>",
-                "defaultValue": "{\n  name: 'Default/Primary Input',\n  args: {\n    label: 'Your Input label',\n  },\n}"
+                "defaultValue": "{\n  name: 'Default/Primary Input',\n  args: {},\n}"
             },
             {
-                "name": "meta",
+                "name": "Email",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/ui/icon/icon.component.stories.ts",
+                "file": "src/app/ui/input/input.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "Meta<IconComponent>",
-                "defaultValue": "{\n  title: 'UI/Icon',\n  component: IconComponent,\n  tags: ['autodocs'],\n  argTypes: {\n    iconName: {\n      options: [\n        'cookie-bite',\n        'arrow-trend-down',\n        'rss',\n        'feed',\n        'face-monocle',\n        'draw-polygon',\n        'scale-balanced',\n        'balance-scale',\n        'calendar-lines',\n        'calendar-note',\n        'arrow-down-big-small',\n        'sort-size-down',\n        'gauge-simple-high',\n        'tachometer',\n        'tachometer-fast',\n        'do-not-enter',\n        'shower',\n        'dice-d8',\n        'desktop',\n        'desktop-alt',\n        'm',\n        'spinner-scale',\n        'grip-dots-vertical',\n        'face-viewfinder',\n        'soft-serve',\n        'creemee',\n        'h5',\n        'hand-back-point-down',\n        'table-list',\n        'th-list',\n        'basket-shopping-minus',\n        'comment-sms',\n        'sms',\n        'rectangle',\n        'rectangle-landscape',\n        'clipboard-list-check',\n        'turkey',\n        'book',\n        'user-plus',\n        'ice-skate',\n        'check',\n        'battery-three-quarters',\n        'battery4',\n        'tomato',\n        'sword-laser',\n        'house-circle-check',\n        'buildings',\n        'angle-left',\n        'cart-flatbed-boxes',\n        'dolly-flatbed-alt',\n        'diagram-successor',\n        'truck-arrow-right',\n        'square-w',\n        'arrows-split-up-and-left',\n        'lamp',\n        'airplay',\n        'hand-fist',\n        'fist-raised',\n        'shield-quartered',\n        'slash-forward',\n        'location-pen',\n        'map-marker-edit',\n        'cloud-moon',\n        'pot-food',\n        'briefcase',\n        'person-falling',\n        'image-portrait',\n        'portrait',\n        'user-tag',\n        'rug',\n        'print-slash',\n        'earth-europe',\n        'globe-europe',\n        'cart-flatbed-suitcase',\n        'luggage-cart',\n        'hand-back-point-ribbon',\n        'rectangle-xmark',\n        'rectangle-times',\n        'times-rectangle',\n        'window-close',\n        'tire-rugged',\n        'lightbulb-dollar',\n        'cowbell',\n        'baht-sign',\n        'corner',\n        'chevrons-right',\n        'chevron-double-right',\n        'book-open',\n        'book-journal-whills',\n        'journal-whills',\n        'inhaler',\n        'handcuffs',\n        'snake',\n        'triangle-exclamation',\n        'exclamation-triangle',\n        'warning',\n        'note-medical',\n        'database',\n        'down-left',\n        'share',\n        'mail-forward',\n        'face-thinking',\n        'turn-down-right',\n        'bottle-droplet',\n        'mask-face',\n        'hill-rockslide',\n        'scanner-keyboard',\n        'circle-o',\n        'grid-horizontal',\n        'message-dollar',\n        'comment-alt-dollar',\n        'right-left',\n        'exchange-alt',\n        'columns-3',\n        'paper-plane',\n        'road-circle-exclamation',\n        'dungeon',\n        'hand-holding-box',\n        'input-text',\n        'window-flip',\n        'window-alt',\n        'align-right',\n        'scanner-gun',\n        'scanner',\n        'tire',\n        'engine',\n        'money-bill-1-wave',\n        'money-bill-wave-alt',\n        'life-ring',\n        'hands',\n        'sign-language',\n        'signing',\n        'circle-caret-right',\n        'caret-circle-right',\n        'turn-left',\n        'wheat',\n        'file-spreadsheet',\n        'audio-description-slash',\n        'bell-ring',\n        'calendar-day',\n        'water-ladder',\n        'ladder-water',\n        'swimming-pool',\n        'arrows-up-down',\n        'arrows-v',\n        'chess-pawn-piece',\n        'chess-pawn-alt',\n        'face-grimace',\n        'grimace',\n      ],\n      control: { type: 'select' }, // Automatically inferred when 'options' is defined\n    },\n  },\n}"
+                "type": "StoryObj<InputComponent>",
+                "defaultValue": "{\n  name: 'Email Input',\n  args: {\n    type: 'email',\n  },\n}"
             },
             {
                 "name": "meta",
@@ -855,11 +737,31 @@
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
+                "file": "src/app/ui/icon/icon.component.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<IconComponent>",
+                "defaultValue": "{\n  title: 'UI/Icon',\n  component: IconComponent,\n  tags: ['autodocs'],\n  argTypes: {\n    iconName: {\n      options: [\n        'cookie-bite',\n        'arrow-trend-down',\n        'rss',\n        'feed',\n        'face-monocle',\n        'draw-polygon',\n        'scale-balanced',\n        'balance-scale',\n        'calendar-lines',\n        'calendar-note',\n        'arrow-down-big-small',\n        'sort-size-down',\n        'gauge-simple-high',\n        'tachometer',\n        'tachometer-fast',\n        'do-not-enter',\n        'shower',\n        'dice-d8',\n        'desktop',\n        'desktop-alt',\n        'm',\n        'spinner-scale',\n        'grip-dots-vertical',\n        'face-viewfinder',\n        'soft-serve',\n        'creemee',\n        'h5',\n        'hand-back-point-down',\n        'table-list',\n        'th-list',\n        'basket-shopping-minus',\n        'comment-sms',\n        'sms',\n        'rectangle',\n        'rectangle-landscape',\n        'clipboard-list-check',\n        'turkey',\n        'book',\n        'user-plus',\n        'ice-skate',\n        'check',\n        'battery-three-quarters',\n        'battery4',\n        'tomato',\n        'sword-laser',\n        'house-circle-check',\n        'buildings',\n        'angle-left',\n        'cart-flatbed-boxes',\n        'dolly-flatbed-alt',\n        'diagram-successor',\n        'truck-arrow-right',\n        'square-w',\n        'arrows-split-up-and-left',\n        'lamp',\n        'airplay',\n        'hand-fist',\n        'fist-raised',\n        'shield-quartered',\n        'slash-forward',\n        'location-pen',\n        'map-marker-edit',\n        'cloud-moon',\n        'pot-food',\n        'briefcase',\n        'person-falling',\n        'image-portrait',\n        'portrait',\n        'user-tag',\n        'rug',\n        'print-slash',\n        'earth-europe',\n        'globe-europe',\n        'cart-flatbed-suitcase',\n        'luggage-cart',\n        'hand-back-point-ribbon',\n        'rectangle-xmark',\n        'rectangle-times',\n        'times-rectangle',\n        'window-close',\n        'tire-rugged',\n        'lightbulb-dollar',\n        'cowbell',\n        'baht-sign',\n        'corner',\n        'chevrons-right',\n        'chevron-double-right',\n        'book-open',\n        'book-journal-whills',\n        'journal-whills',\n        'inhaler',\n        'handcuffs',\n        'snake',\n        'triangle-exclamation',\n        'exclamation-triangle',\n        'warning',\n        'note-medical',\n        'database',\n        'down-left',\n        'share',\n        'mail-forward',\n        'face-thinking',\n        'turn-down-right',\n        'bottle-droplet',\n        'mask-face',\n        'hill-rockslide',\n        'scanner-keyboard',\n        'circle-o',\n        'grid-horizontal',\n        'message-dollar',\n        'comment-alt-dollar',\n        'right-left',\n        'exchange-alt',\n        'columns-3',\n        'paper-plane',\n        'road-circle-exclamation',\n        'dungeon',\n        'hand-holding-box',\n        'input-text',\n        'window-flip',\n        'window-alt',\n        'align-right',\n        'scanner-gun',\n        'scanner',\n        'tire',\n        'engine',\n        'money-bill-1-wave',\n        'money-bill-wave-alt',\n        'life-ring',\n        'hands',\n        'sign-language',\n        'signing',\n        'circle-caret-right',\n        'caret-circle-right',\n        'turn-left',\n        'wheat',\n        'file-spreadsheet',\n        'audio-description-slash',\n        'bell-ring',\n        'calendar-day',\n        'water-ladder',\n        'ladder-water',\n        'swimming-pool',\n        'arrows-up-down',\n        'arrows-v',\n        'chess-pawn-piece',\n        'chess-pawn-alt',\n        'face-grimace',\n        'grimace',\n      ],\n      control: { type: 'select' }, // Automatically inferred when 'options' is defined\n    },\n  },\n}"
+            },
+            {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
                 "file": "src/app/ui/input/input.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<InputComponent>",
                 "defaultValue": "{\n  title: 'UI/Input',\n  component: InputComponent,\n}"
+            },
+            {
+                "name": "Password",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/ui/input/input.component.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "StoryObj<InputComponent>",
+                "defaultValue": "{\n  name: 'Password Input',\n  args: {\n    type: 'password',\n  },\n}"
             },
             {
                 "name": "preview",
@@ -882,16 +784,6 @@
                 "defaultValue": "{\n  name: 'Secondary Button',\n  args: {\n    type: 'secondary',\n    label: 'Your Secondary Button label',\n  },\n}"
             },
             {
-                "name": "Secondary",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
-                "file": "src/app/ui/input/input.component.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "StoryObj<InputComponent>",
-                "defaultValue": "{\n  name: 'Secondary Input',\n  args: {\n    type: 'secondary',\n    label: 'Your Secondary Input label',\n  },\n}"
-            },
-            {
                 "name": "WithIcon",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
@@ -900,16 +792,6 @@
                 "deprecationMessage": "",
                 "type": "StoryObj<ButtonComponent>",
                 "defaultValue": "{\n  name: 'Icon Button',\n  args: {\n    type: 'primary',\n    label: 'A button with an icon',\n    icon: 'coffee',\n  },\n}"
-            },
-            {
-                "name": "WithIcon",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
-                "file": "src/app/ui/input/input.component.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "StoryObj<InputComponent>",
-                "defaultValue": "{\n  name: 'Input with Icon',\n  args: {\n    label: 'Your Input label',\n    icon: 'fingerprint',\n  },\n}"
             }
         ],
         "functions": [],
@@ -929,7 +811,7 @@
                 "name": "InputType",
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
-                "rawtype": "\"primary\" | \"secondary\"",
+                "rawtype": "\"text\" | \"password\" | \"email\"",
                 "file": "src/app/ui/input/input.component.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
@@ -949,28 +831,6 @@
                     "deprecationMessage": "",
                     "type": "ApplicationConfig",
                     "defaultValue": "{\n  providers: []\n}"
-                }
-            ],
-            "src/app/ui/icon/icon.component.stories.ts": [
-                {
-                    "name": "Default",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/ui/icon/icon.component.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "StoryObj<IconComponent>",
-                    "defaultValue": "{\n  args: {\n    iconName: 'coffee',\n  },\n}"
-                },
-                {
-                    "name": "meta",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/ui/icon/icon.component.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Meta<IconComponent>",
-                    "defaultValue": "{\n  title: 'UI/Icon',\n  component: IconComponent,\n  tags: ['autodocs'],\n  argTypes: {\n    iconName: {\n      options: [\n        'cookie-bite',\n        'arrow-trend-down',\n        'rss',\n        'feed',\n        'face-monocle',\n        'draw-polygon',\n        'scale-balanced',\n        'balance-scale',\n        'calendar-lines',\n        'calendar-note',\n        'arrow-down-big-small',\n        'sort-size-down',\n        'gauge-simple-high',\n        'tachometer',\n        'tachometer-fast',\n        'do-not-enter',\n        'shower',\n        'dice-d8',\n        'desktop',\n        'desktop-alt',\n        'm',\n        'spinner-scale',\n        'grip-dots-vertical',\n        'face-viewfinder',\n        'soft-serve',\n        'creemee',\n        'h5',\n        'hand-back-point-down',\n        'table-list',\n        'th-list',\n        'basket-shopping-minus',\n        'comment-sms',\n        'sms',\n        'rectangle',\n        'rectangle-landscape',\n        'clipboard-list-check',\n        'turkey',\n        'book',\n        'user-plus',\n        'ice-skate',\n        'check',\n        'battery-three-quarters',\n        'battery4',\n        'tomato',\n        'sword-laser',\n        'house-circle-check',\n        'buildings',\n        'angle-left',\n        'cart-flatbed-boxes',\n        'dolly-flatbed-alt',\n        'diagram-successor',\n        'truck-arrow-right',\n        'square-w',\n        'arrows-split-up-and-left',\n        'lamp',\n        'airplay',\n        'hand-fist',\n        'fist-raised',\n        'shield-quartered',\n        'slash-forward',\n        'location-pen',\n        'map-marker-edit',\n        'cloud-moon',\n        'pot-food',\n        'briefcase',\n        'person-falling',\n        'image-portrait',\n        'portrait',\n        'user-tag',\n        'rug',\n        'print-slash',\n        'earth-europe',\n        'globe-europe',\n        'cart-flatbed-suitcase',\n        'luggage-cart',\n        'hand-back-point-ribbon',\n        'rectangle-xmark',\n        'rectangle-times',\n        'times-rectangle',\n        'window-close',\n        'tire-rugged',\n        'lightbulb-dollar',\n        'cowbell',\n        'baht-sign',\n        'corner',\n        'chevrons-right',\n        'chevron-double-right',\n        'book-open',\n        'book-journal-whills',\n        'journal-whills',\n        'inhaler',\n        'handcuffs',\n        'snake',\n        'triangle-exclamation',\n        'exclamation-triangle',\n        'warning',\n        'note-medical',\n        'database',\n        'down-left',\n        'share',\n        'mail-forward',\n        'face-thinking',\n        'turn-down-right',\n        'bottle-droplet',\n        'mask-face',\n        'hill-rockslide',\n        'scanner-keyboard',\n        'circle-o',\n        'grid-horizontal',\n        'message-dollar',\n        'comment-alt-dollar',\n        'right-left',\n        'exchange-alt',\n        'columns-3',\n        'paper-plane',\n        'road-circle-exclamation',\n        'dungeon',\n        'hand-holding-box',\n        'input-text',\n        'window-flip',\n        'window-alt',\n        'align-right',\n        'scanner-gun',\n        'scanner',\n        'tire',\n        'engine',\n        'money-bill-1-wave',\n        'money-bill-wave-alt',\n        'life-ring',\n        'hands',\n        'sign-language',\n        'signing',\n        'circle-caret-right',\n        'caret-circle-right',\n        'turn-left',\n        'wheat',\n        'file-spreadsheet',\n        'audio-description-slash',\n        'bell-ring',\n        'calendar-day',\n        'water-ladder',\n        'ladder-water',\n        'swimming-pool',\n        'arrows-up-down',\n        'arrows-v',\n        'chess-pawn-piece',\n        'chess-pawn-alt',\n        'face-grimace',\n        'grimace',\n      ],\n      control: { type: 'select' }, // Automatically inferred when 'options' is defined\n    },\n  },\n}"
                 }
             ],
             "src/app/ui/button/button.component.stories.ts": [
@@ -1015,6 +875,28 @@
                     "defaultValue": "{\n  name: 'Icon Button',\n  args: {\n    type: 'primary',\n    label: 'A button with an icon',\n    icon: 'coffee',\n  },\n}"
                 }
             ],
+            "src/app/ui/icon/icon.component.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/ui/icon/icon.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "StoryObj<IconComponent>",
+                    "defaultValue": "{\n  args: {\n    iconName: 'coffee',\n  },\n}"
+                },
+                {
+                    "name": "meta",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/ui/icon/icon.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Meta<IconComponent>",
+                    "defaultValue": "{\n  title: 'UI/Icon',\n  component: IconComponent,\n  tags: ['autodocs'],\n  argTypes: {\n    iconName: {\n      options: [\n        'cookie-bite',\n        'arrow-trend-down',\n        'rss',\n        'feed',\n        'face-monocle',\n        'draw-polygon',\n        'scale-balanced',\n        'balance-scale',\n        'calendar-lines',\n        'calendar-note',\n        'arrow-down-big-small',\n        'sort-size-down',\n        'gauge-simple-high',\n        'tachometer',\n        'tachometer-fast',\n        'do-not-enter',\n        'shower',\n        'dice-d8',\n        'desktop',\n        'desktop-alt',\n        'm',\n        'spinner-scale',\n        'grip-dots-vertical',\n        'face-viewfinder',\n        'soft-serve',\n        'creemee',\n        'h5',\n        'hand-back-point-down',\n        'table-list',\n        'th-list',\n        'basket-shopping-minus',\n        'comment-sms',\n        'sms',\n        'rectangle',\n        'rectangle-landscape',\n        'clipboard-list-check',\n        'turkey',\n        'book',\n        'user-plus',\n        'ice-skate',\n        'check',\n        'battery-three-quarters',\n        'battery4',\n        'tomato',\n        'sword-laser',\n        'house-circle-check',\n        'buildings',\n        'angle-left',\n        'cart-flatbed-boxes',\n        'dolly-flatbed-alt',\n        'diagram-successor',\n        'truck-arrow-right',\n        'square-w',\n        'arrows-split-up-and-left',\n        'lamp',\n        'airplay',\n        'hand-fist',\n        'fist-raised',\n        'shield-quartered',\n        'slash-forward',\n        'location-pen',\n        'map-marker-edit',\n        'cloud-moon',\n        'pot-food',\n        'briefcase',\n        'person-falling',\n        'image-portrait',\n        'portrait',\n        'user-tag',\n        'rug',\n        'print-slash',\n        'earth-europe',\n        'globe-europe',\n        'cart-flatbed-suitcase',\n        'luggage-cart',\n        'hand-back-point-ribbon',\n        'rectangle-xmark',\n        'rectangle-times',\n        'times-rectangle',\n        'window-close',\n        'tire-rugged',\n        'lightbulb-dollar',\n        'cowbell',\n        'baht-sign',\n        'corner',\n        'chevrons-right',\n        'chevron-double-right',\n        'book-open',\n        'book-journal-whills',\n        'journal-whills',\n        'inhaler',\n        'handcuffs',\n        'snake',\n        'triangle-exclamation',\n        'exclamation-triangle',\n        'warning',\n        'note-medical',\n        'database',\n        'down-left',\n        'share',\n        'mail-forward',\n        'face-thinking',\n        'turn-down-right',\n        'bottle-droplet',\n        'mask-face',\n        'hill-rockslide',\n        'scanner-keyboard',\n        'circle-o',\n        'grid-horizontal',\n        'message-dollar',\n        'comment-alt-dollar',\n        'right-left',\n        'exchange-alt',\n        'columns-3',\n        'paper-plane',\n        'road-circle-exclamation',\n        'dungeon',\n        'hand-holding-box',\n        'input-text',\n        'window-flip',\n        'window-alt',\n        'align-right',\n        'scanner-gun',\n        'scanner',\n        'tire',\n        'engine',\n        'money-bill-1-wave',\n        'money-bill-wave-alt',\n        'life-ring',\n        'hands',\n        'sign-language',\n        'signing',\n        'circle-caret-right',\n        'caret-circle-right',\n        'turn-left',\n        'wheat',\n        'file-spreadsheet',\n        'audio-description-slash',\n        'bell-ring',\n        'calendar-day',\n        'water-ladder',\n        'ladder-water',\n        'swimming-pool',\n        'arrows-up-down',\n        'arrows-v',\n        'chess-pawn-piece',\n        'chess-pawn-alt',\n        'face-grimace',\n        'grimace',\n      ],\n      control: { type: 'select' }, // Automatically inferred when 'options' is defined\n    },\n  },\n}"
+                }
+            ],
             "src/app/ui/input/input.component.stories.ts": [
                 {
                     "name": "Default",
@@ -1024,7 +906,17 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "StoryObj<InputComponent>",
-                    "defaultValue": "{\n  name: 'Default/Primary Input',\n  args: {\n    label: 'Your Input label',\n  },\n}"
+                    "defaultValue": "{\n  name: 'Default/Primary Input',\n  args: {},\n}"
+                },
+                {
+                    "name": "Email",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/ui/input/input.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "StoryObj<InputComponent>",
+                    "defaultValue": "{\n  name: 'Email Input',\n  args: {\n    type: 'email',\n  },\n}"
                 },
                 {
                     "name": "meta",
@@ -1037,24 +929,14 @@
                     "defaultValue": "{\n  title: 'UI/Input',\n  component: InputComponent,\n}"
                 },
                 {
-                    "name": "Secondary",
+                    "name": "Password",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
                     "file": "src/app/ui/input/input.component.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "StoryObj<InputComponent>",
-                    "defaultValue": "{\n  name: 'Secondary Input',\n  args: {\n    type: 'secondary',\n    label: 'Your Secondary Input label',\n  },\n}"
-                },
-                {
-                    "name": "WithIcon",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/ui/input/input.component.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "StoryObj<InputComponent>",
-                    "defaultValue": "{\n  name: 'Input with Icon',\n  args: {\n    label: 'Your Input label',\n    icon: 'fingerprint',\n  },\n}"
+                    "defaultValue": "{\n  name: 'Password Input',\n  args: {\n    type: 'password',\n  },\n}"
                 }
             ],
             ".storybook/preview.ts": [
@@ -1091,7 +973,7 @@
                     "name": "InputType",
                     "ctype": "miscellaneous",
                     "subtype": "typealias",
-                    "rawtype": "\"primary\" | \"secondary\"",
+                    "rawtype": "\"text\" | \"password\" | \"email\"",
                     "file": "src/app/ui/input/input.component.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
@@ -1103,7 +985,7 @@
     },
     "routes": [],
     "coverage": {
-        "count": 15,
+        "count": 16,
         "status": "low",
         "files": [
             {
@@ -1228,6 +1110,16 @@
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
+                "name": "Email",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/ui/input/input.component.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
                 "name": "meta",
                 "coveragePercent": 0,
                 "coverageCount": "0/1",
@@ -1238,17 +1130,7 @@
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
-                "name": "Secondary",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
-                "filePath": "src/app/ui/input/input.component.stories.ts",
-                "type": "variable",
-                "linktype": "miscellaneous",
-                "linksubtype": "variable",
-                "name": "WithIcon",
+                "name": "Password",
                 "coveragePercent": 0,
                 "coverageCount": "0/1",
                 "status": "low"
@@ -1258,8 +1140,8 @@
                 "type": "component",
                 "linktype": "component",
                 "name": "InputComponent",
-                "coveragePercent": 80,
-                "coverageCount": "4/5",
+                "coveragePercent": 100,
+                "coverageCount": "3/3",
                 "status": "very-good"
             }
         ]

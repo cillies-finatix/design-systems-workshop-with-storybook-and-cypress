@@ -1,4 +1,4 @@
-import {Meta, Canvas, ArgsTable} from "@storybook/addon-docs/blocks";
+import {ArgsTable, Canvas, Meta} from "@storybook/addon-docs/blocks";
 import * as InputStory from "./input.component.stories";
 
 <Meta
@@ -7,7 +7,7 @@ import * as InputStory from "./input.component.stories";
 
 # The Input Component
 
-## Primary and Default
+## Default
 
 Use for call-to-actions and important user interactions.
 
@@ -16,19 +16,31 @@ Use for call-to-actions and important user interactions.
 Beispiel:
 
 ```html
-  <app-input label="My input" type="primary" />
+  <app-input />
 ```
 
-## Secondary or Accent
+## Email
 
-Use in non-primary actions.
+Use email inputs
 
-<Canvas of={InputStory.Secondary}></Canvas>
+<Canvas of={InputStory.Email}></Canvas>
 
 Beispiel:
 
 ```html
-  <app-input label="My input" type="secondary" />
+  <app-input type="email" />
+```
+
+## Passwords
+
+Use in password input
+
+<Canvas of={InputStory.Password}></Canvas>
+
+Beispiel:
+
+```html
+  <app-input type="password" />
 ```
 
 # Arguments

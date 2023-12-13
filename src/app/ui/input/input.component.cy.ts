@@ -12,8 +12,4 @@ describe('The InputComponent', () => {
     cy.get('input').should('exist');
     cy.get('input').should('be.visible');
   });
-
-  it('should check that the input label is rendering correctly', () => {
-    cy.get('label').should('contain.text', 'Your Input label');
-  });
 });

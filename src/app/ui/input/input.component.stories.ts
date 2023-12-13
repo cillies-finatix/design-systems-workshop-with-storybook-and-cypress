@@ -9,24 +9,20 @@ const meta: Meta<InputComponent> = {
 
 export const Default: StoryObj<InputComponent> = {
   name: 'Default/Primary Input',
+  args: {},
+};
+
+export const Email: StoryObj<InputComponent> = {
+  name: 'Email Input',
   args: {
-    label: 'Your Input label',
+    type: 'email',
   },
 };
 
-export const Secondary: StoryObj<InputComponent> = {
-  name: 'Secondary Input',
+export const Password: StoryObj<InputComponent> = {
+  name: 'Password Input',
   args: {
-    type: 'secondary',
-    label: 'Your Secondary Input label',
-  },
-};
-
-export const WithIcon: StoryObj<InputComponent> = {
-  name: 'Input with Icon',
-  args: {
-    label: 'Your Input label',
-    icon: 'fingerprint',
+    type: 'password',
   },
 };
 
