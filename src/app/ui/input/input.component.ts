@@ -34,7 +34,7 @@ export class InputComponent {
    * @author Christian Illies<c.illies@finatix.de>
    * @package ui
    */
-  @Input({ required: false }) type: InputType = 'text';
+  @Input() type: InputType = 'text';
 
   /**
    * Placeholder of the input
@@ -44,5 +44,24 @@ export class InputComponent {
    * @author Christian Illies<c.illies@finatix.de>
    * @package ui
    */
-  @Input({ required: false }) placeholder: string = '';
+  @Input() placeholder: string = '';
+  /**
+   * value of the input
+   *
+   * @since 0.0.3
+   * @summary value
+   * @author Christian Illies<c.illies@finatix.de>
+   * @package ui
+   */
+  @Input() value: string | undefined;
+  /**
+   * Placeholder of the input
+   *
+   * @since 0.0.3
+   * @summary Placeholder when no value is provided
+   * @author Christian Illies<c.illies@finatix.de>
+   * @package ui
+   * @internal
+   */
+  @Input() id: string = crypto.randomUUID();
 }

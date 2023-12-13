@@ -1,0 +1,11 @@
+:host {
+  @apply focus-within:text-blue-700;
+
+  &.password {
+    @apply focus-within:text-red-700;
+  }
+}
+
+label {
+  @apply block cursor-pointer;
+}

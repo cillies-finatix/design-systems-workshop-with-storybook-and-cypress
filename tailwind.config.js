@@ -44,6 +44,7 @@ module.exports = {
       },
       white: "#FFFFFF",
       default: "#041C31",
+      transparent: "transparent",
     },
     fontFamily: {
       sans: ["Inter", "Helvetica", "Arial", "sans-serif"],
